@@ -2,7 +2,7 @@
 /**
  * Template Name: Advice
  *
- * @package Lighthouse
+ * @package Luceo
  */
 get_header(); ?>
 

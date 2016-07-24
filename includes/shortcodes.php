@@ -19,7 +19,7 @@ function recent_post_slider($atts, $content = null){
 	);
 
 	if( $post_query->have_posts() ) : while( $post_query->have_posts() ) : $post_query->the_post();
-	$thumb_post = wp_get_attachment_image_src( get_post_thumbnail_id(), 'lighthouse_related_post');
+	$thumb_post = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_related_post');
 	$url_post = $thumb_post[0];
 	$content = get_the_content();
 
@@ -88,10 +88,10 @@ function share_price_feed($atts, $content = null){
 
 	ob_start();
 
-	$xmldat = file_get_contents('http://qfx.quartalflife.com/clients/uk/lighthouse_group/xml/xml.aspx');
-	file_put_contents('./wp-content/themes/lighthouse/xml-feeds/share-price.xml', $xmldat);
+	$xmldat = file_get_contents('http://qfx.quartalflife.com/clients/uk/luceo_group/xml/xml.aspx');
+	file_put_contents('./wp-content/themes/luceo/xml-feeds/share-price.xml', $xmldat);
 
-	$url 	= './wp-content/themes/lighthouse/xml-feeds/share-price.xml';
+	$url 	= './wp-content/themes/luceo/xml-feeds/share-price.xml';
 	$xml 	= simplexml_load_file($url);
 	$price 	= $xml->CurrentPrice;
 	$change = $xml->Change;
@@ -125,10 +125,10 @@ function rns_feed_fn($atts, $content = null){
 
 	ob_start();
 
-	$xmldata = file_get_contents('http://otp.investis.com/clients/uk/lighthouse_group_plc/rns/xml-feed.aspx?culture=en-GB');
-	file_put_contents('./wp-content/themes/lighthouse/xml-feeds/rns-feed.xml', $xmldata);
+	$xmldata = file_get_contents('http://otp.investis.com/clients/uk/luceo_group_plc/rns/xml-feed.aspx?culture=en-GB');
+	file_put_contents('./wp-content/themes/luceo/xml-feeds/rns-feed.xml', $xmldata);
 
-	$url 	= './wp-content/themes/lighthouse/xml-feeds/rns-feed.xml';
+	$url 	= './wp-content/themes/luceo/xml-feeds/rns-feed.xml';
 	$xml 	= simplexml_load_file($url);
 
 	foreach ($xml->RNSSummaries->RNSSummary as $RNSSummary) {

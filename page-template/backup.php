@@ -144,7 +144,7 @@
 									<div class="block-holder-link">
 										<div class="block-inner">
 											<div class="block-text">
-												<a href="#">Join Lighthouse</a>
+												<a href="#">Join Luceo</a>
 											</div>
 										</div>
 									</div>
@@ -187,7 +187,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="content-header">
-									<h1>Lighthouse News Centre</h1>
+									<h1>Luceo News Centre</h1>
 									<p>Read the latest articles and commentary in our news blog:</p>
 								</div>
 							</div>
@@ -203,7 +203,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<h1>Get Trusted, Expert Financial Advice</h1>
-								<a href="http://genuineimitation.co.uk/lighthouse/get-advice-now/">
+								<a href="http://genuineimitation.co.uk/luceo/get-advice-now/">
 									<span class="tag-support">Get in Touch</span>
 								</a>
 							</div>
@@ -217,18 +217,18 @@
 								<div class="about-block">
 									<h1>Why seek Professional Advice?</h1>
 									<p class="tag-support">With financial security comes peace of mind and the space to do the things we enjoy in life. Yet, wealth is fundamental in this equation. This is why you consider seeking professional financial advice.</p>
-									<a href="http://genuineimitation.co.uk/lighthouse/get-advice-now/">
+									<a href="http://genuineimitation.co.uk/luceo/get-advice-now/">
 										<span class="tag-support">Benefits of Expert Advice</span>
 									</a>
 								</div>
 							</div>
-							<div class="col-xs-12 col-sm-6 about-lighthouse">
+							<div class="col-xs-12 col-sm-6 about-luceo">
 								<div class="block-overlay"></div>
 								<div class="about-block">
-									<h1>Who are Lighthouse</h1>
+									<h1>Who are Luceo</h1>
 									<p class="tag-support">
-										Lighthouse is one the UK’s most prestigious and diverse financial advice firms; profoundly interested in the security of your financial future and helping you make the most of your financial circumstances. </p>
-										<a href="http://genuineimitation.co.uk/lighthouse/about-lighthouse/">
+										Luceo is one the UK’s most prestigious and diverse financial advice firms; profoundly interested in the security of your financial future and helping you make the most of your financial circumstances. </p>
+										<a href="http://genuineimitation.co.uk/luceo/about-luceo/">
 											<span class="tag-support">Find out more</span>
 										</a>
 									</div>
@@ -263,7 +263,7 @@ Request a meeting in person or a telephone call with your local adviser.
 <div class="col-sm-9 col-md-offset-1 col-md-5">[ninja_forms id=12]</div>
 <div class="col-sm-3 col-md-5">
 <div class="content-text">
-<img class="content-img" src="http://genuineimitation.co.uk/lighthouse/wp-content/uploads/2016/01/adviser_appointment.jpg" alt="" />
+<img class="content-img" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/01/adviser_appointment.jpg" alt="" />
 <h3>To book an appointment please take a moment to complete the form so we can select the most appropriate adviser for you.</h3>
 When we receive the form a member of our Client Services team will contact you to schedule your initial consultation. Before embarking on any detailed research and making recommendations our advisers will always disclose and agree with you any fees to be charged for such work.
 </div>
@@ -274,17 +274,17 @@ When we receive the form a member of our Client Services team will contact you t
 <div class="row info-inner">
 <div class="col-xs-7">
 <div class="content-email">
-<h2>Drop us an email: enquiries@lighthousegroup.plc.uk</h2>
+<h2>Drop us an email: enquiries@luceogroup.plc.uk</h2>
 </div>
 </div>
 <div class="col-xs-5">
 <div class="content-buttons">
-<div class="btn-inline"><a class="ivan-button" href="mailto:enquiries@lighthousegroup.plc.uk"><span class="text-btn">Send Email</span>
+<div class="btn-inline"><a class="ivan-button" href="mailto:enquiries@luceogroup.plc.uk"><span class="text-btn">Send Email</span>
 </a>
 <span class="sp-text">
 <span class="sp-inner">-</span>
 </span></div>
-<div class="btn-inline"><a class="ivan-button" href="http://genuineimitation.co.uk/lighthouse/about-lighthouse/"><span class="text-btn">About Us</span>
+<div class="btn-inline"><a class="ivan-button" href="http://genuineimitation.co.uk/luceo/about-luceo/"><span class="text-btn">About Us</span>
 </a></div>
 </div>
 </div>

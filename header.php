@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Lighthouse
+ * @package Luceo
  */
 
 ?><!DOCTYPE html>
@@ -22,30 +22,30 @@
 
 <body <?php body_class(); ?>>
 	<div id="page" class="site">
-		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lighthouse' ); ?></a>
+		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row social-links">
 					<div class="col-sm-12 col-xs-12 col-md-6 social-items">
 						<!-- <a href="" class="link link-youtube" target="_blank"><i class="fa fw fa-youtube"></i></a> -->
-						<a href="https://www.linkedin.com/company/lighthouse-group-plc" class="link link-linkedin" target="_blank"></a>
+						<a href="https://www.linkedin.com/company/luceo-group-plc" class="link link-linkedin" target="_blank"></a>
 
 						<a href="https://plus.google.com/b/112602769566696286010/112602769566696286010/about/p/pub" class="link link-google-plus" target="_blank"></a>
 
-						<a href="https://www.facebook.com/LighthouseGroupPLC" class="link link-facebook" target="_blank"></a>
+						<a href="https://www.facebook.com/LuceoGroupPLC" class="link link-facebook" target="_blank"></a>
 
-						<a href="https://twitter.com/talk2lighthouse" class="link link-twitter" target="_blank"></a>
+						<a href="https://twitter.com/talk2luceo" class="link link-twitter" target="_blank"></a>
 
 
 						<a href="#" class="live-feed hidden-xs hidden-sm">
 							<span class="share-price-at-top">
 								<?php
-									$xmldat = file_get_contents('http://qfx.quartalflife.com/clients/uk/lighthouse_group/xml/xml.aspx');
+									$xmldat = file_get_contents('http://qfx.quartalflife.com/clients/uk/luceo_group/xml/xml.aspx');
 
-									file_put_contents('./wp-content/themes/lighthouse/xml-feeds/share-price.xml', $xmldat);
+									file_put_contents('./wp-content/themes/luceo/xml-feeds/share-price.xml', $xmldat);
 
-									$url 	= './wp-content/themes/lighthouse/xml-feeds/share-price.xml';
+									$url 	= './wp-content/themes/luceo/xml-feeds/share-price.xml';
 									$xml 	= simplexml_load_file($url);
 									$price 	= $xml->CurrentPrice;
 									$change = $xml->Change;
@@ -84,7 +84,7 @@
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<div class="col-md-4 col-lg-4 hidden-xs hidden-sm menu-area">
 							<div id="menu-left">
-								<?php lighthouse_header_menu_left(); ?>
+								<?php luceo_header_menu_left(); ?>
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-4 col-lg-4 header-center-area">
@@ -104,7 +104,7 @@
 													<div class="col-md-12">
 														<form method="get" action="<?php echo esc_url( home_url( '/' ) );?>">
 															<label for="s"><?php _e('Type &amp; hit enter to search', 'ivan_domain');?></label>
-															<input type="search" name="s" id="s" placeholder="<?php echo esc_attr__('Type &amp; hit enter to search', 'lighthouse');?>" />
+															<input type="search" name="s" id="s" placeholder="<?php echo esc_attr__('Type &amp; hit enter to search', 'luceo');?>" />
 															<a class="submit-form" href="#"><i class="fa fa-search"></i></a>
 															<div class="clearfix"></div>
 														</form>
@@ -119,7 +119,7 @@
 						</div>
 						<div class="col-md-4 col-lg-4 hidden-xs hidden-sm menu-area">
 							<div id="menu-right">
-								<?php lighthouse_header_menu_right(); ?>
+								<?php luceo_header_menu_right(); ?>
 							</div>
 							<div class="iv-module live-search ">
 								<div class="centered">
@@ -133,7 +133,7 @@
 													<div class="col-md-12">
 														<form method="get" action="<?php echo esc_url( home_url( '/' ) );?>">
 															<label for="s"><?php _e('Type &amp; hit enter', 'ivan_domain');?></label>
-															<input type="search" name="s" id="s" placeholder="<?php echo esc_attr__('Type &amp; hit enter', 'lighthouse');?>" />
+															<input type="search" name="s" id="s" placeholder="<?php echo esc_attr__('Type &amp; hit enter', 'luceo');?>" />
 															<a class="submit-form" href="#"><i class="fa fa-search"></i></a>
 															<div class="clearfix"></div>
 														</form>

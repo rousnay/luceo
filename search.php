@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package Lighthouse
+ * @package Luceo
  */
 
 get_header(); ?>
@@ -12,7 +12,7 @@ get_header(); ?>
 		<div class="container wider-wrapper">
 			<div class="row">
 			<div class="col-xs-12">
-				<h1 class="entry-title">Lighthouse</h1> <div class="back-to"> <span> | </span><a href="<?php echo get_site_url(); ?>"> HOME </a> <span class="separator"> > </span> SEARCH RESULTS</div>
+				<h1 class="entry-title">Luceo</h1> <div class="back-to"> <span> | </span><a href="<?php echo get_site_url(); ?>"> HOME </a> <span class="separator"> > </span> SEARCH RESULTS</div>
 			</div>
 			</div>
 		</div>
@@ -38,7 +38,7 @@ get_header(); ?>
 							</form>
 						</div>
 
-						<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'lighthouse' ), '<span>“' . get_search_query() . '”</span>' ); ?></h1>
+						<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'luceo' ), '<span>“' . get_search_query() . '”</span>' ); ?></h1>
 
 					</header><!-- .page-header -->
 

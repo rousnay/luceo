@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package Lighthouse
+ * @package Luceo
  */
 
 get_header(); ?>
@@ -13,7 +13,7 @@ get_header(); ?>
 		<div class="container blog-wrapper">
 			<div class="row">
 			<div class="col-xs-12">
-				<h1 class="entry-title">Lighthouse News Centre</h1> <div class="back-to"> <span> | </span><a href="<?php echo get_site_url(); ?>/news-centre">back</a></div>
+				<h1 class="entry-title">Luceo News Centre</h1> <div class="back-to"> <span> | </span><a href="<?php echo get_site_url(); ?>/news-centre">back</a></div>
 			</div>
 			</div>
 		</div>
@@ -27,7 +27,7 @@ get_header(); ?>
 				<?php
 				while ( have_posts() ) : the_post();
 
-					$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'lighthouse_feature_img');
+					$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_feature_img');
 					$url_feature = $thumb_feature[0];
 				?> 
 
@@ -65,7 +65,7 @@ get_header(); ?>
 
 								<div class="thumbnail thumbnail-hover">
 								<?php
-									$thumb_post = wp_get_attachment_image_src( get_post_thumbnail_id(), 'lighthouse_related_post');
+									$thumb_post = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_related_post');
 									$url_post = $thumb_post[0];
 								?>
 									<img class="img-responsive" src="<?php echo $url_post; ?>">

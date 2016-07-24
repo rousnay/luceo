@@ -2,7 +2,7 @@
 /**
  * Template Name: Blog
  *
- * @package Lighthouse
+ * @package Luceo
  */
 get_header(); ?>
 <div class="title-wrapper">
@@ -34,7 +34,7 @@ get_header(); ?>
 			<article id="post-<?php echo $postid; ?>">
 				<div class="row blog-item">
 					<?php
-					$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'lighthouse_blog_listing');
+					$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_blog_listing');
 					$url = $thumb[0];
 					$content = get_the_content();
 					?>

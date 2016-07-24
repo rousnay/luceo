@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Lighthouse
+ * @package Luceo
  */
 
 ?>
@@ -30,17 +30,17 @@
 				<div class="col-sm-12 col-md-6 bottom-footer-right">
 					<div class="social-items">
 						<!-- <a href="" class="link link-youtube" target="_blank"><i class="fa fw fa-youtube"></i></a> -->
-						<a href="https://www.linkedin.com/company/lighthouse-group-plc" class="link link-linkedin" target="_blank"><i class="fa fw fa-linkedin"></i></a>
+						<a href="https://www.linkedin.com/company/luceo-group-plc" class="link link-linkedin" target="_blank"><i class="fa fw fa-linkedin"></i></a>
 						<a href="https://plus.google.com/b/112602769566696286010/112602769566696286010/about/p/pub" class="link link-google-plus" target="_blank"><i class="fa fw fa-google-plus"></i></a>
-						<a href="https://www.facebook.com/LighthouseGroupPLC" class="link link-facebook" target="_blank"><i class="fa fw fa-facebook"></i></a>
-						<a href="https://twitter.com/talk2lighthouse" class="link link-twitter" target="_blank"><i class="fa fw fa-twitter"></i></a>
+						<a href="https://www.facebook.com/LuceoGroupPLC" class="link link-facebook" target="_blank"><i class="fa fw fa-facebook"></i></a>
+						<a href="https://twitter.com/talk2luceo" class="link link-twitter" target="_blank"><i class="fa fw fa-twitter"></i></a>
 					</div>
 					<div class="footer-menu">
-						<?php lighthouse_footer_menu_bottom(); ?>
+						<?php luceo_footer_menu_bottom(); ?>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 bottom-footer-left">
-					<div class="copyright">© 2016 - Lighthouse Financial Solutions</div>
+					<div class="copyright">© 2016 - Luceo Financial Solutions</div>
 				</div>
 			</div>
 		</div>
@@ -53,10 +53,10 @@
 <button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
 <nav id="mm-menu" class="mm-menu">
 	<div class="mm-menu__header">
-		<h2 class="mm-menu__title">Lighthouse</h2>
+		<h2 class="mm-menu__title">Luceo</h2>
 	</div>
-	<?php lighthouse_header_menu_left(); ?>
-	<?php lighthouse_header_menu_right(); ?>
+	<?php luceo_header_menu_left(); ?>
+	<?php luceo_header_menu_right(); ?>
 </nav><!-- nav -->
 
 <?php wp_footer(); ?>

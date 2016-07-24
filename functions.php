@@ -1,13 +1,13 @@
 <?php
 /**
- * Lighthouse functions and definitions.
+ * Luceo functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Lighthouse
+ * @package Luceo
  */
 
-if ( ! function_exists( 'lighthouse_setup' ) ) :
+if ( ! function_exists( 'luceo_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -15,7 +15,7 @@ if ( ! function_exists( 'lighthouse_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function lighthouse_setup() {
+function luceo_setup() {
     // This theme styles the visual editor to resemble the theme style.
 	$font_url_Questrial = 'https://fonts.googleapis.com/css?family=Questrial';
 
@@ -31,10 +31,10 @@ function lighthouse_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Lighthouse, use a find and replace
-	 * to change 'lighthouse' to the name of your theme in all the template files.
+	 * If you're building a theme based on Luceo, use a find and replace
+	 * to change 'luceo' to the name of your theme in all the template files.
 	 */
-	load_theme_textdomain( 'lighthouse', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'luceo', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -54,11 +54,11 @@ function lighthouse_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	add_image_size( 'lighthouse_feature_img', 1000, 310, array( 'center', 'center' ) );
+	add_image_size( 'luceo_feature_img', 1000, 310, array( 'center', 'center' ) );
 
-	add_image_size( 'lighthouse_blog_listing', 714, 274, array( 'center', 'center' ) );
+	add_image_size( 'luceo_blog_listing', 714, 274, array( 'center', 'center' ) );
 
-	add_image_size( 'lighthouse_related_post', 475, 280, array( 'center', 'center' ) );
+	add_image_size( 'luceo_related_post', 475, 280, array( 'center', 'center' ) );
 
 
 	/*
@@ -76,7 +76,7 @@ function lighthouse_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'lighthouse' ),
+		'primary' => esc_html__( 'Primary', 'luceo' ),
 		) );
 
 	/*
@@ -104,13 +104,13 @@ function lighthouse_setup() {
 		) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'lighthouse_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'luceo_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 		) ) );
 }
 endif;
-add_action( 'after_setup_theme', 'lighthouse_setup' );
+add_action( 'after_setup_theme', 'luceo_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -119,45 +119,45 @@ add_action( 'after_setup_theme', 'lighthouse_setup' );
  *
  * @global int $content_width
  */
-function lighthouse_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'lighthouse_content_width', 640 );
+function luceo_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'luceo_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'lighthouse_content_width', 0 );
+add_action( 'after_setup_theme', 'luceo_content_width', 0 );
 
 /**
  * Enqueue scripts and styles.
  */
-function lighthouse_scripts() {
+function luceo_scripts() {
 
-	wp_enqueue_style( 'lighthouse-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'luceo-style', get_stylesheet_uri() );
 
-	wp_enqueue_style('lighthouse-google-fonts-questrial', 'https://fonts.googleapis.com/css?family=Questrial');
+	wp_enqueue_style('luceo-google-fonts-questrial', 'https://fonts.googleapis.com/css?family=Questrial');
 
-	wp_enqueue_style('lighthouse-google-fonts-raleway', 'https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,100');
+	wp_enqueue_style('luceo-google-fonts-raleway', 'https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,100');
 
-	wp_enqueue_style('lighthouse-google-fonts-montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:400,700');
+	wp_enqueue_style('luceo-google-fonts-montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-	wp_enqueue_script( 'lighthouse-classList-js', 'https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js', array('jquery'), '');
+	wp_enqueue_script( 'luceo-classList-js', 'https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js', array('jquery'), '');
 
-	wp_enqueue_script( 'lighthouse-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'luceo-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'lighthouse-material-menu-js', get_template_directory_uri() . '/js/materialMenu.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'luceo-material-menu-js', get_template_directory_uri() . '/js/materialMenu.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'lighthouse-owl-carousel-js', get_template_directory_uri() . '/js/owl-carousel.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'luceo-owl-carousel-js', get_template_directory_uri() . '/js/owl-carousel.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'lighthouse-match-height-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'luceo-match-height-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'lighthouse-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
+	wp_enqueue_script( 'luceo-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'lighthouse-settings-js', get_template_directory_uri() . '/js/lighthouse-settings.min.js', array('jquery'), '20160220', true );
+	wp_enqueue_script( 'luceo-settings-js', get_template_directory_uri() . '/js/luceo-settings.min.js', array('jquery'), '20160220', true );
 
-	wp_enqueue_script( 'lighthouse-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), '20130115', true );
+	wp_enqueue_script( 'luceo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'lighthouse_scripts' );
+add_action( 'wp_enqueue_scripts', 'luceo_scripts' );
 
 
 /**
