@@ -1,0 +1,152 @@
+footer#colophon {
+    position: relative;
+    font-size: 13px;
+    .footer-normal{
+    	padding: 80px 0 80px;
+    	background-color: #1f2426;
+    	.widget{
+    	color: #7f7f7f;
+    	}
+        a{
+            color: #989898;
+            text-decoration: none;
+            transition: background 350ms ease-in-out, border-color 350ms ease-in-out, color 150ms ease-in-out;
+            &:hover {
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+    }
+   .footer-bottom{
+	    background-color: #141819;
+   		padding: 45px 0;
+	    .site-info{
+		    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		    line-height: 1.25;
+		    color: #9d9d9d;
+		    transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
+
+            .bottom-footer-right {
+                float: right;
+            }
+            .bottom-footer-left {
+                float: left;
+            }
+
+            .social-items,.footer-menu {
+                    float: right;
+                    text-align: right;
+            }
+            .footer-menu {
+                width: calc(90% - 160px);
+                ul{
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    text-align: right;
+                    display: inline-block;
+                    li {
+                        display: inline-block;
+                        margin-left: 25px;
+                        a{
+                            color: #fff;
+                            font-weight: 700;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .social-items{
+                width: 160px;
+                margin-left: 9%;
+                 .fa {
+                    color: #fff;
+                    font-size: 16px;
+                    margin-left: 15px;
+                    transition: color 0.3s;
+                }
+                    .link-twitter{
+                        &:hover .fa{
+                        color:#00abf0
+                        }
+                    }
+                    .link-facebook{
+                        &:hover .fa{
+                        color:#4b6cb2;
+                        }
+                    }
+                    .link-google-plus{
+                        &:hover .fa{
+                        color:#dc4b3f
+                        }
+                    }
+                    .link-linkedin{
+                        &:hover .fa{
+                        color:#0077b5
+                        }
+                    }
+                    .link-youtube{
+                        &:hover .fa{
+                        color:#df192a
+                        }
+                    }
+            }
+		 }
+	}
+}
+@media (max-width: 991px){
+    footer#colophon{
+        .footer-normal{
+            padding-bottom: 20px;
+        }
+        .bottom-footer-right {
+            float: none!important;
+            padding: 10px 0;
+            margin: auto;
+            clear: both;
+            width: 410px;
+            overflow: hidden;
+            .footer-menu{
+                width: initial!important;
+                text-align: left!important;
+                float: left!important;
+             ul {
+                li:first-child {
+                    margin-left: 0!important;
+                }
+            }
+        }
+        .social-items {
+            width: initial!important;
+            margin-left: 10px!important;
+        }
+
+
+    }
+    .bottom-footer-left {
+        float: none!important;
+        text-align: center;
+        clear: both;
+        margin-top: 25px;
+    }
+    }
+}
+@media (max-width: 450px){
+    .bottom-footer-right {
+            width: 300px!important;
+            .social-items .fa {
+                margin-left: 5px!important;
+            }
+            .footer-menu {
+                ul li {
+                margin-left: 8px!important;
+            }
+            }
+        }
+        .bottom-footer-left{
+                    .copyright {
+                        font-size: 11px;
+                    }
+
+        }
+}

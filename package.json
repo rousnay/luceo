@@ -1,0 +1,40 @@
+{
+  "name": "luceo",
+  "version": "1.0.0",
+  "description": "luceo theme by Injected Motion",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rousnay/luceo.git"
+  },
+  "keywords": [
+    "wordpress",
+    "npm",
+    "bower",
+    "grunt",
+    "sass",
+    "git",
+    "bootstrap",
+    "autoprefixer",
+    "underscore"
+  ],
+  "author": "Md. Mozahidur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rousnay/luceo/issues"
+  },
+  "homepage": "https://github.com/rousnay/luceo#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "matchdep": "^1.0.0"
+  }
+}

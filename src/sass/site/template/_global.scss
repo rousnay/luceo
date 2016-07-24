@@ -1,0 +1,161 @@
+.full-width {
+    width: 100%;
+}
+.content-header{
+	padding: 30px 0 25px;
+	text-align: center;
+	h1{
+		color: #000;
+		font-size: 2.571em;
+	}
+	h4{
+		color: #999999;
+		margin-top: 1.428em;
+	}
+}
+//logo slider
+.member-logo {
+    padding: 2.142em 45px 2.571em;
+    background: #ffffff;
+    .owl-buttons {
+    	div {
+		    position: absolute;
+		    display: block;
+		    width: 22px;
+		    height: 42px;
+		    top: 45%;
+		    margin: 0;
+		    transform: translateY(-50%);
+		    transition: all 500ms ease;
+		    background: url(../images/sprite.png);
+		    opacity: 1;
+		    text-align: center;
+		    font-size: 55px;
+		    font-weight: 400;
+		    i{
+		    	display: none;
+		    }
+		}
+		.owl-prev {
+		    left: -25px !important;
+		    background-position: 0 -176px;
+		}
+		.owl-next {
+		    right: -25px !important;
+		    background-position: 0 -228px;
+		}
+	}
+}
+//absolute link
+.link-full{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#236fb6;
+    opacity: 0;
+    filter:alpha(opacity=0);
+
+}
+//iframe
+iframe{
+	border:none!important
+}
+.share-price-in-page {
+    margin-bottom: 179px!important;
+}
+.wpb_wrapper iframe {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 190px;
+    height: 141px;
+    overflow: hidden;
+}
+
+.fc-blue{
+	color:#236fb6!important;
+}
+
+.fc-blue-h{
+	color:#236fb6!important;
+	transition: color ease 500ms;
+	&:hover{
+		color: #ffffff!important;
+	}
+}
+.fc-white{
+	color:#ffffff!important;
+}
+.fc-white-h{
+	color:#ffffff!important;
+	transition: color ease 500ms;
+	&:hover{
+		color: #236fb6!important;
+	}
+}
+.fs-1x {
+    font-size: 1em;
+}
+.fs-2x {
+    font-size: 2em;
+}
+.fs-3x {
+    font-size: 3em;
+}
+.fs-4x {
+    font-size: 4em;
+}
+.fs-5x {
+    font-size: 5em;
+}
+.bc-blue{
+	background-color: #006AA7 !important;
+}
+.bc-blue-h{
+	background-color: #006AA7 !important;
+	transition: background-color ease 500ms;
+	&:hover{
+		background-color: #ffffff!important;
+	}
+}
+.bc-white{
+	background-color: #ffffff !important;
+}
+.bc-white-h{
+	background-color: #ffffff !important;
+	transition: background-color ease 500ms;
+	&:hover{
+		background-color: #006AA7!important;
+	}
+}
+
+//share price shorcode
+
+.share_price_feed {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    &>div {
+	    width: 95%;
+	    margin: 0 auto;
+	    clear: both;
+	    &>div {
+		    width: 50%;
+		    float: left;
+		}
+    }
+    .share_data {
+	    text-align: right;
+	}
+}
+.textwidget{
+	.share_price_feed {
+	    margin: 0!important;
+	    max-width: 165px!important;
+	}	
+}
