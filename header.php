@@ -36,33 +36,7 @@
 						<a href="https://www.facebook.com/LuceoGroupPLC" class="link link-facebook" target="_blank"></a>
 
 						<a href="https://twitter.com/talk2luceo" class="link link-twitter" target="_blank"></a>
-
-
-						<a href="#" class="live-feed hidden-xs hidden-sm">
-							<span class="share-price-at-top">
-								<?php
-									$xmldat = file_get_contents('http://qfx.quartalflife.com/clients/uk/luceo_group/xml/xml.aspx');
-
-									file_put_contents('./wp-content/themes/luceo/xml-feeds/share-price.xml', $xmldat);
-
-									$url 	= './wp-content/themes/luceo/xml-feeds/share-price.xml';
-									$xml 	= simplexml_load_file($url);
-									$price 	= $xml->CurrentPrice;
-									$change = $xml->Change;
-									$change_pcent 	= $xml->PercentageChange;
-									$volume = $xml->Volume;
-
-									echo "Share Price: ";
-									echo $price;
-									echo "p | Change: ";
-									echo $change;
-									echo "p - ";
-									echo $change_pcent;
-									echo "% | Volume: ";
-									echo $volume;
-								?>
-							</span>
-						</a>
+						
 					</div>
 					<div class="col-md-6 top-search hidden-xs hidden-sm">
 						<div class="font-adjustment">
