@@ -1,5 +1,14 @@
 ( function( $ ) {
 
+
+	/******************************
+	 Home page background image
+	******************************/
+	if ($('.page-template-page-home').length > 0) {
+	  $('html').addClass('home-page-bg');
+	}
+ 
+
 	/******************************
 	 Header and Menu
 	******************************/

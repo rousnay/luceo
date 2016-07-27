@@ -55,8 +55,7 @@
 	<div class="mm-menu__header">
 		<h2 class="mm-menu__title">Luceo</h2>
 	</div>
-	<?php luceo_header_menu_left(); ?>
-	<?php luceo_header_menu_right(); ?>
+	<?php luceo_header_menu(); ?>
 </nav><!-- nav -->
 
 <?php wp_footer(); ?>
