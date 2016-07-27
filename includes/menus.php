@@ -7,8 +7,7 @@
 function luceo_menus() {
     register_nav_menus(
         array(
-            'header-menu-left' => __( 'Header menu left', 'nav menu location', 'luceo' ),
-            'header-menu-right' => __( 'Header menu right' , 'nav menu location', 'luceo'),
+            'header-menu' => __( 'Header menu' , 'nav menu location', 'luceo'),
             'footer-menu' => __( 'Footer menu' , 'nav menu location', 'luceo'),
             'footer-menu-bottom' => __( 'Footer menu bottom' , 'nav menu location', 'luceo')
             )
@@ -23,42 +22,16 @@ add_action( 'init', 'luceo_menus' );
  *
  */
 
-//Left menu
-function luceo_header_menu_left() {
-    if ( has_nav_menu( 'header-menu-left' ) ) {
+//Header menu
+function luceo_header_menu() {
+    if ( has_nav_menu( 'header-menu' ) ) {
     wp_nav_menu(
         array(
-            'theme_location'  => 'header-menu-left',
+            'theme_location'  => 'header-menu',
             'menu'            => '',
             'container'       => 'div',
-            'container_id'    => 'header-menu-left-id',
-            'container_class' => 'header-menu-left-cl',
-            'menu_id'         => 'header-menu-id',
-            'menu_class'      => 'header-menu-cl',
-            'echo'            => true,
-            'fallback_cb'     => '',
-            'before'          => '',
-            'after'           => '',
-            'link_before'     => '<span>',
-            'link_after'      => '</span>',
-            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-            'depth'           => 0,
-            'walker'          => ''
-        )
-    );
-    }
-}
-
-//Right menu
-function luceo_header_menu_right() {
-    if ( has_nav_menu( 'header-menu-right' ) ) {
-    wp_nav_menu(
-        array(
-            'theme_location'  => 'header-menu-right',
-            'menu'            => '',
-            'container'       => 'div',
-            'container_id'    => 'header-menu-right-id',
-            'container_class' => 'header-menu-right-cl',
+            'container_id'    => 'header-menu-con-id',
+            'container_class' => 'header-menu-con-cl',
             'menu_id'         => 'header-menu-id',
             'menu_class'      => 'header-menu-cl',
             'echo'            => true,

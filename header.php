@@ -34,22 +34,22 @@
 					</div>
 					<div class="col-sm-12 col-xs-12 col-md-6 social-items">
 
-						<a href="https://www.linkedin.com/company/luceo-group-plc" class="link fa-stack fa-lg" target="_blank">
+						<a href="https://www.facebook.com" class="link fa-stack fa-lg" target="_blank">
 							<i class="fa fa-circle-thin fa-stack-2x"></i>
 						  	<i class="fa fa-facebook fa-stack-1x"></i>
 						</a>
 
-						<a href="https://plus.google.com/b/112602769566696286010/112602769566696286010/about/p/pub" class="link fa-stack fa-lg" target="_blank">
+						<a href="https://twitter.com" class="link fa-stack fa-lg" target="_blank">
 							<i class="fa fa-circle-thin fa-stack-2x"></i>
 						  	<i class="fa fa-twitter fa-stack-1x"></i>
 						</a>
 
-						<a href="https://www.facebook.com/LuceoGroupPLC" class="link fa-stack fa-lg" target="_blank">
+						<a href="https://plus.google.com" class="link fa-stack fa-lg" target="_blank">
 							<i class="fa fa-circle-thin fa-stack-2x"></i>
 						  	<i class="fa fa-google-plus fa-stack-1x"></i>
 						</a>
 
-						<a href="https://twitter.com/talk2luceo" class="link fa-stack fa-lg" target="_blank">
+						<a href="https://instagram.com" class="link fa-stack fa-lg" target="_blank">
 							<i class="fa fa-circle-thin fa-stack-2x"></i>
 						  	<i class="fa fa-instagram fa-stack-1x"></i>
 						</a>
@@ -58,67 +58,14 @@
 				</div>
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<div class="col-md-4 col-lg-4 hidden-xs hidden-sm menu-area">
-							<div id="menu-left">
-								<?php luceo_header_menu_left(); ?>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-4 col-lg-4 header-center-area">
+						<div class="col-md-5 col-lg-5">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 								<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
 							</a>
-
-							<div class="iv-module live-search">
-								<div class="centered">
-									<a href="#" class="trigger"><i class="fa fa-search"></i></a>
-									<div class="inner-wrapper">
-										<span class="form-close-btn thin"> ✕ </span>
-										<span class="form-close-btn bold"><i class="fa fa-remove"></i></span>
-										<div class="inner-form">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-12">
-														<form method="get" action="<?php echo esc_url( home_url( '/' ) );?>">
-															<label for="s"><?php _e('Type &amp; hit enter to search', 'ivan_domain');?></label>
-															<input type="search" name="s" id="s" placeholder="<?php echo esc_attr__('Type &amp; hit enter to search', 'luceo');?>" />
-															<a class="submit-form" href="#"><i class="fa fa-search"></i></a>
-															<div class="clearfix"></div>
-														</form>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
 						</div>
-						<div class="col-md-4 col-lg-4 hidden-xs hidden-sm menu-area">
+						<div class="col-md-7 col-lg-7 hidden-xs hidden-sm menu-area">
 							<div id="menu-right">
-								<?php luceo_header_menu_right(); ?>
-							</div>
-							<div class="iv-module live-search ">
-								<div class="centered">
-									<a href="#" class="trigger"><i class="fa fa-search"></i></a>
-									<div class="inner-wrapper">
-										<span class="form-close-btn thin"> ✕ </span>
-										<span class="form-close-btn bold"><i class="fa fa-remove"></i></span>
-										<div class="inner-form">
-											<div class="container">
-												<div class="row">
-													<div class="col-md-12">
-														<form method="get" action="<?php echo esc_url( home_url( '/' ) );?>">
-															<label for="s"><?php _e('Type &amp; hit enter', 'ivan_domain');?></label>
-															<input type="search" name="s" id="s" placeholder="<?php echo esc_attr__('Type &amp; hit enter', 'luceo');?>" />
-															<a class="submit-form" href="#"><i class="fa fa-search"></i></a>
-															<div class="clearfix"></div>
-														</form>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+								<?php luceo_header_menu(); ?>
 							</div>
 						</div>
 					</nav><!-- #site-navigation -->
