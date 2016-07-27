@@ -27,6 +27,9 @@
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row social-links">
+					<div class="col-md-6 top-text-line">
+
+					</div>
 					<div class="col-sm-12 col-xs-12 col-md-6 social-items">
 						<!-- <a href="" class="link link-youtube" target="_blank"><i class="fa fw fa-youtube"></i></a> -->
 						<a href="https://www.linkedin.com/company/luceo-group-plc" class="link link-linkedin" target="_blank"></a>
@@ -37,21 +40,6 @@
 
 						<a href="https://twitter.com/talk2luceo" class="link link-twitter" target="_blank"></a>
 						
-					</div>
-					<div class="col-md-6 top-search hidden-xs hidden-sm">
-						<div class="font-adjustment">
-							<button id="textplus">A+</button>
-							<button id="textminus">A-</button>
-						</div>
-						<form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-						    <div class="search-wrap">
-						    	<label class="screen-reader-text" for="s"><?php _e( 'Search for:', 'presentation' ); ?></label>
-						    	 <button type="submit">
-					                <i class="fa fa-search"></i>
-					            </button>
-						        <input type="search" placeholder="<?php echo esc_attr( 'Search', 'presentation' ); ?>" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" />
-						    </div>
-						</form>
 					</div>
 				</div>
 				<div class="row header-menus">
