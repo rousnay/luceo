@@ -1,20 +1,6 @@
 header#masthead{
     width: 100%;
     background: #fff;
-    border-bottom: 1px solid #E6E6E6;
-    &.panel-top{
-        position: relative;
-    }
-    &.panel-fixed {
-        z-index: 3;
-        position: fixed;
-        width: 100%;
-        top: 0px;
-        left: 0px;
-        margin: 0 !important;
-        border-bottom: 1px solid #e6e6e6;
-        opacity: 1;
-    }
 }
 
 header{
@@ -81,27 +67,7 @@ span.share-price-at-top {
     margin-top: 8px!important;
     cursor: default;
 }
-.font-adjustment {
-    float: right;
-    button{
-        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        text-transform: uppercase;
-        color: #4c4c4c;
-        background-color: #FFF;
-        border: none;
-        outline: none;
-        padding: 10px;
-        float: left;
-        margin: 0;
-        position: relative;
-        transition: background 350ms ease-in-out;
-        &:hover{
-            background-color: #e6e6e6 !important;
-        }
-    }
-}
+
 @media (max-width: 991px){
     header{
         .social-links {

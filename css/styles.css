@@ -12308,20 +12308,6 @@ Ninja Forms
 header#masthead {
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid #E6E6E6;
-}
-header#masthead.panel-top {
-  position: relative;
-}
-header#masthead.panel-fixed {
-  z-index: 3;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  margin: 0 !important;
-  border-bottom: 1px solid #e6e6e6;
-  opacity: 1;
 }
 
 header .container {
@@ -12334,7 +12320,7 @@ header .social-links {
   padding-top: 5px;
 }
 header .social-links a {
-  font-size: 16px;
+  font-size: 18px;
   margin: 7px 3px 0;
   float: right;
   color: #000;
@@ -12390,31 +12376,6 @@ span.share-price-at-top {
   font-size: 13px;
   margin-top: 8px !important;
   cursor: default;
-}
-
-.font-adjustment {
-  float: right;
-}
-.font-adjustment button {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #4c4c4c;
-  background-color: #FFF;
-  border: none;
-  outline: none;
-  padding: 10px;
-  float: left;
-  margin: 0;
-  position: relative;
-  -webkit-transition: background 350ms ease-in-out;
-     -moz-transition: background 350ms ease-in-out;
-       -o-transition: background 350ms ease-in-out;
-          transition: background 350ms ease-in-out;
-}
-.font-adjustment button:hover {
-  background-color: #e6e6e6 !important;
 }
 
 @media (max-width: 991px) {
