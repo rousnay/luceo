@@ -29,16 +29,30 @@
 				<div class="row social-links">
 					<div class="col-md-6 top-text-line">
 
+					<h4>Investment founds from Lighthouse Group PLC - 020 000 000</h4>
+
 					</div>
 					<div class="col-sm-12 col-xs-12 col-md-6 social-items">
-						<!-- <a href="" class="link link-youtube" target="_blank"><i class="fa fw fa-youtube"></i></a> -->
-						<a href="https://www.linkedin.com/company/luceo-group-plc" class="link link-linkedin" target="_blank"></a>
 
-						<a href="https://plus.google.com/b/112602769566696286010/112602769566696286010/about/p/pub" class="link link-google-plus" target="_blank"></a>
+						<a href="https://www.linkedin.com/company/luceo-group-plc" class="link fa-stack fa-lg" target="_blank">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+						  	<i class="fa fa-facebook fa-stack-1x"></i>
+						</a>
 
-						<a href="https://www.facebook.com/LuceoGroupPLC" class="link link-facebook" target="_blank"></a>
+						<a href="https://plus.google.com/b/112602769566696286010/112602769566696286010/about/p/pub" class="link fa-stack fa-lg" target="_blank">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+						  	<i class="fa fa-twitter fa-stack-1x"></i>
+						</a>
 
-						<a href="https://twitter.com/talk2luceo" class="link link-twitter" target="_blank"></a>
+						<a href="https://www.facebook.com/LuceoGroupPLC" class="link fa-stack fa-lg" target="_blank">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+						  	<i class="fa fa-google-plus fa-stack-1x"></i>
+						</a>
+
+						<a href="https://twitter.com/talk2luceo" class="link fa-stack fa-lg" target="_blank">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+						  	<i class="fa fa-instagram fa-stack-1x"></i>
+						</a>
 						
 					</div>
 				</div>
