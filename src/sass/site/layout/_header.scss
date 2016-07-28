@@ -71,3 +71,9 @@ header{
             }
         }
 }
+@media (max-width: 991px){
+    header .social-links {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

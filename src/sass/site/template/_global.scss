@@ -163,3 +163,9 @@ iframe{
 	    max-width: 165px!important;
 	}	
 }
+
+@media (max-width: 767px){
+	#page {
+	    margin: 0 20px!important;
+	}
+}

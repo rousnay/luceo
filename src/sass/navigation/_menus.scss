@@ -389,6 +389,7 @@ span.form-close-btn.bold {
 		// }
 	}
   }
+
 @media (min-width: $screen-xs-max) {
 	 .mm-menu-toggle {
 	    position: fixed;
@@ -397,8 +398,11 @@ span.form-close-btn.bold {
 		}
 }
 @media (max-width: $screen-xs-max) {
+	.mm-menu-toggle {
+	    left: 21px;
+	    top: 19px;
+	}
 	header{
-
     .container {
 	    width: 100%;
 	    padding-left: 15px;
@@ -427,3 +431,9 @@ span.form-close-btn.bold {
     display: none !important;
 	}	
   }
+  @media (max-width: 650px){
+	.main-navigation .site-logo {
+	    margin-top: 10px!important;
+	    width: 70%!important;
+	}
+}
