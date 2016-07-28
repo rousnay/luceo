@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="container content-area">
+	<div id="primary" class="container content-area full-width">
 		<div class="row">
 			<main id="main" class="site-main" role="main">
 				<?php
@@ -35,5 +35,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
