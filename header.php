@@ -28,7 +28,6 @@
 			<div class="container">
 				<div class="row social-links">
 					<div class="col-md-6 top-text-line">
-
 					<h4>Investment founds from Lighthouse Group PLC - 020 000 000</h4>
 
 					</div>

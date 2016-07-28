@@ -1,3 +1,12 @@
+// Luceo Brand Colours
+
+$color_luceo_gradient: #FFDE16;
+$color_luceo_yellow: #FFCD1D;
+$color_luceo_orange: #F59E26;
+$color_luceo_grey: #575756;
+
+// Site Default Colours
+
 $color__background-body: #fff;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
@@ -8,10 +17,10 @@ $color__background-ins: #fff9c0;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #4c4c4c;
-$color__link: #1C7AAB;
+$color__link: $color_luceo_grey;
 $color__link-visited: #23527c;
-$color__link-hover: #23527c;
-$color__text-main: #555555; // #404040;
+$color__link-hover: $color_luceo_orange;
+$color__text-main: $color_luceo_grey;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
@@ -20,10 +29,3 @@ $color__border-input: #ccc;
 $color__border-abbr: #666;
 
 $color_heading:#292d33;
-
-// Luceo Brand Colour
-
-$color_luceo_gradient: #FFDE16;
-$color_luceo_yellow: #FFCD1D;
-$color_luceo_orange: #F59E26;
-$color_luceo_grey: #575756;

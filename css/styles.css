@@ -11424,7 +11424,7 @@ body {
   font-size: 100%;
   font-size: 1rem;
   line-height: 1.5;
-  color: #555555;
+  color: #575756;
   -webkit-font-smoothing: none;
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-font-smoothing: antialiased;
@@ -11437,12 +11437,12 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  color: #555555;
+  color: #575756;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Questrial", Arial, Helvetica, sans-serif;
-  color: #292d33;
+  color: #575756;
   clear: both;
 }
 
@@ -11699,11 +11699,11 @@ button[type="submit"]:focus, input[type="submit"]:focus, button[type="submit"]:a
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #1C7AAB;
+  color: #575756;
   text-decoration: none !important;
 }
 a:hover, a:focus, a:active {
-  color: #23527c;
+  color: #F59E26;
 }
 a:focus {
   outline: none;
@@ -11736,7 +11736,6 @@ a:hover, a:active {
   font-size: 19px;
   text-transform: uppercase;
   font-weight: 400;
-  color: #333;
 }
 .main-navigation ul {
   list-style: none;
@@ -12373,7 +12372,7 @@ header .top-search form button i.fa.fa-search {
   color: #000;
 }
 
-span.share-price-at-top {
+.top-text-line h4 {
   font-size: 13px;
   margin-top: 8px !important;
   cursor: default;
