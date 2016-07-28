@@ -1,18 +1,22 @@
 footer#colophon {
     position: relative;
     font-size: 13px;
+    .container {
+        width: 100%!important;
+    }
     .footer-normal{
-    	padding: 80px 0 80px;
-    	background-color: #1f2426;
+    	margin: 0 -35px;
+        padding: 80px 0 10px;
+    	background-color: #3c3e45;
     	.widget{
-    	color: #7f7f7f;
+    	color: #ffffff;
     	}
         a{
-            color: #989898;
+            color: #ffffff;
             text-decoration: none;
             transition: background 350ms ease-in-out, border-color 350ms ease-in-out, color 150ms ease-in-out;
             &:hover {
-                color: #ffffff;
+                color: $color_luceo_orange;
                 text-decoration: none;
             }
         }
