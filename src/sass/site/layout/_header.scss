@@ -6,24 +6,33 @@ header#masthead{
 header{
     .container {
         width: auto;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
         }
         .social-links {
-            border-bottom: 1px solid #E6E6E6;
-            padding-top: 5px;
+            border-bottom: 1px solid #000;
+            padding-top: 25px;
+            padding-bottom: 10px;
+            div {
+                padding: 0;
+            }
+            .top-text-line {
+                margin-top: 10px;
+                h4{
+                font-size: 15px;
+                cursor: default;
+                color: #000;
+                }
+            }
+            .social-items {
+                margin-top: 10px;
+            }
             a {
                 font-size: 18px;
-                margin: 7px 3px 0;
+                margin-left: 8px;
+                margin-right: -3px;
                 float: right;
                 color: #000;
-                &.live-feed {
-                    color: #333;
-                    margin-left: 10px;
-                    span {
-                        display: inline-block;
-                        margin-top: 5px;
-                    }
+                &:hover{
+                    color: $color_luceo_orange;
                 }
             }
         }
@@ -61,19 +70,4 @@ header{
                 }
             }
         }
-}
-.top-text-line h4{
-    font-size: 13px;
-    margin-top: 8px!important;
-    cursor: default;
-}
-
-@media (max-width: 991px){
-    header{
-        .social-links {
-            .link{
-                float: right!important;
-            }
-        }
-    }
 }

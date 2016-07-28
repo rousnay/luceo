@@ -27,10 +27,10 @@
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row social-links">
-					<div class="col-md-6 top-text-line">
-					<h4>Investment founds from Lighthouse Group PLC - 020 000 000</h4>
-
+					<div class="col-md-6 top-text-line hidden-xs hidden-sm">
+						<h4>Investment founds from Lighthouse Group PLC - 020 000 000</h4>
 					</div>
+
 					<div class="col-sm-12 col-xs-12 col-md-6 social-items">
 
 						<a href="https://www.facebook.com" class="link fa-stack fa-lg" target="_blank">
@@ -57,15 +57,13 @@
 				</div>
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<div class="col-md-5 col-lg-5">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
+							<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 								<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
 							</a>
 						</div>
 						<div class="col-md-7 col-lg-7 hidden-xs hidden-sm menu-area">
-							<div id="menu-right">
 								<?php luceo_header_menu(); ?>
-							</div>
 						</div>
 					</nav><!-- #site-navigation -->
 				</div>

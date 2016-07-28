@@ -3,11 +3,26 @@
 	display: block;
 	float: left;
 	width: 100%;
+	div {
+        padding: 0;
+    }
+    .site-logo {
+	    margin-top: 20px;
+	    width: 50%;
+	}
+    #header-menu-con-id {
+	    margin-top: 10px;
+	}
 
 	#header-menu-id{
 		> li {
 		 display: inline-block;
-		 }
+		&:last-child{
+			a{
+				padding-right:0;
+			}
+		}
+		}
 	}
 
 	li {
@@ -24,12 +39,16 @@
         font-size: 19px;
 	    text-transform: uppercase;
 	    font-weight: 400;
+	    color: #000;
+	    &:hover{
+            color: $color_luceo_orange;
+        }
 	}
 	ul {
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
-		text-align: center;
+		text-align: right;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -102,10 +121,6 @@
 	}
 }
 
-/* Left & Right Menus */
-#menu-right {
-    margin-top: 30px;
-}
 
 /* Logo */
 .header-center-area{
@@ -139,7 +154,7 @@ button {
 }
 #mm-menu{
 	.mm-menu__header {
-	  background-color: #006AA7!important;
+	  background-color: $color_luceo_orange !important;
 	}
 	#header-menu-left-id {
     margin-top: 15px;
@@ -156,11 +171,7 @@ button {
 		}
 	}
 	a{
-		color: #333;
 	    text-decoration: none;
-	    &:hover,&:active{
-	    	color: #2980b9;
-	    }
 	    &:focus{
 	    	outline: none;
 	    }
@@ -322,7 +333,9 @@ span.form-close-btn.bold {
     transform: translateZ(0);
     outline: 0;
 }
-
+.mm-menu-toggle {
+    left: 36px;
+}
  @media (max-width: 1650px) {
     .main-navigation ul a {
 	    padding: 15px 22px;
@@ -380,7 +393,7 @@ span.form-close-btn.bold {
 	 .mm-menu-toggle {
 	    position: fixed;
 	    top: 65px;
-	    left: 30px;
+	    left: 38px;
 		}
 }
 @media (max-width: $screen-xs-max) {
