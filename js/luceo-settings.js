@@ -12,18 +12,18 @@
 	/******************************
 	 Header and Menu
 	******************************/
-	function contentMargin() {
-		var headerHeight	= $('#masthead').height();
-		var siteContent		= $('#content');
+	// function contentMargin() {
+	// 	var headerHeight	= $('#masthead').height();
+	// 	var siteContent		= $('#content');
 
-		siteContent.css('margin-top',headerHeight)
-	}
+	// 	siteContent.css('margin-top',headerHeight)
+	// }
 
-	contentMargin();
+	// contentMargin();
 
-	$( window ).resize(function() {
-		contentMargin();
-	});
+	// $( window ).resize(function() {
+	// 	contentMargin();
+	// });
 
 	jQuery('#mm-menu li').addClass("mm-menu__item");
 	jQuery('#mm-menu a').addClass("mm-menu__link");

@@ -9,22 +9,50 @@ body:not(.page-template-default){
   Home
 *********/
 .home-page-bg {
-    background: url('../../../uploads/2016/07/luceo_bg.jpg') no-repeat center center fixed;
-    -moz-background-size: cover;
+    background: url('../../../uploads/2016/07/luceo_bg.jpg') no-repeat;
     -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-size: cover;
+    background-position: 50% 50%;
+    // background-attachment: fixed;
+    height:100vh;
+    overflow:hidden!important;
 }
 
 body.page-template-page-home{
+	overflow:hidden!important;
 	background: transparent !important;
 	header#masthead {
     background: transparent !important;
+	}
+	.site-content{
+		background-color:transparent !important;
+		.home-page-content {
+		    text-transform: uppercase;
+		    text-align: right;
+		    float: right;
+		    .main-text{
+			    color: $color_luceo_yellow;
+			    float: right;
+			    font-size: 4.2em;
+			    line-height: 1.2em;
+		    }
+		    .sub-text{
+		    	color: $color_luceo_grey;
+		    	float: right;
+		    	clear: both;
+		    	margin-top: 10px;
+		    	max-width:50%;
+		    	font-size: 1.6em;
+			    line-height: 1.2em;
+		    }
+		}
 	}
 	footer{
 		display: none!important;
 	}
 }
-
 
 /********
   Advice
@@ -155,5 +183,20 @@ body.page-template-page-home{
 	    left: 50%;
 	    transform: translate(-50%,-50%);
 	    line-height: .914em;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+
+}
+@media (min-width: 1210px){
+	.home-page-content .sub-text {
+	    max-width: 55%;
+	}
+}
+
+@media (min-width: 1025px){
+	.home-page-content .sub-text {
+	    max-width: 60%;
 	}
 }

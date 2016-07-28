@@ -12952,16 +12952,43 @@ body:not(.page-template-default) section header, body:not(.page-template-default
   Home
 *********/
 .home-page-bg {
-  background: url("../../../uploads/2016/07/luceo_bg.jpg") no-repeat center center fixed;
+  background: url("../../../uploads/2016/07/luceo_bg.jpg") no-repeat;
   -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  overflow: hidden !important;
 }
 
 body.page-template-page-home {
+  overflow: hidden !important;
   background: transparent !important;
 }
 body.page-template-page-home header#masthead {
   background: transparent !important;
+}
+body.page-template-page-home .site-content {
+  background-color: transparent !important;
+}
+body.page-template-page-home .site-content .home-page-content {
+  text-transform: uppercase;
+  text-align: right;
+  float: right;
+}
+body.page-template-page-home .site-content .home-page-content .main-text {
+  color: #FFCD1D;
+  float: right;
+  font-size: 4.2em;
+  line-height: 1.2em;
+}
+body.page-template-page-home .site-content .home-page-content .sub-text {
+  color: #575756;
+  float: right;
+  clear: both;
+  margin-top: 10px;
+  max-width: 50%;
+  font-size: 1.6em;
+  line-height: 1.2em;
 }
 body.page-template-page-home footer {
   display: none !important;
@@ -13117,6 +13144,16 @@ body.page-template-page-home footer {
   line-height: .914em;
 }
 
+@media (min-width: 1210px) {
+  .home-page-content .sub-text {
+    max-width: 55%;
+  }
+}
+@media (min-width: 1025px) {
+  .home-page-content .sub-text {
+    max-width: 60%;
+  }
+}
 /*--------------------------------------------------------------
 ## Blog
 --------------------------------------------------------------*/
