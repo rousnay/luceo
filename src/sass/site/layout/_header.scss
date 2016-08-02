@@ -7,7 +7,7 @@ header{
     .container {
         width: auto;
         }
-        .social-links {
+        .top-bar {
             border-bottom: 1px solid #000;
             padding-top: 25px;
             padding-bottom: 10px;
@@ -22,20 +22,28 @@ header{
                 color: #000;
                 }
             }
-            .social-items {
+            .tool-bar {
                 margin-top: 10px;
             }
             a {
-                font-size: 18px;
-                margin-left: 8px;
-                margin-right: -3px;
+                font-size: 16px;
                 float: right;
                 color: #000;
                 &:hover{
                     color: $color_luceo_orange;
                 }
+                &:last-child{
+                    margin-right: 25px;
+                    margin-top: -3px;
+                }
+                span{
+                    font-family: $font_google,$font_backup;
+                    text-transform: uppercase;
+                }
             }
         }
+
+
         .top-search{
             form {
                 float: right;
@@ -72,7 +80,7 @@ header{
         }
 }
 @media (max-width: 991px){
-    header .social-links {
+    header .top-bar {
         padding-top: 5px;
         padding-bottom: 5px;
     }

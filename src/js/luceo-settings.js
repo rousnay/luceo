@@ -31,6 +31,26 @@
 	var menu = new Menu;
 
 
+
+	/******************************
+	 bPopup Options
+	******************************/
+
+    $('.fa-search').bind('click', function(e) {
+
+        // Prevents the default action to be triggered. 
+        e.preventDefault();
+
+        // Triggering bPopup when click event is fired
+        $('#search-popup').bPopup({
+            fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
+            followSpeed: 1500, //can be a string ('slow'/'fast') or int
+            modalColor: '#F59E26',
+            opacity: 0.75
+        });
+    });
+
+
 	/*********************************
 	 Load more option to Search result
 	*********************************/
