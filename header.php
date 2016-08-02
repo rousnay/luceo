@@ -57,6 +57,7 @@
 
 
 				<div id="search-popup">
+					<div class="popup-close" href="#"><i class="fa fa-remove"></i></div>
 				<h3 class="search-title">TYPE & HIT ENTER</h3>
 					<form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					    <div class="search-wrap">

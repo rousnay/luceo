@@ -2,6 +2,19 @@
 #search-popup{
 	display:none;
 	width: calc(100% - 70px)!important;
+	.popup-close {
+		cursor: pointer;
+	    color: #fff;
+	    font-size: 20px;
+	    position: absolute;
+	    right: 20px;
+	    top: -60px;
+	    transform: rotate(0);
+	    transition: transform 0.3s ease;
+	    &:hover {
+		    transform:rotate(90deg);
+		}
+	}
 	.search-title {
 	    text-align: center;
 	    color: #fff;
@@ -43,6 +56,36 @@
             }
         }
     }
+
+    //LIVE SEARCH
+    .twitter-typeahead {
+    	width: 100%!important;
+    	.tt-hint{
+    		display: none!important;
+    	}
+	    .tt-dropdown-menu {
+		    margin-top: 5px!important;
+		    padding: 0!important;
+		    background-color: rgba(255,255,255,0.7)!important;
+		    border:none!important;
+		    border-radius: 0 !important;
+	        box-shadow: none  !important;
+		}
+		.tt-suggestions {
+		    font-size: 16px!important;
+		    text-align: center!important;
+		    .tt-suggestion {
+			    font-size: 16px!important;
+			}
+		    .tt-is-under-cursor {
+			    color: #000!important;
+			    background-color: rgba(255,255,255,0.5)!important;
+			    a {
+				    color: $color_luceo_orange !important;
+				}
+			}
+		}
+	}
 }
 
 .search-results{

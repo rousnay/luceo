@@ -43,13 +43,18 @@
 
         // Triggering bPopup when click event is fired
         $('#search-popup').bPopup({
-            fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
-            followSpeed: 1500, //can be a string ('slow'/'fast') or int
+        	modalClose: false,
+            positionStyle: 'fixed',
+            Speed: 1500,
             modalColor: '#F59E26',
-            opacity: 0.75
+            opacity: 0.75,
+            closeClass: 'popup-close'
         });
     });
-
+    
+ //    $(".popup-close").on('click',function(){
+	// 	bpopup.close();
+	// });
 
 	/*********************************
 	 Load more option to Search result

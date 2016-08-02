@@ -12,7 +12,7 @@ get_header(); ?>
 		<div class="container wider-wrapper">
 			<div class="row">
 			<div class="col-xs-12">
-				<h1 class="entry-title">Luceo</h1> <div class="back-to"> <span> | </span><a href="<?php echo get_site_url(); ?>"> HOME </a> <span class="separator"> > </span> SEARCH RESULTS</div>
+				<div class="back-to"></span> SEARCH RESULTS</div>
 			</div>
 			</div>
 		</div>
@@ -75,5 +75,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
