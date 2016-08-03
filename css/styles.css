@@ -13706,9 +13706,11 @@ body.page-template-page-home footer {
   -webkit-box-shadow: none  !important;
           box-shadow: none  !important;
 }
+#search-popup .twitter-typeahead .tt-dropdown-menu p {
+  color: #575756 !important;
+}
 #search-popup .twitter-typeahead .tt-suggestions {
   font-size: 16px !important;
-  text-align: center !important;
 }
 #search-popup .twitter-typeahead .tt-suggestions .tt-suggestion {
   font-size: 16px !important;
@@ -13717,7 +13719,7 @@ body.page-template-page-home footer {
   color: #000 !important;
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
-#search-popup .twitter-typeahead .tt-suggestions .tt-is-under-cursor a {
+#search-popup .twitter-typeahead .tt-suggestions .tt-is-under-cursor h5 {
   color: #F59E26 !important;
 }
 

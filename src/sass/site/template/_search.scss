@@ -57,7 +57,7 @@
         }
     }
 
-    //LIVE SEARCH
+    //Typehead Search
     .twitter-typeahead {
     	width: 100%!important;
     	.tt-hint{
@@ -70,17 +70,20 @@
 		    border:none!important;
 		    border-radius: 0 !important;
 	        box-shadow: none  !important;
+	        p {
+			    color: $color_luceo_grey !important;
+			}
 		}
+
 		.tt-suggestions {
 		    font-size: 16px!important;
-		    text-align: center!important;
 		    .tt-suggestion {
 			    font-size: 16px!important;
 			}
 		    .tt-is-under-cursor {
 			    color: #000!important;
 			    background-color: rgba(255,255,255,0.5)!important;
-			    a {
+			    h5 {
 				    color: $color_luceo_orange !important;
 				}
 			}

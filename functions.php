@@ -198,6 +198,9 @@ require get_template_directory() . '/inc/jetpack.php';
 // ACF Settings
 //include_once( get_stylesheet_directory() . '/includes/acf-settings.php' );
 
+// Typeahead Settings
+include_once( get_stylesheet_directory() . '/includes/wp-typeahead.php');
+
 // Widgets
 include_once( get_stylesheet_directory() . '/includes/widgets.php' );
 

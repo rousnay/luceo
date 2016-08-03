@@ -62,7 +62,7 @@
 					<form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					    <div class="search-wrap">
 					    	<label class="screen-reader-text" for="s"><?php _e( 'Search for:', 'presentation' ); ?></label>
-					        <input type="search" placeholder="<?php echo esc_attr( ' ', 'presentation' ); ?>" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off"/>
+					        <input id="search-input" type="search" placeholder="<?php echo esc_attr( ' ', 'presentation' ); ?>" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off"/>
 					         <button type="submit">
 					                <i class="fa fa-search"></i>
 				            </button>

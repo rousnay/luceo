@@ -48,8 +48,9 @@
             Speed: 1500,
             modalColor: '#F59E26',
             opacity: 0.75,
-            closeClass: 'popup-close'
-        });
+            closeClass: 'popup-close',
+            
+        }, function(){ $("#search-input").focus(); });
     });
     
  //    $(".popup-close").on('click',function(){
