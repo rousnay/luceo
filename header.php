@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="site">
+	<div id="page" class="site home-page-bg jsc-sidebar-content jsc-sidebar-pulled">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
@@ -41,6 +41,47 @@
 						</a>
 					</div>
 				</div>
+
+	<nav>
+		<a href="#" class="icon-menu link-menu jsc-sidebar-trigger">button</a>
+	</nav>
+
+
+
+
+				<main class="o-content">
+					<div class="o-container">
+
+						<div class="o-grid">
+							<div class="o-grid__item">
+								<button class="c-hamburger c-hamburger--rot">
+									<span>toggle menu</span>
+								</button>
+							</div>
+							<div class="o-grid__item">
+								<button class="c-hamburger c-hamburger--htx">
+									<span>toggle menu</span>
+								</button>
+							</div>
+							<div class="o-grid__item">
+								<button class="c-hamburger c-hamburger--htla">
+									<span>toggle menu</span>
+								</button>
+							</div>
+							<div class="o-grid__item">
+								<button class="c-hamburger c-hamburger--htra">
+									<span>toggle menu</span>
+								</button>
+							</div>
+						</div>
+
+						<div id="github-icons"></div>
+					</div>
+				</main>
+
+
+
+
 
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
