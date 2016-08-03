@@ -34,8 +34,9 @@
   "devDependencies": {
     "bootstrap-sass": "^3.3.6",
     "font-awesome": "^4.6.3",
-    "Material-Menu": "https://github.com/callmenick/Material-Menu.git",
-    "Material-Menu": "https://github.com/dinbror/bpopup.git",
+    "material-menu": "https://github.com/callmenick/Material-Menu.git",
+    "bpopup": "https://github.com/dinbror/bpopup.git",
+    "animating-hamburger-icons": "https://github.com/callmenick/Animating-Hamburger-Icons.git",
     "owl.carousel": "^2.1.6",
     "matchHeight": "^0.7.0",
     "elegant-icons": "*",
