@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="site full-width home-page-bg jsc-sidebar-content jsc-sidebar-pulled">
+	<div id="page" class="site full-width home-page-bg">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
@@ -36,7 +36,7 @@
 						  	<i class="fa fa-search"></i>
 						</a>
 
-						<a href="#" class="link jsc-sidebar-trigger">
+						<a href="#" class="link">
 								<button class="c-hamburger c-hamburger--htra">
 									<span>toggle menu</span>
 								</button>
@@ -44,11 +44,6 @@
 						</a>
 					</div>
 				</div>
-
-
-<nav style="float: right;">
-		<a href="#" class="icon-menu link-menu jsc-sidebar-trigger">sdad/a>
-	</nav>
 
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">

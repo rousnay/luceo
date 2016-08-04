@@ -56,39 +56,6 @@
 
 
 
-			$('#jsi-nav').sidebar({
-				trigger: '.jsc-sidebar-trigger',
-				scrollbarDisplay: true,
-				pullCb: function (e) {
-					console.log('pull');
-					//$('.c-hamburger').removeClass("is-active");
-				},
-				pushCb: function (e) {
-					console.log('push');
-					//$('.c-hamburger').addClass("is-active");
-				}
-			});
-
-
-if ($('.jsc-sidebar-opened').length > 0) {
-	  $('.c-hamburger').addClass("is-active");
-}
-if ($('.jsc-sidebar-opened').length < 0) {
-	  $('.c-hamburger').removeClass("is-active");
-}
-
-
-			// $('#api-pull').on('click', function (e) {
-			// 	e.preventDefault();
-			// 	$('#jsi-nav').data('sidebar').push();
-			// });
-			// $('#api-push').on('click', function (e) {
-			// 	e.preventDefault();
-			// 	$('#jsi-nav').data('sidebar').pull();
-			// });
-
-
-
 	/******************************
 	 bPopup Options
 	******************************/
