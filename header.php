@@ -37,17 +37,10 @@
 						</a>
 
 						<a href="#" class="link">
-						  	<i class="fa fa-bars"> <span> ask a question </span></i>
+						  	<i class="fa fa-bars link-menu jsc-sidebar-trigger"> <span> ask a question </span></i>
 						</a>
 					</div>
 				</div>
-
-	<nav>
-		<a href="#" class="icon-menu link-menu jsc-sidebar-trigger">button</a>
-	</nav>
-
-
-
 
 				<main class="o-content">
 					<div class="o-container">
@@ -78,8 +71,6 @@
 						<div id="github-icons"></div>
 					</div>
 				</main>
-
-
 
 
 
