@@ -33,29 +33,45 @@
 	jQuery('#mm-menu a span').addClass("mm-menu__link-text");
 	var menu = new Menu;
 
-
-
 	/******************************
 	 Animated Hamburger Icons
 	******************************/
 
-	// var toggles = document.querySelectorAll(".c-hamburger");
+	var toggles = document.querySelectorAll(".c-hamburger");
 
-	// for (var i = toggles.length - 1; i >= 0; i--) {
-	// 	var toggle = toggles[i];
-	// 	toggleHandler(toggle);
-	// };
+	for (var i = toggles.length - 1; i >= 0; i--) {
+		var toggle = toggles[i];
+		toggleHandler(toggle);
+	};
 
-	// function toggleHandler(toggle) {
-	// 	toggle.addEventListener( "click", function(e) {
-	// 		e.preventDefault();
-	// 		(this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
-	// 	});
-	// }
-
-
+	function toggleHandler(toggle) {
+		toggle.addEventListener( "click", function(e) {
+			e.preventDefault();
+			(this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+		});
+	}
 
 
+
+  /**
+   * Push right instantiation and action.
+   */
+  var pushRight = new Menu({
+    wrapper: '#page',
+    type: 'push-right',
+    menuOpenerClass: '.c-button',
+    maskId: '#c-mask'
+  });
+
+  var pushRightBtn = document.querySelector('#c-button--push-right');
+  
+  pushRightBtn.addEventListener('click', function(e) {
+    e.preventDefault;
+    pushRight.open();
+  });
+
+
+  
 	/******************************
 	 bPopup Options
 	******************************/

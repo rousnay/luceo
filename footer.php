@@ -39,14 +39,18 @@
 </nav><!-- nav -->
 
 
-<nav class="sidebar jsc-sidebar" id="jsi-nav" data-sidebar-options="">
-	<ul class="sidebar-list">
-		<li><a href="./" class="current">SidebarJS</a></li>
-		<li><a href="http://github.com/makotot/sidebar/">View on Github</a></li>
-		<li><a href="http://github.com/makotot/sidebar/releases">Download</a></li>
-	</ul>
-</nav>
+<nav id="c-menu--push-right" class="c-menu c-menu--push-right">
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">About</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Services</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Work</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Contact</a></li>
+  </ul>
+</nav><!-- /c-menu push-right -->
 
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
 
 <?php wp_footer(); ?>
 <script type="text/javascript">
