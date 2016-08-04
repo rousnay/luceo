@@ -105,7 +105,9 @@
           return;
         }
 
-        this.$content.removeClass('jsc-sidebar-pushed');
+        this.$content
+          .removeClass('jsc-sidebar-pushed')
+          .addClass('jsc-sidebar-opened');
       }
     },
 

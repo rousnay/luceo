@@ -45,6 +45,11 @@
 					</div>
 				</div>
 
+
+<nav style="float: right;">
+		<a href="#" class="icon-menu link-menu jsc-sidebar-trigger">sdad/a>
+	</nav>
+
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
