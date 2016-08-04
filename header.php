@@ -28,7 +28,7 @@
 			<div class="container">
 				<div class="row top-bar">
 					<div class="col-md-6 top-text-line hidden-xs hidden-sm">
-						<h4>Investment founds from Lighthouse Group PLC - 020 000 000</h4>
+						<h4>Investment funds from Lighthouse Group PLC - 020 000 000</h4>
 					</div>
 
 					<div class="col-sm-12 col-xs-12 col-md-6 tool-bar">
