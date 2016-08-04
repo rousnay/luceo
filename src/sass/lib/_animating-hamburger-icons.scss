@@ -1,31 +1,18 @@
 // -----------------------------------------------------------------------------
-//
 // CONFIG
-//
 // -----------------------------------------------------------------------------
 
 @import "../../components/animating-hamburger-icons/sass/config.variables";
 
-
-
-
 // -----------------------------------------------------------------------------
-//
 // GENERIC
-//
 // -----------------------------------------------------------------------------
 
 @import "../../components/animating-hamburger-icons/sass/generic.fonts";
 @import "../../components/animating-hamburger-icons/sass/generic.boxsizing";
 
-
-
-
-
 // -----------------------------------------------------------------------------
-//
 // ELEMENTS
-//
 // -----------------------------------------------------------------------------
 
 @import "../../components/animating-hamburger-icons/sass/elements.root";
@@ -33,26 +20,68 @@
 @import "../../components/animating-hamburger-icons/sass/elements.text";
 @import "../../components/animating-hamburger-icons/sass/elements.media";
 
-
-
-
 // -----------------------------------------------------------------------------
-//
 // OBJECTS
-//
 // -----------------------------------------------------------------------------
 
 @import "../../components/animating-hamburger-icons/sass/objects.layout";
 
-
-
-
-
 // -----------------------------------------------------------------------------
-//
 // COMPONENTS
-//
 // -----------------------------------------------------------------------------
 
 @import "../../components/animating-hamburger-icons/sass/components.hamburger";
 @import "../../components/animating-hamburger-icons/sass/components.carbonad";
+
+
+// ---------------
+// CUSTOMIZE
+// ---------------
+
+.c-hamburger {
+    margin: 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+    background-color: transparent!important;
+    border:none!important;
+    outline: none!important;
+    &:hover, &:active, &:focus{
+    	background-color: transparent!important;
+    	border:none!important;
+    }
+    span {
+        top: 5px;
+        left: 0px;
+        right: 1px;
+        height: 2px;
+        background: #f00;
+        &:before, &:after {
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #f00;
+            content: "";
+        }
+        &:before {
+            top: -5px;
+        }
+        &:after {
+            bottom: -5px;
+        }
+    }
+}
+
+.c-hamburger--htra.is-active {
+    span {
+        &:before, &:after {
+            width: 55%;
+        }
+        &:before {
+            transform: translateX(-1px) translateY(1px) rotate(-45deg);
+        }
+        &:after {
+            transform: translateX(-1px) translateY(-1px) rotate(45deg);
+        }
+    }
+}

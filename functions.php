@@ -149,7 +149,6 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'sidebar-js', get_template_directory_uri() . '/js/sidebar.min.js', array('jquery'), '', true );
 
-	//wp_enqueue_script( 'sidebar-js', get_template_directory_uri() . '/js/sidebar.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-match-height-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), '', true );
 

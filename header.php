@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="site home-page-bg jsc-sidebar-content jsc-sidebar-pulled">
+	<div id="page" class="site full-width home-page-bg jsc-sidebar-content jsc-sidebar-pulled">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
@@ -36,43 +36,14 @@
 						  	<i class="fa fa-search"></i>
 						</a>
 
-						<a href="#" class="link">
-						  	<i class="fa fa-bars link-menu jsc-sidebar-trigger"> <span> ask a question </span></i>
-						</a>
-					</div>
-				</div>
-
-				<main class="o-content">
-					<div class="o-container">
-
-						<div class="o-grid">
-							<div class="o-grid__item">
-								<button class="c-hamburger c-hamburger--rot">
-									<span>toggle menu</span>
-								</button>
-							</div>
-							<div class="o-grid__item">
-								<button class="c-hamburger c-hamburger--htx">
-									<span>toggle menu</span>
-								</button>
-							</div>
-							<div class="o-grid__item">
-								<button class="c-hamburger c-hamburger--htla">
-									<span>toggle menu</span>
-								</button>
-							</div>
-							<div class="o-grid__item">
+						<a href="#" class="link jsc-sidebar-trigger">
 								<button class="c-hamburger c-hamburger--htra">
 									<span>toggle menu</span>
 								</button>
-							</div>
-						</div>
-
-						<div id="github-icons"></div>
+						  	<span> ask a question </span>
+						</a>
 					</div>
-				</main>
-
-
+				</div>
 
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
