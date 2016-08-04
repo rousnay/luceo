@@ -38,6 +38,16 @@
 	<?php luceo_header_menu(); ?>
 </nav><!-- nav -->
 
+
+<nav class="sidebar jsc-sidebar" id="jsi-nav" data-sidebar-options="">
+	<ul class="sidebar-list">
+		<li><a href="./" class="current">SidebarJS</a></li>
+		<li><a href="http://github.com/makotot/sidebar/">View on Github</a></li>
+		<li><a href="http://github.com/makotot/sidebar/releases">Download</a></li>
+	</ul>
+</nav>
+
+
 <?php wp_footer(); ?>
 <script type="text/javascript">
 	function fixed_header_with_adminBar() {

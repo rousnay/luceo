@@ -5,9 +5,12 @@
 	 Home page background image
 	******************************/
 	if ($('.page-template-page-home').length > 0) {
-	  $('html').addClass('home-page-bg');
+	  //$('html').addClass('home-page-bg');
 	}
- 
+
+	if ($('.page-template-page-home').length > 0) {
+	  //$('body').addClass('jsc-sidebar-content jsc-sidebar-pulled');
+	}
 
 	/******************************
 	 Header and Menu
@@ -29,6 +32,44 @@
 	jQuery('#mm-menu a').addClass("mm-menu__link");
 	jQuery('#mm-menu a span').addClass("mm-menu__link-text");
 	var menu = new Menu;
+
+
+
+	/******************************
+	 Animated Hamburger Icons
+	******************************/
+
+	var toggles = document.querySelectorAll(".c-hamburger");
+
+	for (var i = toggles.length - 1; i >= 0; i--) {
+		var toggle = toggles[i];
+		toggleHandler(toggle);
+	};
+
+	function toggleHandler(toggle) {
+		toggle.addEventListener( "click", function(e) {
+			e.preventDefault();
+			(this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+		});
+	}
+
+
+
+			$('#jsi-nav').sidebar({
+				trigger: '.jsc-sidebar-trigger',
+				scrollbarDisplay: true,
+				pullCb: function () { console.log('pull'); },
+				pushCb: function () { console.log('push'); }
+			});
+
+			$('#api-pull').on('click', function (e) {
+				e.preventDefault();
+				$('#jsi-nav').data('sidebar').push();
+			});
+			$('#api-push').on('click', function (e) {
+				e.preventDefault();
+				$('#jsi-nav').data('sidebar').pull();
+			});
 
 
 
