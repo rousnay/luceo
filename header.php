@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="site o-wrapper full-width home-page-bg">
+	<div id="page" class="site full-width home-page-bg">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
@@ -36,7 +36,7 @@
 						  	<i class="fa fa-search"></i>
 						</a>
 
-						<a href="#" class="link c-menu__close">
+						<a href="#" class="link">
 								<button class="c-hamburger c-hamburger--htra">
 									<span>toggle menu</span>
 								</button>
@@ -44,16 +44,7 @@
 						</a>
 					</div>
 				</div>
-      <div class="c-buttons">
-        <button id="c-button--slide-left" class="c-button">Slide Left</button>
-        <button id="c-button--slide-right" class="c-button">Slide Right</button>
-        <button id="c-button--push-left" class="c-button">Push Left</button>
-        <button id="c-button--push-right" class="c-button">Push Right</button>
-        <button id="c-button--slide-top" class="c-button">Slide Top</button>
-        <button id="c-button--slide-bottom" class="c-button">Slide Botton</button>
-        <button id="c-button--push-top" class="c-button">Push Top</button>
-        <button id="c-button--push-bottom" class="c-button">Push Bottom</button>
-      </div>
+
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
