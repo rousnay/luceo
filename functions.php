@@ -149,11 +149,13 @@ function luceo_scripts() {
 
 	//wp_enqueue_script( 'slide-Push-Menus-js', get_template_directory_uri() . '/js/slide-Push-Menus.js', array('jquery'), '', true );
 
+	wp_enqueue_script( 'perfect-scrollbar.jquery-js', get_template_directory_uri() . '/js/perfect-scrollbar.jquery.js', array('jquery'), '', true );
+
 	wp_enqueue_script( 'luceo-match-height-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'luceo-settings-js', get_template_directory_uri() . '/js/luceo-settings.min.js', array('jquery'), '20160220', true );
+	wp_enqueue_script( 'luceo-settings-js', get_template_directory_uri() . '/js/luceo-settings.js', array('jquery'), '20160220', true );
 
 	wp_enqueue_script( 'luceo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 

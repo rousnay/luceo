@@ -51,8 +51,48 @@
 		});
 	}
 
+/*!
+ * Init 
+ *Sideheader
+ */
+function sideHeaderInit() {
+	var sideheader = jQuery('#sideheader');
+	sideheader.show();
+	if ( jQuery('.header-left-area').find('.sideheader-trigger').length ) {
+		var liSideheaderTrigger = jQuery('.header-left-area').find('.sideheader-trigger').wrap('<li class="li-sideheader-trigger" />');
+		jQuery('.li-sideheader-trigger').appendTo('#menu-primary-menu');
+	};
+	if (sideheader.length) {
+		sideheader.perfectScrollbar();
+		jQuery('.sideheader-trigger a').on('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			sideheader.toggleClass('is-visible');
+			jQuery('body').toggleClass('sideheader-visible');
+			if (jQuery('.header').hasClass('stuck')) {
+				jQuery('.header').addClass('fadeOutUp');
+			};
+		});
+		jQuery(document).on('click', function(e) {
 
+			var _element = sideheader;
 
+			if (!_element.is(e.target) // if the target of the click isn't the container...
+				&& _element.has(e.target).length === 0 ) // ... nor a descendant of the container
+			{
+				sideheader.removeClass('is-visible');
+				jQuery('body').removeClass('sideheader-visible');
+			}
+		});
+		jQuery(window).on('scroll', function(e) {
+
+			sideheader.removeClass('is-visible');
+			jQuery('body').removeClass('sideheader-visible');
+		});
+	};
+}
+/* Calls Sideheader Init script  */
+sideHeaderInit();
 
 
   
