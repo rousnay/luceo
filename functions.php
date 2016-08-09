@@ -147,8 +147,6 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'luceo-bPopup-js', get_template_directory_uri() . '/js/jquery.bpopup.min.js', array('jquery'), '', true );
 
-	//wp_enqueue_script( 'slide-Push-Menus-js', get_template_directory_uri() . '/js/slide-Push-Menus.js', array('jquery'), '', true );
-
 	wp_enqueue_script( 'perfect-scrollbar.jquery-js', get_template_directory_uri() . '/js/perfect-scrollbar.jquery.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-match-height-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), '', true );

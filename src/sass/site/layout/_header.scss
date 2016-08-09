@@ -2,6 +2,15 @@ header#masthead{
     width: 100%;
     background: #fff;
 }
+.sideheader-visible .tool-bar a{
+    color: $color_luceo_grey;
+    .c-hamburger {
+        span, span:before, span:after{
+            background-color: $color_luceo_grey;
+        }
+    }
+}
+
 
 header{
     .container {
@@ -28,16 +37,28 @@ header{
             a {
                 // font-size: 16px;
                 float: right;
+                margin-right: 25px;
+                margin-top: -1px;
+                color: $color_luceo_grey;
                 &:hover{
                     color: $color_luceo_orange;
-                }
-                &:last-child{
-                    margin-right: 25px;
-                    margin-top: -1px;
+                    .c-hamburger {
+                        span, span:before, span:after{
+                            background-color: $color_luceo_orange;
+                        }
+                    }
                 }
                 span{
                     font-family: $font_google,$font_backup;
                     text-transform: uppercase;
+                }
+            }
+            .tool-bar div{
+                font-size: 16px;
+                float: right;
+                cursor: pointer;
+                &:hover{
+                    color: $color_luceo_orange;
                 }
             }
         }

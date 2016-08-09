@@ -38,6 +38,7 @@
     "bpopup": "https://github.com/dinbror/bpopup.git",
     "animating-hamburger-icons": "https://github.com/callmenick/Animating-Hamburger-Icons.git",
     "owl.carousel": "^2.1.6",
+    "perfect-scrollbar": "^0.6.12",
     "matchHeight": "^0.7.0",
     "elegant-icons": "*",
     "normalize-css": "^4.2.0"
