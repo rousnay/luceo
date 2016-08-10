@@ -13,13 +13,17 @@ body{
 		header#masthead {
 		    padding-bottom: 35px;
 		}
-		&.page-template-page-vc{
-			.site-content {
-			    margin: 0 -35px!important;
-			}
+	}
+	&.page-template-page-vc{
+		header#masthead {
+		    margin-bottom: 5px;
+		}
+		.site-content {
+		    margin: 0 -35px!important;
 		}
 	}
 }
+
 
 #page {
     padding: 0 35px!important;
