@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="row">
     <main id="main" class="site-main" role="main">
       <?php while ( have_posts() ) : the_post(); ?>
-        <section class="home-content">
+        <section class="vc-content">
           <?php the_content(); ?>
         </section>
       <?php endwhile; // end of the loop. ?>

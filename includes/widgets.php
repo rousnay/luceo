@@ -62,12 +62,12 @@ add_action( 'widgets_init', 'footer_widgets_init' );
 
 
 //Blog sidebar widgets
-function blog_widgets_init() {
+function philosophy_widgets_init() {
 
 		register_sidebar( array(
-		'name' => 'Blog Sidebar',
-		'description'   => __( 'Widgets displayed at blog page.', 'luceo' ),
-		'id' => 'blog_widgets',
+		'name' => 'Philosophy Sidebar',
+		'description'   => __( 'Widgets displayed at Philosophy page.', 'luceo' ),
+		'id' => 'philosophy_widgets',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -75,4 +75,4 @@ function blog_widgets_init() {
 	) );
 }
 
-add_action( 'widgets_init', 'blog_widgets_init' );
+add_action( 'widgets_init', 'philosophy_widgets_init' );

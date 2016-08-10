@@ -13670,7 +13670,7 @@ body.page-template-page-vc .site-content {
 }
 
 .full-width {
-  width: 100%;
+  width: 100% !important;
 }
 
 .content-header {

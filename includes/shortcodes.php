@@ -145,3 +145,4 @@ function rns_feed_fn($atts, $content = null){
 }
 
 add_shortcode('rns_feed','rns_feed_fn');
+
