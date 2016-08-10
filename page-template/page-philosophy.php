@@ -8,11 +8,11 @@ get_header(); ?>
 <div class="container full-width">
 	<div class="row">
 
-		<div class="col-md-3 sidebar" role="complementary">
+		<div class="col-sm-3 col-md-2 left-sidebar" role="complementary">
 			<?php dynamic_sidebar( 'philosophy_widgets' ); ?>
 		</div>
 
-		<div class="col-md-9 content-area">
+		<div class="col-sm-9 col-md-10 content-area">
 
 		    <main id="main" class="site-main" role="main">
 		      <?php while ( have_posts() ) : the_post(); ?>

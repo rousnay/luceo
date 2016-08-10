@@ -13660,8 +13660,10 @@ body:not(.page-template-page-home) section header, body:not(.page-template-page-
 body:not(.page-template-page-home) #page {
   background-color: #ffffff;
 }
-
-body.page-template-page-vc .site-content {
+body.page-template-page-philosophy header#masthead, body.page-template-default header#masthead {
+  padding-bottom: 35px;
+}
+body.page-template-page-philosophy.page-template-page-vc .site-content, body.page-template-default.page-template-page-vc .site-content {
   margin: 0 -35px !important;
 }
 
@@ -13684,6 +13686,11 @@ body.page-template-page-vc .site-content {
 .content-header h4 {
   color: #999999;
   margin-top: 1.428em;
+}
+
+.left-sidebar {
+  margin-top: 22px;
+  padding-left: 0 !important;
 }
 
 .content-wrapper {
@@ -13970,154 +13977,32 @@ body.page-template-page-home footer {
   display: none !important;
 }
 
-/********
-  Advice
-*********/
-.banner {
-  background-image: url("http://www.luceogroup.plc.uk/wp-content/uploads/2016/01/shutterstock_129517946-copy.1.jpg");
-  background-position: 50% -151px;
-  border-bottom: 3px solid #006AA7;
+/***********
+  Philosophy
+************/
+.child-page-menu li {
+  margin-bottom: 2px;
 }
-.banner .content-inner {
-  padding: 60px 0;
-  -webkit-animation: wpb_appear 0.7s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-     -moz-animation: wpb_appear 0.7s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-       -o-animation: wpb_appear 0.7s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          animation: wpb_appear 0.7s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transform: scale(1);
-     -moz-transform: scale(1);
-      -ms-transform: scale(1);
-       -o-transform: scale(1);
-          transform: scale(1);
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-.banner .content-wrapper {
-  text-align: center;
-}
-.banner .content-wrapper h1, .banner .content-wrapper h2, .banner .content-wrapper p {
-  color: #ffffff;
-}
-.banner .content-wrapper h1 {
-  font-size: 3.928em;
-}
-.banner .content-wrapper h2 {
-  font-size: 3.2em;
-}
-.banner .content-wrapper p {
-  font-size: 1.357em;
-}
-
-.content-text h3, .content-text p {
-  text-align: justify;
-  margin: 20px 0;
-}
-.content-text h3 {
-  line-height: 1.4;
-}
-
-.email-info {
-  margin-top: 50px;
-  background-image: url("http://www.luceogroup.plc.uk/wp-content/uploads/2016/01/shutterstock_129517946-copy.1.jpg");
-  background-position: 50% -151px;
-}
-.email-info h2 {
-  text-align: center;
-  color: #fff;
-  font-weight: 600;
-}
-
-.info-inner {
-  padding-top: 85px;
-  padding-bottom: 85px;
-}
-
-.content-buttons {
-  text-align: center;
-}
-.content-buttons .btn-inline {
-  display: inline-block;
-  position: relative;
-}
-.content-buttons .btn-inline .ivan-button {
-  display: inline-block;
-  margin-bottom: 3px;
-  vertical-align: middle;
-  overflow: hidden;
-  text-align: center;
-  position: relative;
-  -webkit-transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-     -moz-transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-       -o-transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-          transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-  font-size: 1.14286em;
-  font-weight: 600;
-  line-height: 1.428571429;
-  padding: 0.75em 0;
-}
-.content-buttons .btn-inline .ivan-button:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-.content-buttons .btn-inline a {
-  color: #fff;
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: #fff;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.content-buttons .btn-inline:first-child a {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-}
-.content-buttons .btn-inline:last-child {
-  margin-left: -3px;
-}
-.content-buttons .btn-inline:last-child a {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-  border-left-width: 0;
-}
-
-.sp-text {
-  border-width: 1px;
+.child-page-menu li a {
+  font-size: 12px;
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
   display: block;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  -webkit-transform: translate(50%, -50%);
-     -moz-transform: translate(50%, -50%);
-      -ms-transform: translate(50%, -50%);
-       -o-transform: translate(50%, -50%);
-          transform: translate(50%, -50%);
-  height: 26px;
-  width: 26px;
-  line-height: 1;
-  text-align: center;
-  background: #fff;
-  color: #7f7f7f;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-  border-radius: 100%;
-  font-size: 11px;
-  border: 2px solid #7f7f7f;
-  font-weight: 400;
-  z-index: 12;
-  -webkit-transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-     -moz-transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-       -o-transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
-          transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
+  background: #eee;
+  color: #999;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  border-radius: 0;
+  padding: 12px 15px;
 }
-.sp-text .sp-inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-       -o-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  line-height: .914em;
+.child-page-menu li a:hover {
+  background-color: #FFCD1D;
+  color: #FFFFFF;
+}
+.child-page-menu li.current_page_item a {
+  background-color: #FFCD1D;
+  color: #FFFFFF;
 }
 
 @media (max-width: 1210px) {

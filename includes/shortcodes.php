@@ -146,3 +146,33 @@ function rns_feed_fn($atts, $content = null){
 
 add_shortcode('rns_feed','rns_feed_fn');
 
+
+/**
+ * Shortcode: Display a List of Child Pages For a Parent Page
+ *
+ * Code: [wpb_childpages]
+ *
+ * or <?php wpb_list_child_pages(); ?>
+ *
+ **/
+
+function wittyplex_list_child_pages() { 
+
+global $post; 
+
+if ( is_page() && $post->post_parent )
+
+	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->post_parent . '&echo=0' );
+else
+	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->ID . '&echo=0' );
+
+if ( $childpages ) {
+
+	$string = '<ul class="child-page-menu">' . $childpages . '</ul>';
+}
+
+return $string;
+
+}
+
+add_shortcode('list_childpages', 'wittyplex_list_child_pages');

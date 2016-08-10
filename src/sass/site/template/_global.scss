@@ -1,18 +1,23 @@
-body:not(.page-template-page-home){
-    section{
-        header, footer{
-            display: none;
-        }
-    }
-    #page {
-	    background-color: #ffffff;
+body{
+	&:not(.page-template-page-home){
+	    section{
+	        header, footer{
+	            display: none;
+	        }
+	    }
+	    #page {
+		    background-color: #ffffff;
+		}
 	}
- 
-}
-
-body.page-template-page-vc{
-	.site-content {
-	    margin: 0 -35px!important;
+	&.page-template-page-philosophy, &.page-template-default{
+		header#masthead {
+		    padding-bottom: 35px;
+		}
+		&.page-template-page-vc{
+			.site-content {
+			    margin: 0 -35px!important;
+			}
+		}
 	}
 }
 
@@ -35,6 +40,12 @@ body.page-template-page-vc{
 		margin-top: 1.428em;
 	}
 }
+
+.left-sidebar {
+	margin-top: 22px;
+    padding-left: 0!important;
+}
+
 //Sidebar Push Slider
 
 .content-wrapper {
