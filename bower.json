@@ -47,5 +47,8 @@
     "font-awesome": "^4.6.3",
     "owl.carousel": "^2.1.6",
     "normalize-css": "^4.2.0"
+  },
+  "dependencies": {
+    "isotope": "^3.0.1"
   }
 }
