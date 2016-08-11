@@ -6,14 +6,14 @@
  */
 get_header(); ?>
 
-<div class="container wider-wrapper">
+<div class="container full-width">
 	<div class="row">
 
 		<div class="col-md-3 left-sidebar" role="complementary">
 		<?php dynamic_sidebar( 'blog_widgets' ); ?>
 		</div>
 
-		<div class="col-md-9 content-listing">
+		<div class="col-md-9 blog-content">
 
 			<div id="filters" class="select-filter">
 				<select class="filtering">
@@ -32,9 +32,14 @@ get_header(); ?>
 		    </ul>
 
 
-			<div id="blogContent">
+			<div id="post-listing">
 				<?php 
-				$args = array( 'post_type' => 'post', 'posts_per_page' => -1 );
+							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+			$args = array(
+				'post_type' => 'post',
+				'posts_per_page' => 3,
+				'paged' => $paged
+				);
 				$loop = new WP_Query( $args );
 				while ( $loop->have_posts() ) : $loop->the_post(); 
 
@@ -53,24 +58,44 @@ get_header(); ?>
 					$tax = '';          
 				endif; ?>
 
-				<div class="all blog-item <?php echo $tax; ?>">
-					<a href="<?php the_permalink() ?>" title="<?php  the_title_attribute() ?>">
+				<div class="all post-item col-xs-12 col-sm-6 <?php echo $tax; ?>">
 						<?php
-						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_related_post');
-						$url = $thumb[0];
+							$post_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_blog_listing');
+							$thumb_url = $post_thumb[0];
+							$content = get_the_content();
 						?>
-						<div class="thumbnail blog-item-img" style="background-image:url('<?php //echo $url; ?>'); background-color:<?php //the_field('post_background_color'); ?>">
-							<img class="img-responsive" src="<?php echo $url; ?>">
+					
+
+
+
+						<div class="thumbnail thumbnail-hover">
+							<div class="blog-img">
+								<img class="img-responsive" src="<?php echo $thumb_url; ?>" >
+							</div>
+							<a href="<?php the_permalink() ?>" title="<?php  the_title_attribute() ?>" class="overlay"></a>
 						</div>
-						<div class="blog-post-info">
-							<h3><?php the_title() ?></h3>
-							<h6><?php the_time(get_option('date_format')) ?></h6>
+
+
+
+						<div class="entry">
+						<h3><a href="<?php get_permalink() ?>"> <?php the_title() ?> </a></h3>
+						<div class="entry-content"><?php echo wp_trim_words( $content , '27' ) ?></div>
+						<div class="read-more">
+						<span class="date"> <i class="fa fa-clock-o"></i> <?php the_time(get_option('date_format')) ?></span>
 						</div>
-					</a>
+						</div>
 				</div>
 
 			<?php endwhile; ?>
 		</div>
+
+						<div class="row">
+		<div class="col-xs-12">
+		<?php if (function_exists("pagination")) {
+		    pagination($loop->max_num_pages);
+		} ?>
+		</div>
+	</div>
 
 </div>
 
