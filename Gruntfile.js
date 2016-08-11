@@ -25,7 +25,8 @@ copy: {
     {expand: true, flatten: true, src: ['src/js/**'], dest: 'js/', filter: 'isFile'},
     {expand: true, flatten: true, src: ['<%= project.bower %>/bootstrap-sass/assets/javascripts/bootstrap.min.js'], dest: 'js/', filter: 'isFile'},
     {expand: true, flatten: true, src: ['<%= project.bower %>/bPopup/jquery.bpopup.min.js'], dest: 'js/', filter: 'isFile'},
-    {expand: true, flatten: true, src: ['<%= project.bower %>/bPopup/jquery.bpopup.min.js'], dest: 'js/', filter: 'isFile'},
+    {expand: true, flatten: true, src: ['<%= project.bower %>/imagesloaded/imagesloaded.pkgd.min.js'], dest: 'js/', filter: 'isFile'},
+    {expand: true, flatten: true, src: ['<%= project.bower %>/isotope/dist/isotope.pkgd.min.js'], dest: 'js/', filter: 'isFile'},
     {expand: true, flatten: true, src: ['<%= project.bower %>/matchHeight/dist/jquery.matchHeight-min.js'], dest: 'js/', filter: 'isFile'},
     {expand: true, flatten: true, src: ['<%= project.bower %>/jquery/dist/jquery.min.js'], dest: 'js/', filter: 'isFile'}
     ],
