@@ -5,9 +5,6 @@ body{
 	            display: none;
 	        }
 	    }
-	    #page {
-		    background-color: #ffffff;
-		}
 	}
 	&.page-template-page-philosophy, &.page-template-default{
 		header#masthead {
@@ -27,6 +24,7 @@ body{
 
 #page {
     padding: 0 35px!important;
+	background-color: #ffffff;
 }
 
 .full-width {
@@ -49,11 +47,6 @@ body{
 	margin-top: 22px;
     padding-left: 0!important;
 }
-
-//ISOTOPE
-// .post-item{
-// 	width:50%;
-// }
 
 //Sidebar Push Slider
 

@@ -94,7 +94,7 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: #236fb6;
+			background:$color_luceo_gradient;
 			opacity: 0;
 			transition: opacity 500ms ease-in-out;
 		}
@@ -145,7 +145,7 @@
 .pagination {
     clear:both;
     position:relative;
-    margin: 15px 0 40px;
+    margin: 40px 0 40px;
     font-size: 1em;
     line-height: 1;
     float:right;

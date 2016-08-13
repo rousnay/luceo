@@ -1,124 +1,124 @@
 /***************
 Visual Composer
 ***************/
-.ivan-custom-wrapper {
-	.wpb_column {
-		.ivan-icon-box-wrapper {
-			margin-top: 0!important;
-			.ivan-icon-box {
-				border-width: 0!Important;
-				.main-icon {
-					color: #236fb6;
-				}
-			}
-		}
-		// .ivan-button{
-		// 	.round-square {
-		// 	    border-radius: 5px;
-		// 	}
-		// }
-	}
-}
-.ivan-icon-box {
-	.icon-box-text-holder {
-		position: static!important;
-	}
-	.icon-box-link-holder {
-	    position: absolute;
-	    height: 100%;
-	    width: 100%;
-	    top: 0;
-        left: 0;
-	    z-index: 11;
+// .ivan-custom-wrapper {
+// 	.wpb_column {
+// 		.ivan-icon-box-wrapper {
+// 			margin-top: 0!important;
+// 			.ivan-icon-box {
+// 				border-width: 0!Important;
+// 				.main-icon {
+// 					color: #236fb6;
+// 				}
+// 			}
+// 		}
+// 		// .ivan-button{
+// 		// 	.round-square {
+// 		// 	    border-radius: 5px;
+// 		// 	}
+// 		// }
+// 	}
+// }
+// .ivan-icon-box {
+// 	.icon-box-text-holder {
+// 		position: static!important;
+// 	}
+// 	.icon-box-link-holder {
+// 	    position: absolute;
+// 	    height: 100%;
+// 	    width: 100%;
+// 	    top: 0;
+//         left: 0;
+// 	    z-index: 11;
 	    
-	    a {
-	    height: 100%;
-	    width: 100%;
-	    color: transparent!important;
-		}
-	}
-}
+// 	    a {
+// 	    height: 100%;
+// 	    width: 100%;
+// 	    color: transparent!important;
+// 		}
+// 	}
+// }
 
-.ivan-title-wrapper{
-	.title-wrapper {
-    position: relative;
-	    .title-heading {
-		    margin: 0;
-		    color: #292d33;
-		}
-		 .sub {
-		    margin: 10px 0 0;
-		    color: #6d8394!important;
-		    line-height: 1.3;
-		}
-	}	
-}
-.ivan-promo-box {
-    padding: 130px 80px;
-    background-color: #2ca9e0;
-    padding: 130px 80px;
-    color: #fff;
-    position: relative;
-    .overlay {
-	    position: absolute;
-	    top: 0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
-	    opacity: 0;
-	    transition: all 0.3s ease-out;
-	    &.dark-overlay {
-		    background-color: #000;
-		}
-	}
-	&:hover{
-		.overlay {
-    		opacity: .4;
-		}
-	}
-	h3 {
-    color: #FFF;
-    font-size: 26px;
-    font-weight: 400;
-    position: relative;
-	}
-}
+// .ivan-title-wrapper{
+// 	.title-wrapper {
+//     position: relative;
+// 	    .title-heading {
+// 		    margin: 0;
+// 		    color: #292d33;
+// 		}
+// 		 .sub {
+// 		    margin: 10px 0 0;
+// 		    color: #6d8394!important;
+// 		    line-height: 1.3;
+// 		}
+// 	}	
+// }
+// .ivan-promo-box {
+//     padding: 130px 80px;
+//     background-color: #2ca9e0;
+//     padding: 130px 80px;
+//     color: #fff;
+//     position: relative;
+//     .overlay {
+// 	    position: absolute;
+// 	    top: 0;
+// 	    bottom: 0;
+// 	    left: 0;
+// 	    right: 0;
+// 	    opacity: 0;
+// 	    transition: all 0.3s ease-out;
+// 	    &.dark-overlay {
+// 		    background-color: #000;
+// 		}
+// 	}
+// 	&:hover{
+// 		.overlay {
+//     		opacity: .4;
+// 		}
+// 	}
+// 	h3 {
+//     color: #FFF;
+//     font-size: 26px;
+//     font-weight: 400;
+//     position: relative;
+// 	}
+// }
 
 
-.ivan-button-wrapper{
-	.ivan-button.outline {
-    border-width: 2px;
-    background-color: transparent;
-    color: #236fb6;
-}
+// .ivan-button-wrapper{
+// 	.ivan-button.outline {
+//     border-width: 2px;
+//     background-color: transparent;
+//     color: #236fb6;
+// }
 
-}
-.ivan-icon-box.clean-color .icon-box-holder .main-icon, .ivan-icon-box.light-bg .icon-box-holder .main-icon {
-    color: #fff!important;
-}
+// }
+// .ivan-icon-box.clean-color .icon-box-holder .main-icon, .ivan-icon-box.light-bg .icon-box-holder .main-icon {
+//     color: #fff!important;
+// }
 
-.ivan-button.round-square.with-text.btn-desc.outline:hover {
-    border-color: transparent!important;
-    color: transparent!important;
-}
-.ivan-button.round.large.with-text.light-bg.outline:hover {
-    color: #006AA7!important;
-}
-.ivan-promo-box .ivan-button.light-bg.outline:hover {
-    color: #292d33;
-    background-color: #FFF;
-}
+// .ivan-button.round-square.with-text.btn-desc.outline:hover {
+//     border-color: transparent!important;
+//     color: transparent!important;
+// }
+// .ivan-button.round.large.with-text.light-bg.outline:hover {
+//     color: #006AA7!important;
+// }
+// .ivan-promo-box .ivan-button.light-bg.outline:hover {
+//     color: #292d33;
+//     background-color: #FFF;
+// }
 
-@media (max-width: 1199px) and (min-width: 992px){
-	.ivan-promo-box {
-	    padding: 100px 35px;
-	}
-}
-@media (max-width: 991px){
-	.ivan-promo-box {
-	    padding: 75px 35px;
-	}
-}
+// @media (max-width: 1199px) and (min-width: 992px){
+// 	.ivan-promo-box {
+// 	    padding: 100px 35px;
+// 	}
+// }
+// @media (max-width: 991px){
+// 	.ivan-promo-box {
+// 	    padding: 75px 35px;
+// 	}
+// }
 
 /***************
 Content Timeline

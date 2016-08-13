@@ -209,7 +209,7 @@
 	 if ($.isFunction($.fn.imagesLoaded) ) {
 
 
-	 	var container	= '#post-listing';
+	 	var container	= '#post-listing-isotope';
 	 	var selector	= '.post-item';
 
 	 	$(container).isotope({
