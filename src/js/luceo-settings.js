@@ -212,14 +212,15 @@
 	 	var container	= '#post-listing-isotope';
 	 	var selector	= '.post-item';
 
-	 	$(container).isotope({
-		  // options...
-		  itemSelector: selector,
-		  masonry: {
-		  	columnWidth: selector
-		  }
+		$(container).imagesLoaded( function() {
+		 	$(container).isotope({
+			  // options...
+			  itemSelector: selector,
+			  masonry: {
+			  	columnWidth: selector
+			  }
+			});
 		});
-
 
 		// filter items when filter link is clicked
 		$('#filters li').click(function(){

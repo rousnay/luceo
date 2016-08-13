@@ -14195,9 +14195,6 @@ body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-cont
   width: 70px;
   height: 70px;
 }
-.page-template-page-blog .site-content .sidebar .widget.widget_recent_entries li div, .single-post .site-content .sidebar .widget.widget_recent_entries li div, .search-results .site-content .sidebar .widget.widget_recent_entries li div {
-  padding-top: 10px;
-}
 .page-template-page-blog .site-content .sidebar .widget.widget_recent_entries li div .post-date, .single-post .site-content .sidebar .widget.widget_recent_entries li div .post-date, .search-results .site-content .sidebar .widget.widget_recent_entries li div .post-date {
   font-size: 0.9em;
   line-height: 1.5em;
@@ -14205,7 +14202,7 @@ body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-cont
 }
 .page-template-page-blog .site-content .sidebar .widget.widget_recent_entries li a, .single-post .site-content .sidebar .widget.widget_recent_entries li a, .search-results .site-content .sidebar .widget.widget_recent_entries li a {
   color: #575756;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .page-template-page-blog .site-content .sidebar .widget.widget_recent_entries li a:hover, .single-post .site-content .sidebar .widget.widget_recent_entries li a:hover, .search-results .site-content .sidebar .widget.widget_recent_entries li a:hover {
   color: #F59E26;
