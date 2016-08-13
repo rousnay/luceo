@@ -9,7 +9,7 @@ get_header(); ?>
 <div class="container full-width">
 	<div class="row">
 
-		<div class="col-md-3 left-sidebar" role="complementary">
+		<div class="col-md-3 sidebar left-sidebar" role="complementary">
 		<?php dynamic_sidebar( 'blog_widgets' ); ?>
 		</div>
 

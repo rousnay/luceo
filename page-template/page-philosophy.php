@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="container full-width">
 	<div class="row">
 
-		<div class="col-sm-3 col-md-2 left-sidebar" role="complementary">
+		<div class="col-sm-3 col-md-2 sidebar left-sidebar" role="complementary">
 			<?php dynamic_sidebar( 'philosophy_widgets' ); ?>
 		</div>
 
