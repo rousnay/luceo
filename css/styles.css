@@ -13508,7 +13508,7 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 }
 
 /*--------------------------------------------------------------
-## Comments
+## Widgets
 --------------------------------------------------------------*/
 .widget {
   margin: 0;
@@ -13640,6 +13640,81 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
     margin-bottom: 60px;
   }
 }
+/*--------------------------------------------------------------
+## Shortcodes
+--------------------------------------------------------------*/
+.button a {
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
+  display: block;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  border-radius: 0;
+  padding: 12px 15px;
+}
+.button.small a {
+  font-size: 12px;
+}
+.button.medium a {
+  font-size: 16px;
+}
+.button.large a {
+  font-size: 20px;
+}
+.button.yellow a {
+  background: #FFCD1D;
+  color: #fff;
+}
+.button.yellow a:hover {
+  background: #F59E26;
+  color: #fff;
+}
+.button.orange a {
+  background: #F59E26;
+  color: #fff;
+}
+.button.orange a:hover {
+  background: #FFCD1D;
+  color: #fff;
+}
+.button.gray a {
+  background: #eee;
+  color: #999;
+}
+.button.gray a:hover {
+  background: #F59E26;
+  color: #fff;
+}
+
+.contents.yellow {
+  color: #FFCD1D !important;
+}
+.contents.orange {
+  color: #F59E26 !important;
+}
+.contents.gray {
+  color: #575756 !important;
+}
+.contents.uppercase {
+  text-transform: uppercase;
+}
+.contents.lowercase {
+  text-transform: lowercase;
+}
+.contents.capitalize {
+  text-transform: capitalize;
+}
+.contents.light {
+  font-weight: 400;
+}
+.contents.bold {
+  font-weight: bold;
+}
+.contents.inline {
+  display: inline-block;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/

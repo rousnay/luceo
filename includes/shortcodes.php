@@ -152,10 +152,9 @@ add_shortcode('rns_feed','rns_feed_fn');
  *
  * Code: [wpb_childpages]
  *
- * or <?php wpb_list_child_pages(); ?>
+ * or <?php wittyplex_list_child_pages(); ?>
  *
  **/
-
 function wittyplex_list_child_pages() { 
 
 global $post; 
@@ -170,9 +169,50 @@ if ( $childpages ) {
 
 	$string = '<ul class="child-page-menu">' . $childpages . '</ul>';
 }
-
 return $string;
-
 }
-
 add_shortcode('list_childpages', 'wittyplex_list_child_pages');
+
+
+
+/**
+ * Shortcode: Display Buttons
+ *
+ * Code: [button style="large yellow" width="200px" link="http://www.google.com" title="Link Title"]
+ *
+ * or <?php wittyplex_adding_custom_button(); ?>
+ *
+ **/
+function wittyplex_adding_custom_button($atts, $content = null) {
+	extract(shortcode_atts(array(
+		'title' => 'Button Title',
+		'link' => '#',
+		'style' => 'normal yallow',
+		'width' => ' ',
+	), $atts));
+
+	return '<div style="width: '.$width.' " class="button '.$style.'"><a href="'.$link.'">'.$title.'</a></div>';
+}
+add_shortcode('button', 'wittyplex_adding_custom_button');
+
+
+
+/**
+ * Shortcode: Display Texts
+ *
+ * Code: [content style="normal gray" size="12px" font="Raleway" text="Text here"]
+ *
+ * or <?php wittyplex_adding_custom_text_style(); ?>
+ *
+ **/
+function wittyplex_adding_custom_text_style($atts, $content = null) {
+	extract(shortcode_atts(array(
+		'text' => 'Button Title',
+		'style' => 'gray',
+		'size' => ' ',
+		'font' => ' ',
+	), $atts));
+
+	return '<div style="font-size: '.$size.'; font-family: '.$font.'" class="contents '.$style.'">'.$text.' </div>';
+}
+add_shortcode('content', 'wittyplex_adding_custom_text_style');

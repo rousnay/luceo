@@ -1,0 +1,79 @@
+
+// Buttons
+
+.button{
+
+    a{
+        transition: all 200ms ease-out;
+        display: block;
+        font-family: "Montserrat",Helvetica,Arial,sans-serif;
+        border-radius: 0;
+        padding: 12px 15px;
+    }
+    &.small a{
+        font-size: 12px;
+    }
+    &.medium a{
+        font-size: 16px;
+    }
+    &.large a{
+        font-size: 20px;
+    }
+    &.yellow a{
+        background: $color_luceo_yellow;
+        color: #fff;
+        &:hover{
+            background: $color_luceo_orange;
+            color: #fff;
+        }
+    }
+    &.orange a{
+        background: $color_luceo_orange;
+        color: #fff;
+        &:hover{
+            background: $color_luceo_yellow;
+            color: #fff;
+        }
+    }
+    &.gray a{
+        background: #eee;
+        color: #999;
+        &:hover{
+            background: $color_luceo_orange;
+            color: #fff;
+        }
+    }
+}
+
+// Text contents
+
+// h1,h2,h3,h4,h5,h6, 
+.contents{
+    &.yellow{
+        color: $color_luceo_yellow !important;
+    }
+    &.orange{
+        color: $color_luceo_orange !important;
+    }
+    &.gray{
+        color: $color_luceo_grey !important;
+    }
+    &.uppercase{
+        text-transform: uppercase;
+    }
+    &.lowercase{
+        text-transform: lowercase
+    }
+    &.capitalize{
+        text-transform: capitalize;
+    }
+    &.light{
+        font-weight: 400;
+    }
+    &.bold{
+        font-weight: bold;
+    }
+    &.inline{
+        display: inline-block;
+    }
+}
