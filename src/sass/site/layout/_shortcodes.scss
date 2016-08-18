@@ -1,7 +1,8 @@
 
 // Buttons
 
-.button{
+.buttons{
+    margin-top: 3px;
 
     a{
         transition: all 200ms ease-out;
@@ -42,6 +43,21 @@
             background: $color_luceo_orange;
             color: #fff;
         }
+    }
+    &.uppercase a{
+        text-transform: uppercase;
+    }
+    &.lowercase a{
+        text-transform: lowercase
+    }
+    &.capitalize a{
+        text-transform: capitalize;
+    }
+    &.light a{
+        font-weight: 400;
+    }
+    &.bold a{
+        font-weight: bold;
     }
 }
 

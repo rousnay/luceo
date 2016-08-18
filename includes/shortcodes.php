@@ -188,10 +188,10 @@ function wittyplex_adding_custom_button($atts, $content = null) {
 		'title' => 'Button Title',
 		'link' => '#',
 		'style' => 'normal yallow',
-		'width' => ' ',
+		'width' => 'inherit',
 	), $atts));
 
-	return '<div style="width: '.$width.' " class="button '.$style.'"><a href="'.$link.'">'.$title.'</a></div>';
+	return '<div style="width: '.$width.' " class="buttons '.$style.'"><a href="'.$link.'">'.$title.'</a></div>';
 }
 add_shortcode('button', 'wittyplex_adding_custom_button');
 
@@ -209,8 +209,8 @@ function wittyplex_adding_custom_text_style($atts, $content = null) {
 	extract(shortcode_atts(array(
 		'text' => 'Button Title',
 		'style' => 'gray',
-		'size' => ' ',
-		'font' => ' ',
+		'size' => 'inherit',
+		'font' => 'inherit',
 	), $atts));
 
 	return '<div style="font-size: '.$size.'; font-family: '.$font.'" class="contents '.$style.'">'.$text.' </div>';

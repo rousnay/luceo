@@ -13643,7 +13643,10 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 /*--------------------------------------------------------------
 ## Shortcodes
 --------------------------------------------------------------*/
-.button a {
+.buttons {
+  margin-top: 3px;
+}
+.buttons a {
   -webkit-transition: all 200ms ease-out;
      -moz-transition: all 200ms ease-out;
        -o-transition: all 200ms ease-out;
@@ -13653,38 +13656,53 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   border-radius: 0;
   padding: 12px 15px;
 }
-.button.small a {
+.buttons.small a {
   font-size: 12px;
 }
-.button.medium a {
+.buttons.medium a {
   font-size: 16px;
 }
-.button.large a {
+.buttons.large a {
   font-size: 20px;
 }
-.button.yellow a {
+.buttons.yellow a {
   background: #FFCD1D;
   color: #fff;
 }
-.button.yellow a:hover {
+.buttons.yellow a:hover {
   background: #F59E26;
   color: #fff;
 }
-.button.orange a {
+.buttons.orange a {
   background: #F59E26;
   color: #fff;
 }
-.button.orange a:hover {
+.buttons.orange a:hover {
   background: #FFCD1D;
   color: #fff;
 }
-.button.gray a {
+.buttons.gray a {
   background: #eee;
   color: #999;
 }
-.button.gray a:hover {
+.buttons.gray a:hover {
   background: #F59E26;
   color: #fff;
+}
+.buttons.uppercase a {
+  text-transform: uppercase;
+}
+.buttons.lowercase a {
+  text-transform: lowercase;
+}
+.buttons.capitalize a {
+  text-transform: capitalize;
+}
+.buttons.light a {
+  font-weight: 400;
+}
+.buttons.bold a {
+  font-weight: bold;
 }
 
 .contents.yellow {
