@@ -103,6 +103,12 @@
 
 .entry {
     background-color: #ffffff;
+    h3{
+		font-family: Raleway;
+	    font-weight: 400;
+	    font-size: 20px;
+	    color: $color_luceo_grey ;
+	}
 }
 
 .disclaimer-box{
@@ -145,7 +151,7 @@
 .pagination {
     clear:both;
     position:relative;
-    margin: 40px 0 40px;
+    margin-top: 40px;
     font-size: 1em;
     line-height: 1;
     float:right;
