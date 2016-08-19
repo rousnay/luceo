@@ -12605,7 +12605,7 @@ a:hover, a:active {
   position: relative;
 }
 .main-navigation li:hover > a, .main-navigation li.focus > a {
-  opacity: 0.7;
+  color: #F59E26;
 }
 .main-navigation a {
   display: block;
@@ -12624,14 +12624,12 @@ a:hover, a:active {
   text-align: right;
 }
 .main-navigation ul ul {
-  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
   position: absolute;
   top: 100%;
   left: -999em;
   z-index: 99999;
-  background-color: #fff;
+  background-color: #FFCD1D;
 }
 .main-navigation ul ul ul {
   left: -999em;
@@ -12640,6 +12638,20 @@ a:hover, a:active {
 .main-navigation ul ul li {
   float: left;
   text-align: left;
+  -webkit-transition: background-color 200ms ease-out;
+     -moz-transition: background-color 200ms ease-out;
+       -o-transition: background-color 200ms ease-out;
+          transition: background-color 200ms ease-out;
+}
+.main-navigation ul ul li:hover {
+  background-color: #F59E26;
+}
+.main-navigation ul ul li:hover a {
+  color: #ffffff;
+  -webkit-transition: color 200ms ease-out;
+     -moz-transition: color 200ms ease-out;
+       -o-transition: color 200ms ease-out;
+          transition: color 200ms ease-out;
 }
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
@@ -12650,8 +12662,8 @@ a:hover, a:active {
   margin: 0;
   text-transform: uppercase;
   font-size: 11px;
-  font-weight: 500;
-  border-bottom: 1px solid #f2f2f2;
+  font-weight: 400;
+  border-bottom: 1px solid #FFDE16;
 }
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
@@ -12675,7 +12687,7 @@ a:hover, a:active {
 }
 .main-navigation ul a {
   padding: 15px 17px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 /* Logo */
