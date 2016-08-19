@@ -20,8 +20,8 @@ get_header(); ?>
 						investing<br>
 						</div>
 						<br>
-						<div class="sub-text">By Offering you a one-step shop of funds that 
-						you can rely on your to meet your investing needs. </div>
+						<div class="sub-text">Everyone deserves INVESTMENTS THAT HELP ACHIEVE THE LIFESTYLE THEY WANT.</div>
+						<div class="home-btn buttons"><a href="http://genuineimitation.co.uk/luceo/funds/">View our Funds</a></div>
 					</did>
 
 				</div>

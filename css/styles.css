@@ -13759,6 +13759,15 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 /*--------------------------------------------------------------
 ## Global
 --------------------------------------------------------------*/
+::-moz-selection {
+  color: #ffffff !important;
+  background: #FFCD1D !important;
+}
+::selection {
+  color: #ffffff !important;
+  background: #FFCD1D !important;
+}
+
 body:not(.page-template-page-home) section header, body:not(.page-template-page-home) section footer {
   display: none;
 }
@@ -14061,12 +14070,14 @@ body.page-template-page-home .site-content .home-page-content {
   float: right;
 }
 body.page-template-page-home .site-content .home-page-content .main-text {
+  font-family: Raleway;
   color: #FFCD1D;
   float: right;
   font-size: 4.2em;
   line-height: 1.2em;
 }
 body.page-template-page-home .site-content .home-page-content .sub-text {
+  font-family: Raleway;
   color: #575756;
   float: right;
   clear: both;
@@ -14074,6 +14085,22 @@ body.page-template-page-home .site-content .home-page-content .sub-text {
   max-width: 50%;
   font-size: 1.6em;
   line-height: 1.2em;
+}
+body.page-template-page-home .site-content .home-page-content .home-btn {
+  float: right;
+  clear: both;
+  margin-top: 20px;
+}
+body.page-template-page-home .site-content .home-page-content .home-btn a {
+  font-family: Raleway;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #575756;
+  color: #FFFFFF;
+}
+body.page-template-page-home .site-content .home-page-content .home-btn a:hover {
+  background: #F59E26;
+  color: #FFFFFF;
 }
 body.page-template-page-home footer {
   display: none !important;
