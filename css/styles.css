@@ -14446,6 +14446,27 @@ body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-cont
 /*--------------------------------------------------------------
 ## Post
 --------------------------------------------------------------*/
+.content-single {
+  margin-top: 25px;
+}
+
+header.entry-header h1 {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  color: #575756;
+}
+
+.post-img img {
+  width: 100%;
+}
+
+span.edit-link a {
+  display: none;
+  margin-left: 10px;
+  color: #F59E26;
+}
+
 .post-slider {
   margin-bottom: 40px;
 }

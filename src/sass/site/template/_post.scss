@@ -1,3 +1,23 @@
+.content-single {
+    margin-top: 25px;
+}
+
+header.entry-header h1{
+	font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #575756;
+}
+.post-img img {
+    width: 100%;
+}
+
+span.edit-link a {
+	display:none;
+    margin-left: 10px;
+    color: $color_luceo_orange;
+}
+
 .post-slider {
     margin-bottom: 40px;
     #related-posts {

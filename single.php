@@ -9,9 +9,14 @@
 
 get_header(); ?>
 
-	<div id="primary" class="container content-area wider-wrapper">
+	<div id="primary" class="container full-width">
 		<div class="row">
-			<div class="col-md-12 content-listing">
+		
+			<div class="col-md-3 sidebar left-sidebar" role="complementary">
+			<?php dynamic_sidebar( 'blog_widgets' ); ?>
+			</div>
+
+			<div class="col-md-9 content-single">
 			
 				<main id="main" class="site-main" role="main">
 
