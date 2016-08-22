@@ -28,6 +28,7 @@ body{
 
 
 #page {
+    overflow-x: hidden !important;
     padding: 0 35px!important;
 	background-color: #ffffff;
 }
@@ -246,4 +247,11 @@ iframe{
 	#page {
 	    padding: 0 20px!important;
 	}
+
+	body.page-template-page-vc{
+		.site-content {
+		    margin: 0!important;
+		}
+	}
+
 }
