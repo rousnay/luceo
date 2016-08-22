@@ -13234,6 +13234,7 @@ header .top-bar .top-text-line h4 {
   font-size: 13px;
   cursor: default;
   color: #575756;
+  font-weight: 400;
 }
 header .top-bar .tool-bar {
   margin-top: 20px;
@@ -14087,7 +14088,7 @@ body.page-template-page-home .site-content .home-page-content .sub-text {
   line-height: 1.2em;
 }
 body.page-template-page-home .site-content .home-page-content .home-btn {
-  float: right;
+  float: left;
   clear: both;
   margin-top: 20px;
 }
@@ -14465,6 +14466,27 @@ span.edit-link a {
   display: none;
   margin-left: 10px;
   color: #F59E26;
+}
+
+.back-btn {
+  float: left;
+  clear: both;
+  margin-top: 20px;
+}
+.back-btn a {
+  font-family: Raleway;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #575756;
+  color: #FFFFFF;
+}
+.back-btn a:hover {
+  background: #F59E26;
+  color: #FFFFFF;
+}
+
+body.single-post footer#colophon {
+  margin-top: 40px;
 }
 
 .post-slider {

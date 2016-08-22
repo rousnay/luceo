@@ -38,6 +38,8 @@ get_header(); ?>
 				?>
 
 				</main><!-- #main -->
+
+				<div class="back-btn buttons"><a href="http://genuineimitation.co.uk/luceo/resources"> &#8592; Back to Resources</a></div>
 					
 			</div><!-- .blog-listing -->
 		</div><!-- .row -->
