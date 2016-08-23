@@ -24,8 +24,8 @@ Ninja Forms
 .ninja-forms-form-wrap {
 	form {
 		input[type=submit] {
-		    color: white!important;
-		    background: #1C7AAB!important;
+		    color: $color_luceo_grey !important;
+		    background: $color_luceo_yellow !important;
 		    float: left;
 		    border: none!important;
 		    letter-spacing: 1px;
@@ -34,9 +34,9 @@ Ninja Forms
 		    transition: all 0.3s ease-out;
 		}
 		input:hover, textarea:hover, input:focus, textarea:focus{
-		    background: #fcfcfc!important;
+		    background: $color_luceo_orange !important;
 		    border-color: #5d5d5d!important;
-		    color: #4c4c4c !important;
+		    color: #ffffff !important;
 		}
 	}
 }

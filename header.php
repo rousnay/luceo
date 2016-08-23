@@ -23,21 +23,13 @@
 <body <?php body_class(); ?>>
 	<div id="sideheader">
 			<div class="sidebar-inner">
-				<div class="sidebar-1">
-					<h3 class="title">Contact Infos</h3>
-					<div class="textwidget">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						</p>
-						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						</p>
-					</div>
+				<div class="push_sidebar">
+					<?php dynamic_sidebar( 'push_sidebar_widgets' ); ?>
 				</div>
 			</div>
 	</div>
-
 	<div id="page" class="site content-wrapper">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
-
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
 			<div class="container">
@@ -45,12 +37,10 @@
 					<div class="col-md-6 top-text-line hidden-xs hidden-sm">
 						<h4>Investment funds from Lighthouse Group PLC - 020 7065 5640</h4>
 					</div>
-
 					<div class="col-sm-12 col-xs-12 col-md-6 tool-bar sideheader-trigger">
 						<div class="link">
 							<i class="fa fa-search"></i>
 						</div>
-
 						<a href="#" class="link ask_a_question">
 							<button class="c-hamburger c-hamburger--htra">
 								<span>toggle menu</span>
@@ -59,7 +49,6 @@
 						</a>
 					</div>
 				</div>
-
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
@@ -72,8 +61,6 @@
 						</div>
 					</nav><!-- #site-navigation -->
 				</div>
-
-
 				<div id="search-popup">
 					<div class="popup-close" href="#"><i class="fa fa-remove"></i></div>
 					<h3 class="search-title">TYPE & HIT ENTER</h3>
@@ -87,8 +74,6 @@
 						</div>
 					</form>
 				</div><!-- #search-popup -->
-
 			</div>
 		</header><!-- #masthead -->
-
 		<div id="content" class="site-content">
