@@ -63,7 +63,7 @@ body{
 
 .sideheader-visible {
  	.content-wrapper {
-	  transform: translateX(-250px);
+	  transform: translateX(-300px);
 	  &:after {
 		  opacity: 1;
 		  visibility: visible;
@@ -78,8 +78,8 @@ body{
   bottom: 0;
   display: none;
   height: 100%;
-  width: 250px;
-  padding: 50px 15px;
+  width: 300px;
+  padding: 50px 35px;
   z-index: 0;
   background: $color_luceo_orange;
   color: white;
@@ -94,7 +94,32 @@ body{
 
 .push_sidebar {
     padding-top: 15px;
+
+    [class*='ninja-col-'] {
+	    padding: 0!important;
+	}
+
+    input.ninja-forms-field, 
+    input.ninja-forms-field:hover, 
+    input.ninja-forms-field:active, 
+    input.ninja-forms-field:focus{
+	    border: none!important;
+	    color: white!important;
+	    background: rgba(255,255,255,0.2)!important;
+	}
+	.ninja-forms-form-wrap form input[type=submit]{
+		width: 100%!important;
+		&:hover, &:focus, &:active{
+			border-color: #e6e6e6 !important;
+		    background-color: #e6e6e6 !important;
+		    color: #4c4c4c !important;
+		}
+	}
+	.ninja-forms-field-error {
+	    color: #FFDE16!important;
+	}
 }
+
 //logo slider
 .member-logo {
     padding: 2.142em 45px 2.571em;
@@ -253,4 +278,17 @@ iframe{
 		}
 	}
 
+}
+
+@media (max-width: 640px){
+	.sideheader-visible {
+	 	.content-wrapper {
+		  transform: translateX(-240px);
+		}
+	}
+
+	#sideheader {
+	  width: 240px;
+	  padding: 50px 15px;
+	}
 }

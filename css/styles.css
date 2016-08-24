@@ -13824,11 +13824,11 @@ body.page-template-page-vc .site-content {
 }
 
 .sideheader-visible .content-wrapper {
-  -webkit-transform: translateX(-250px);
-     -moz-transform: translateX(-250px);
-      -ms-transform: translateX(-250px);
-       -o-transform: translateX(-250px);
-          transform: translateX(-250px);
+  -webkit-transform: translateX(-300px);
+     -moz-transform: translateX(-300px);
+      -ms-transform: translateX(-300px);
+       -o-transform: translateX(-300px);
+          transform: translateX(-300px);
 }
 .sideheader-visible .content-wrapper:after {
   opacity: 1;
@@ -13842,8 +13842,8 @@ body.page-template-page-vc .site-content {
   bottom: 0;
   display: none;
   height: 100%;
-  width: 250px;
-  padding: 50px 15px;
+  width: 300px;
+  padding: 50px 35px;
   z-index: 0;
   background: #F59E26;
   color: white;
@@ -13871,6 +13871,28 @@ body.page-template-page-vc .site-content {
 
 .push_sidebar {
   padding-top: 15px;
+}
+.push_sidebar [class*='ninja-col-'] {
+  padding: 0 !important;
+}
+.push_sidebar input.ninja-forms-field,
+.push_sidebar input.ninja-forms-field:hover,
+.push_sidebar input.ninja-forms-field:active,
+.push_sidebar input.ninja-forms-field:focus {
+  border: none !important;
+  color: white !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+.push_sidebar .ninja-forms-form-wrap form input[type=submit] {
+  width: 100% !important;
+}
+.push_sidebar .ninja-forms-form-wrap form input[type=submit]:hover, .push_sidebar .ninja-forms-form-wrap form input[type=submit]:focus, .push_sidebar .ninja-forms-form-wrap form input[type=submit]:active {
+  border-color: #e6e6e6 !important;
+  background-color: #e6e6e6 !important;
+  color: #4c4c4c !important;
+}
+.push_sidebar .ninja-forms-field-error {
+  color: #FFDE16 !important;
 }
 
 .member-logo {
@@ -14052,6 +14074,20 @@ iframe {
 
   body.page-template-page-vc .site-content {
     margin: 0 !important;
+  }
+}
+@media (max-width: 640px) {
+  .sideheader-visible .content-wrapper {
+    -webkit-transform: translateX(-240px);
+       -moz-transform: translateX(-240px);
+        -ms-transform: translateX(-240px);
+         -o-transform: translateX(-240px);
+            transform: translateX(-240px);
+  }
+
+  #sideheader {
+    width: 240px;
+    padding: 50px 15px;
   }
 }
 /*--------------------------------------------------------------
