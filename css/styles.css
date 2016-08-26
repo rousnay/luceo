@@ -13254,6 +13254,7 @@ header .top-bar a:hover .c-hamburger span, header .top-bar a:hover .c-hamburger 
 header .top-bar a span {
   font-family: "Questrial", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+  padding-left: 5px;
 }
 header .top-bar .tool-bar div {
   font-size: 16px;

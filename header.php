@@ -42,9 +42,10 @@
 							<i class="fa fa-search"></i>
 						</div>
 						<a href="#" class="link ask_a_question">
-							<button class="c-hamburger c-hamburger--htra">
+							<!-- <button class="c-hamburger c-hamburger--htra">
 								<span>toggle menu</span>
-							</button>
+							</button> -->
+							<i class="fa fa-envelope-o"></i>
 							<span> ask a question </span>
 						</a>
 					</div>
