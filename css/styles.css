@@ -13717,6 +13717,12 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 .buttons.bold a {
   font-weight: bold;
 }
+.buttons.questrial {
+  font-family: "Questrial",Arial,Helvetica,sans-serif;
+}
+.buttons.raleway {
+  font-family: Raleway;
+}
 
 .contents {
   word-wrap: break-word;
@@ -13751,6 +13757,12 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 .contents.inline {
   display: inline;
 }
+.contents.questrial {
+  font-family: "Questrial",Arial,Helvetica,sans-serif;
+}
+.contents.raleway {
+  font-family: Raleway;
+}
 
 /*--------------------------------------------------------------
 ## Comments
@@ -13781,10 +13793,10 @@ body:not(.page-template-page-home) section header, body:not(.page-template-page-
 body.page-template-page-philosophy header#masthead, body.page-template-default header#masthead {
   padding-bottom: 35px;
 }
-body.page-template-page-vc header#masthead {
+body.page-template-page-vc header#masthead, body.page-template-page-fund header#masthead {
   margin-bottom: 5px;
 }
-body.page-template-page-vc .site-content {
+body.page-template-page-vc .site-content, body.page-template-page-fund .site-content {
   margin: 0 -35px !important;
 }
 
@@ -14073,7 +14085,7 @@ iframe {
     padding: 0 20px !important;
   }
 
-  body.page-template-page-vc .site-content {
+  body.page-template-page-vc .site-content, body.page-template-page-fund .site-content {
     margin: 0 !important;
   }
 }
@@ -14184,6 +14196,153 @@ body.page-template-page-home footer {
 .child-page-menu li.current_page_item a {
   background-color: #FFCD1D;
   color: #FFFFFF;
+}
+
+/********
+  Fund
+*********/
+.page-fund .yellow {
+  color: #FFCD1D !important;
+}
+.page-fund .orange {
+  color: #F59E26 !important;
+}
+.page-fund .gray {
+  color: #575756 !important;
+}
+.page-fund .white {
+  color: #ffffff !important;
+}
+.page-fund .heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.page-fund .heading h1 {
+  font-size: 60px;
+  font-family: Raleway;
+  font-weight: 300;
+  line-height: 52px;
+}
+.page-fund .heading p {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.page-fund .features {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.page-fund .features p {
+  text-align: justify;
+}
+.page-fund .invest-info {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.page-fund .invest-info .sub-title {
+  color: #FFCD1D;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+}
+.page-fund .invest-info .solution {
+  color: #F59E26;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+}
+.page-fund .invest-info ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.page-fund .invest-info ul li {
+  border-bottom: 2px solid #cdcaca;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.page-fund .invest-info ul li:last-child {
+  border: none;
+  padding-bottom: 25px;
+}
+.page-fund .invest-info .info-chart {
+  background-color: #fafafa;
+}
+.page-fund .fund-range {
+  text-align: center;
+  background-color: #fafafa;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.page-fund .fund-range .heading {
+  background-color: #fff;
+}
+.page-fund .fund-range .heading h1 {
+  font-size: 55px;
+  font-family: Raleway;
+  font-weight: 300;
+  line-height: 52px;
+}
+.page-fund .fund-range .ranges {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.page-fund .fund-range .ranges .ranges-item {
+  background-color: #fff;
+  padding: 45px 40px;
+  border: 3px solid #FFCD1D;
+}
+.page-fund .fund-range .ranges .ranges-item h1 {
+  font-size: 60px;
+  font-family: Raleway;
+  font-weight: 300;
+  line-height: 52px;
+  margin-top: 10px;
+}
+.page-fund .fund-range .ranges .ranges-item h1 .questrial {
+  font-family: "Questrial",Arial,Helvetica,sans-serif;
+}
+.page-fund .fund-range .ranges .ranges-item h3 {
+  font-size: 18px;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.page-fund .fund-range .ranges .ranges-item .buttons {
+  margin-top: 30px;
+}
+.page-fund .inquiry {
+  background-image: url("../images/LUCEO-bg.jpg");
+  background-position: 50% -140px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  text-align: center;
+  padding: 70px 0;
+}
+.page-fund .inquiry .invest-inquiry {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.page-fund .inquiry h2 {
+  font-size: 33px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: 400;
+}
+.page-fund .inquiry h2 .questrial {
+  font-family: "Questrial",Arial,Helvetica,sans-serif;
+}
+.page-fund .inquiry a {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 @media (max-width: 1210px) {

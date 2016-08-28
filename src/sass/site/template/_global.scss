@@ -16,7 +16,7 @@ body{
 		    padding-bottom: 35px;
 		}
 	}
-	&.page-template-page-vc{
+	&.page-template-page-vc, &.page-template-page-fund{
 		header#masthead {
 		    margin-bottom: 5px;
 		}
@@ -272,7 +272,7 @@ iframe{
 	    padding: 0 20px!important;
 	}
 
-	body.page-template-page-vc{
+	body.page-template-page-vc, body.page-template-page-fund{
 		.site-content {
 		    margin: 0!important;
 		}

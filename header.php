@@ -46,7 +46,7 @@
 								<span>toggle menu</span>
 							</button> -->
 							<i class="fa fa-envelope-o"></i>
-							<span> ask a question </span>
+							<span> CONTACT US </span>
 						</a>
 					</div>
 				</div>

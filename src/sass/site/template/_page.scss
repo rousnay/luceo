@@ -95,6 +95,172 @@ body.page-template-page-home{
 }
 
 
+/********
+  Fund
+*********/
+
+
+.page-fund{
+	.yellow{
+        color: $color_luceo_yellow !important;
+    }
+    .orange{
+        color: $color_luceo_orange !important;
+    }
+    .gray{
+        color: $color_luceo_grey !important;
+    }
+    .white{
+        color: #ffffff !important;
+    }
+
+	.heading{
+		text-align: center;
+	    margin-bottom: 40px;
+		h1 {
+		    font-size: 60px;
+		    font-family: Raleway;
+		    font-weight: 300;
+		    line-height: 52px;
+		}
+		p {
+		    max-width: 800px;
+		    margin: 0 auto;
+	        margin-top: 20px;
+		}
+	}
+
+	.features{
+		max-width: 1170px;
+	    margin: 0 auto;
+        margin-top: 100px;
+	    p {
+		    text-align: justify;
+		}
+
+	}
+
+	.invest-info{
+		max-width: 1170px;
+		margin: 0 auto;
+		.sub-title{
+			color: $color_luceo_yellow;
+			text-transform: uppercase;
+			font-family: Raleway;
+		    font-weight: 400;
+			font-size: 20px;
+		}
+		.solution{
+			color: $color_luceo_orange;
+			text-transform: uppercase;
+			font-family: Raleway;
+		    font-weight: 400;
+			font-size: 20px;
+
+		}
+		ul {
+		    padding: 0;
+		    margin: 0;
+		    list-style: none;
+
+		    li {
+			    border-bottom: 2px solid #cdcaca;
+			    padding-bottom: 12px;
+			    padding-top: 12px;
+			    &:last-child {
+				    border: none;
+				    padding-bottom: 25px;
+				}
+			}
+		}
+		.info-chart{
+			background-color: #fafafa;
+
+		}
+	}
+
+
+
+	.fund-range{
+		text-align: center;
+	    background-color: #fafafa;
+        margin-top: 40px;
+        padding-bottom: 60px;
+	    .heading{
+	    	background-color: #fff;
+	    	h1{
+				font-size: 55px;
+			    font-family: Raleway;
+			    font-weight: 300;
+			    line-height: 52px;
+			}
+	    }
+	    .ranges{
+	    	max-width: 1170px;
+		    margin: 0 auto;
+		    div[class^="col"] { 
+		    	//background-color:#FFFFFF
+
+		    }
+		    .ranges-item {
+			    background-color: #fff;
+			    padding: 45px 40px;
+			    border: 3px solid $color_luceo_yellow;
+			    h1{
+				    font-size: 60px;
+				    font-family: Raleway;
+				    font-weight: 300;
+				    line-height: 52px;
+			        margin-top: 10px;
+				    .questrial{
+				    	font-family: "Questrial",Arial,Helvetica,sans-serif;
+				    }
+			    }
+			    h3{
+			    	font-size: 18px;
+				    text-align: center;
+				    font-family: Raleway;
+				    font-weight: 400;
+				    margin-top: 30px;
+			    }
+			    .buttons {
+				    margin-top: 30px;
+				}
+			}
+	    }
+	}
+
+	.inquiry{
+		background-image: url("../images/LUCEO-bg.jpg");
+		background-position:50% -140px;
+		background-repeat:no-repeat;
+		background-size: cover;
+		text-align: center;
+	    padding: 70px 0;
+	    .invest-inquiry {
+		    max-width: 1050px;
+		    margin: 0 auto;
+		}
+	    h2{
+	    	font-size: 33px;
+		    color: #ffffff;
+		    font-family: Raleway;
+		    font-weight: 400;
+		    .questrial{
+				font-family: "Questrial",Arial,Helvetica,sans-serif;
+		    }
+	    }
+	    a{
+	    	font-size: 30px;
+		    color: #ffffff;
+		    text-align: center;
+		    font-family: Raleway;
+		    font-weight: 600;
+	    }
+	}
+}
+
+
 @media (max-width: 1210px){
 	.home-page-content .sub-text {
 	    max-width: 55%!important;

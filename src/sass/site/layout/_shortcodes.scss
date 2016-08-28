@@ -59,6 +59,12 @@
     &.bold a{
         font-weight: bold;
     }
+    &.questrial{
+        font-family: "Questrial",Arial,Helvetica,sans-serif;
+    }
+    &.raleway{
+        font-family: Raleway;
+    }
 }
 
 // Text contents
@@ -95,5 +101,11 @@
     }
     &.inline{
         display: inline;
+    }
+    &.questrial{
+        font-family: "Questrial",Arial,Helvetica,sans-serif;
+    }
+    &.raleway{
+        font-family: Raleway;
     }
 }
