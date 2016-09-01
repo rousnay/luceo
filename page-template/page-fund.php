@@ -44,7 +44,7 @@ get_header(); ?>
 						<h3 class="solution">THE ‘ALL IN ONE’ SOLUTION</h3>
 						<p>Your investment will be what’s known as a ‘multi manager’ portfolio, also known as a ‘fund of funds’. This just means that your investment manager will assemble a portfolio of the best funds to investment in, based on your investment objectives and the goals you discussed with your nancial adviser.</p>
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-xs-6 col-sm-12 col-md-6">
 								<ul>
 									<li>Full Product Point</li>
 									<li>Discover the next point</li>
@@ -53,7 +53,7 @@ get_header(); ?>
 								</ul>
 
 							</div>
-							<div class="col-md-6">
+							<div class="col-xs-6 col-sm-12 col-md-6">
 								<ul>
 									<li>Full Product Point</li>
 									<li>Discover the next point</li>

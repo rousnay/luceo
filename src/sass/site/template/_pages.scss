@@ -1,0 +1,95 @@
+/********
+  Home
+*********/
+.home-page-bg {
+    background: url('../../../uploads/2016/07/luceo_bg.jpg') no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    // background-attachment: fixed;
+    height:100vh;
+    overflow:hidden!important;
+}
+
+body.page-template-page-home{
+	overflow:hidden!important;
+	background: transparent !important;
+	header#masthead {
+    background: transparent !important;
+	}
+	.site-content{
+		background-color:transparent !important;
+		.home-page-content {
+		    text-transform: uppercase;
+		    text-align: right;
+		    float: right;
+		    .main-text{
+		    	font-family: Raleway;
+			    color: $color_luceo_yellow;
+			    float: right;
+			    font-size: 4.2em;
+			    line-height: 1.2em;
+		    }
+		    .sub-text{
+	    	    font-family: Raleway;
+		    	color: $color_luceo_grey;
+		    	float: right;
+		    	clear: both;
+		    	margin-top: 10px;
+		    	max-width:50%;
+		    	font-size: 1.6em;
+			    line-height: 1.2em;
+		    }
+			.home-btn{
+				// width: 170px;
+			    float: right;
+			    clear: both;
+			    margin-top: 20px;
+			    a{
+					font-family: Raleway;
+					padding: 10px 15px;
+					font-size: 14px;
+					background: $color_luceo_grey;
+					color: #FFFFFF;
+					&:hover{
+						background: $color_luceo_orange;
+						color: #FFFFFF;
+					}
+			    }
+			}
+		}
+	}
+	footer{
+		display: none!important;
+	}
+}
+
+/***********
+  Philosophy
+************/
+
+.child-page-menu {
+	li {
+	    margin-bottom: 2px;
+		a {
+		    font-size: 12px;
+		    transition: all 200ms ease-out;
+		    display: block;
+		    background: #eee;
+		    color: #999;
+		    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+		    border-radius: 0;
+		    padding: 12px 15px;
+		    &:hover {
+			    background-color:$color_luceo_yellow; // $color_luceo_orange;
+			    color: #FFFFFF;
+			}
+		}
+		&.current_page_item a{
+			background-color:$color_luceo_yellow; // $color_luceo_orange;
+		    color: #FFFFFF;
+		}
+	}
+}

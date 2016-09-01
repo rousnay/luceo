@@ -14111,7 +14111,10 @@ iframe {
   }
 }
 /*--------------------------------------------------------------
-## Page
+## page-media-queries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## pages
 --------------------------------------------------------------*/
 /********
   Home
@@ -14205,6 +14208,9 @@ body.page-template-page-home footer {
   color: #FFFFFF;
 }
 
+/*--------------------------------------------------------------
+## Fund
+--------------------------------------------------------------*/
 /********
   Fund
 *********/
@@ -14385,6 +14391,7 @@ body.page-template-page-home footer {
   font-weight: 600;
 }
 
+/*------------------------------------------------------------*/
 @media (max-width: 1210px) {
   .home-page-content .sub-text {
     max-width: 55% !important;
@@ -14399,11 +14406,17 @@ body.page-template-page-home footer {
     max-width: 64% !important;
   }
 }
+@media (max-width: 991px) {
+  .page-fund .sections {
+    margin-top: 40px;
+  }
+}
 @media (max-width: 970px) {
   .page-fund .heading h1 {
     font-size: 55px;
   }
-
+}
+@media (min-width: 768px) and (max-width: 970px) {
   .page-fund .fund-range .ranges .ranges-item h1 {
     font-size: 50px;
   }
@@ -14444,10 +14457,39 @@ body.page-template-page-home footer {
 
   .page-fund .invest-info .info-chart, .page-fund .invest-info .invest-solution {
     width: inherit;
+    margin-right: inherit;
   }
 
   .page-fund .invest-info {
     margin: inherit;
+  }
+
+  .page-fund .features .feature-area {
+    padding: 35px 0;
+  }
+
+  .feature-area > div {
+    margin-bottom: 35px;
+  }
+
+  .ranges > div {
+    margin-bottom: 30px;
+  }
+
+  .page-fund .inquiry h2 {
+    font-size: 28px;
+  }
+
+  .page-fund .inquiry a {
+    font-size: 24px;
+  }
+
+  .page-fund .inquiry {
+    padding: 50px 0;
+  }
+
+  .page-fund .inquiry {
+    background-position: inherit;
   }
 }
 @media (max-width: 700px) {
@@ -14459,6 +14501,10 @@ body.page-template-page-home footer {
     margin-top: 5px !important;
     font-size: 1.1em !important;
     line-height: 1.3em !important;
+  }
+
+  .page-fund .features {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 650px) {
@@ -14473,11 +14519,89 @@ body.page-template-page-home footer {
     font-size: 1.1em !important;
     line-height: 1.3em !important;
   }
+
+  .page-fund .inquiry h2 {
+    font-size: 24px;
+  }
+
+  .page-fund .inquiry a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 630px) {
+  .page-fund .heading h1 {
+    font-size: 45px;
+    line-height: 35px;
+  }
+
+  .page-fund .features .feature-area {
+    padding: 20px 0;
+  }
+
+  .page-fund .fund-range .heading-inner h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
 }
 @media (max-width: 550px) {
   .home-page-content .sub-text {
     font-size: 0.9em !important;
     max-width: 60% !important;
+  }
+
+  .page-fund .fund-range .ranges .ranges-item h1 {
+    font-size: 50px;
+  }
+
+  .page-fund .fund-range .ranges .ranges-item h3 {
+    font-size: 14px;
+  }
+
+  .page-fund .fund-range .ranges .ranges-item h3 {
+    font-size: 14px;
+  }
+
+  .page-fund .fund-range .ranges .ranges-item .buttons a {
+    font-size: 14px;
+  }
+
+  .page-fund .heading h1 {
+    font-size: 36px;
+    line-height: 53px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 430px) {
+  .page-fund .heading h1 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+  .feature-area h3 {
+    font-size: 14px;
+  }
+
+  .page-fund .invest-info .sub-title {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .page-fund .invest-info .solution {
+    font-size: 16px;
+  }
+
+  .invest-solution > div.row > div.col-xs-6 {
+    width: 100%;
+  }
+
+  .page-fund .invest-info .info-chart h3 {
+    font-size: 16px;
+  }
+
+  .page-fund .fund-range .heading-inner h1 {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 @media (max-width: 350px) {
