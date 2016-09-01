@@ -12638,10 +12638,10 @@ body:not(.page-template-page-home) section header, body:not(.page-template-page-
 body.page-template-page-philosophy header#masthead, body.page-template-default header#masthead {
   padding-bottom: 35px;
 }
-body.page-template-page-vc header#masthead, body.page-template-page-fund header#masthead {
+body.page-template-page-vc header#masthead, body.page-template-page-fund header#masthead, body.page-template-page-about header#masthead {
   margin-bottom: 5px;
 }
-body.page-template-page-vc .site-content, body.page-template-page-fund .site-content {
+body.page-template-page-vc .site-content, body.page-template-page-fund .site-content, body.page-template-page-about .site-content {
   margin: 0 -35px !important;
 }
 
@@ -12934,10 +12934,10 @@ iframe {
     margin: 0 !important;
   }
 
-  body.page-template-page-fund .site-content {
+  body.page-template-page-fund .site-content, body.page-template-page-about .site-content {
     margin: 0 -40px !important;
   }
-  body.page-template-page-fund .full-width {
+  body.page-template-page-fund .full-width, body.page-template-page-about .full-width {
     padding: 0 35px;
   }
 }
@@ -13057,53 +13057,53 @@ body.page-template-page-home footer {
 ## Fund
 --------------------------------------------------------------*/
 /********
-  Fund
+  Hard Coded Pages (Fund)
 *********/
-.page-fund .yellow {
+.hard-coded .yellow {
   color: #FFCD1D !important;
 }
-.page-fund .orange {
+.hard-coded .orange {
   color: #F59E26 !important;
 }
-.page-fund .gray {
+.hard-coded .gray {
   color: #575756 !important;
 }
-.page-fund .white {
+.hard-coded .white {
   color: #ffffff !important;
 }
-.page-fund .heading {
+.hard-coded .heading {
   text-align: center;
   margin-bottom: 40px;
 }
-.page-fund .heading h1 {
+.hard-coded .heading h1 {
   font-size: 60px;
   font-family: Raleway;
   font-weight: 300;
   line-height: 52px;
 }
-.page-fund .heading p {
+.hard-coded .heading p {
   max-width: 800px;
   margin: 0 auto;
   margin-top: 20px;
 }
-.page-fund .features {
+.hard-coded .features {
   background-color: #fafafa;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.page-fund .features .feature-area {
+.hard-coded .features .feature-area {
   max-width: 1170px;
   margin: 0 auto;
   padding: 50px 0;
 }
-.page-fund .features p {
+.hard-coded .features p {
   text-align: justify;
 }
-.page-fund .invest-info {
+.hard-coded .invest-info {
   max-width: 1170px;
   margin: 0 auto;
 }
-.page-fund .invest-info .sub-title {
+.hard-coded .invest-info .sub-title {
   color: #FFCD1D;
   text-transform: uppercase;
   font-family: Raleway;
@@ -13113,10 +13113,10 @@ body.page-template-page-home footer {
   margin-bottom: 50px;
   border-top: 1px solid #FFCD1D;
 }
-.page-fund .invest-info .invest-solution {
+.hard-coded .invest-info .invest-solution {
   width: 48%;
 }
-.page-fund .invest-info .solution {
+.hard-coded .invest-info .solution {
   color: #F59E26;
   text-transform: uppercase;
   font-family: Raleway;
@@ -13126,49 +13126,49 @@ body.page-template-page-home footer {
   margin-top: 0;
   border-top: 1px solid #bfbfbf;
 }
-.page-fund .invest-info ul {
+.hard-coded .invest-info ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.page-fund .invest-info ul li {
+.hard-coded .invest-info ul li {
   border-bottom: 2px solid #cdcaca;
   padding-bottom: 12px;
   padding-top: 12px;
 }
-.page-fund .invest-info ul li:last-child {
+.hard-coded .invest-info ul li:last-child {
   border: none;
   padding-bottom: 25px;
 }
-.page-fund .invest-info .info-chart {
+.hard-coded .invest-info .info-chart {
   background-color: #fafafa;
   width: 48%;
   float: right;
   margin-right: 15px;
 }
-.page-fund .invest-info .info-chart h3 {
+.hard-coded .invest-info .info-chart h3 {
   font-size: 20px;
   font-family: Raleway;
   font-weight: 400;
   margin-top: 30px;
 }
-.page-fund .fund-range {
+.hard-coded .fund-range {
   text-align: center;
   background-color: #fafafa;
   margin-top: 70px;
   padding-bottom: 60px;
 }
-.page-fund .fund-range .heading {
+.hard-coded .fund-range .heading {
   background-color: #fff;
   min-width: 100%;
   padding-bottom: 20px;
 }
-.page-fund .fund-range .heading-inner {
+.hard-coded .fund-range .heading-inner {
   max-width: 1170px;
   margin: 0 auto;
   float: none;
 }
-.page-fund .fund-range .heading-inner h1 {
+.hard-coded .fund-range .heading-inner h1 {
   font-size: 55px;
   font-family: Raleway;
   font-weight: 300;
@@ -13177,36 +13177,36 @@ body.page-template-page-home footer {
   padding-top: 20px;
   border-top: 1px solid #FFCD1D;
 }
-.page-fund .fund-range .ranges {
+.hard-coded .fund-range .ranges {
   max-width: 1170px;
   margin: 0 auto;
 }
-.page-fund .fund-range .ranges .ranges-item {
+.hard-coded .fund-range .ranges .ranges-item {
   background-color: #fff;
   padding: 45px 40px;
   border: 3px solid #FFCD1D;
 }
-.page-fund .fund-range .ranges .ranges-item h1 {
+.hard-coded .fund-range .ranges .ranges-item h1 {
   font-size: 60px;
   font-family: Raleway;
   font-weight: 300;
   line-height: 52px;
   margin-top: 10px;
 }
-.page-fund .fund-range .ranges .ranges-item h1 .questrial {
+.hard-coded .fund-range .ranges .ranges-item h1 .questrial {
   font-family: "Questrial",Arial,Helvetica,sans-serif;
 }
-.page-fund .fund-range .ranges .ranges-item h3 {
+.hard-coded .fund-range .ranges .ranges-item h3 {
   font-size: 18px;
   text-align: center;
   font-family: Raleway;
   font-weight: 400;
   margin-top: 30px;
 }
-.page-fund .fund-range .ranges .ranges-item .buttons {
+.hard-coded .fund-range .ranges .ranges-item .buttons {
   margin-top: 30px;
 }
-.page-fund .inquiry {
+.hard-coded .inquiry {
   background-image: url("../images/LUCEO-bg.jpg");
   background-position: 50% -140px;
   background-repeat: no-repeat;
@@ -13215,25 +13215,50 @@ body.page-template-page-home footer {
   text-align: center;
   padding: 70px 0;
 }
-.page-fund .inquiry .invest-inquiry {
+.hard-coded .inquiry .invest-inquiry {
   max-width: 1050px;
   margin: 0 auto;
 }
-.page-fund .inquiry h2 {
+.hard-coded .inquiry h2 {
   font-size: 33px;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: Montserrat;
   font-weight: 400;
 }
-.page-fund .inquiry h2 .questrial {
+.hard-coded .inquiry h2 .questrial {
   font-family: "Questrial",Arial,Helvetica,sans-serif;
 }
-.page-fund .inquiry a {
+.hard-coded .inquiry a {
   font-size: 30px;
   color: #ffffff;
   text-align: center;
   font-family: Raleway;
-  font-weight: 600;
+  font-weight: 400;
+}
+
+/*-------------------------------------------------------------
+## About
+--------------------------------------------------------------*/
+/********
+  About
+*********/
+.page-about .img-intro {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+.page-about .img-intro h4 {
+  font-size: 14px;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: inherit;
+}
+.page-about .invest-info .sub-title {
+  border-color: #F59E26 !important;
+}
+.page-about .invest-info .one-solution {
+  width: 48%;
+  float: right;
 }
 
 /*------------------------------------------------------------*/
@@ -13252,29 +13277,29 @@ body.page-template-page-home footer {
   }
 }
 @media (max-width: 991px) {
-  .page-fund .sections {
+  .hard-coded .sections {
     margin-top: 40px;
   }
 }
 @media (max-width: 970px) {
-  .page-fund .heading h1 {
+  .hard-coded .heading h1 {
     font-size: 55px;
   }
 }
 @media (min-width: 768px) and (max-width: 970px) {
-  .page-fund .fund-range .ranges .ranges-item h1 {
+  .hard-coded .fund-range .ranges .ranges-item h1 {
     font-size: 50px;
   }
 
-  .page-fund .fund-range .ranges .ranges-item h3 {
+  .hard-coded .fund-range .ranges .ranges-item h3 {
     font-size: 14px;
   }
 
-  .page-fund .fund-range .ranges .ranges-item h3 {
+  .hard-coded .fund-range .ranges .ranges-item h3 {
     font-size: 14px;
   }
 
-  .page-fund .fund-range .ranges .ranges-item .buttons a {
+  .hard-coded .fund-range .ranges .ranges-item .buttons a {
     font-size: 14px;
   }
 }
@@ -13300,16 +13325,18 @@ body.page-template-page-home footer {
     font-size: 11px !important;
   }
 
-  .page-fund .invest-info .info-chart, .page-fund .invest-info .invest-solution {
+  .hard-coded .invest-info .info-chart,
+  .hard-coded .invest-info .invest-solution,
+  .page-about .invest-info .one-solution {
     width: inherit;
     margin-right: inherit;
   }
 
-  .page-fund .invest-info {
+  .hard-coded .invest-info {
     margin: inherit;
   }
 
-  .page-fund .features .feature-area {
+  .hard-coded .features .feature-area {
     padding: 35px 0;
   }
 
@@ -13321,19 +13348,19 @@ body.page-template-page-home footer {
     margin-bottom: 30px;
   }
 
-  .page-fund .inquiry h2 {
+  .hard-coded .inquiry h2 {
     font-size: 28px;
   }
 
-  .page-fund .inquiry a {
+  .hard-coded .inquiry a {
     font-size: 24px;
   }
 
-  .page-fund .inquiry {
+  .hard-coded .inquiry {
     padding: 50px 0;
   }
 
-  .page-fund .inquiry {
+  .hard-coded .inquiry {
     background-position: inherit;
   }
 }
@@ -13348,7 +13375,7 @@ body.page-template-page-home footer {
     line-height: 1.3em !important;
   }
 
-  .page-fund .features {
+  .hard-coded .features {
     margin-bottom: 20px;
   }
 }
@@ -13365,27 +13392,31 @@ body.page-template-page-home footer {
     line-height: 1.3em !important;
   }
 
-  .page-fund .inquiry h2 {
+  .hard-coded .inquiry h2 {
     font-size: 24px;
   }
 
-  .page-fund .inquiry a {
+  .hard-coded .inquiry a {
     font-size: 18px;
   }
 }
 @media (max-width: 630px) {
-  .page-fund .heading h1 {
+  .hard-coded .heading h1 {
     font-size: 45px;
     line-height: 35px;
   }
 
-  .page-fund .features .feature-area {
+  .hard-coded .features .feature-area {
     padding: 20px 0;
   }
 
-  .page-fund .fund-range .heading-inner h1 {
+  .hard-coded .fund-range .heading-inner h1 {
     font-size: 45px;
     line-height: 40px;
+  }
+
+  .page-about .img-intro h4 {
+    font-size: 12px;
   }
 }
 @media (max-width: 550px) {
@@ -13394,23 +13425,23 @@ body.page-template-page-home footer {
     max-width: 60% !important;
   }
 
-  .page-fund .fund-range .ranges .ranges-item h1 {
+  .hard-coded .fund-range .ranges .ranges-item h1 {
     font-size: 50px;
   }
 
-  .page-fund .fund-range .ranges .ranges-item h3 {
+  .hard-coded .fund-range .ranges .ranges-item h3 {
     font-size: 14px;
   }
 
-  .page-fund .fund-range .ranges .ranges-item h3 {
+  .hard-coded .fund-range .ranges .ranges-item h3 {
     font-size: 14px;
   }
 
-  .page-fund .fund-range .ranges .ranges-item .buttons a {
+  .hard-coded .fund-range .ranges .ranges-item .buttons a {
     font-size: 14px;
   }
 
-  .page-fund .heading h1 {
+  .hard-coded .heading h1 {
     font-size: 36px;
     line-height: 53px;
     margin-top: 0;
@@ -13418,7 +13449,7 @@ body.page-template-page-home footer {
   }
 }
 @media (max-width: 430px) {
-  .page-fund .heading h1 {
+  .hard-coded .heading h1 {
     font-size: 25px;
     line-height: 38px;
   }
@@ -13427,24 +13458,27 @@ body.page-template-page-home footer {
     font-size: 14px;
   }
 
-  .page-fund .invest-info .sub-title {
+  .hard-coded .invest-info .sub-title {
     font-size: 14px;
     margin-bottom: 40px;
+    line-height: 22px;
   }
 
-  .page-fund .invest-info .solution {
+  .hard-coded .invest-info .solution {
     font-size: 16px;
   }
 
-  .invest-solution > div.row > div.col-xs-6 {
+  .invest-solution > div.row > div.col-xs-6,
+  .one-solution > div.row > div.col-xs-6,
+  .img-intro-inner > div.col-xs-6 {
     width: 100%;
   }
 
-  .page-fund .invest-info .info-chart h3 {
+  .hard-coded .invest-info .info-chart h3 {
     font-size: 16px;
   }
 
-  .page-fund .fund-range .heading-inner h1 {
+  .hard-coded .fund-range .heading-inner h1 {
     font-size: 40px;
     line-height: 40px;
   }

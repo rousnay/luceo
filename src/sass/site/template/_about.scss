@@ -1,0 +1,26 @@
+/********
+  About
+*********/
+
+.page-about{
+	.img-intro{
+		max-width: 1170px;
+	    margin: 50px auto;
+        h4{
+        	font-size: 14px;
+		    text-align: center;
+		    font-family: Raleway;
+		    font-weight: 400;
+		    line-height: inherit;
+        }
+	}
+	.invest-info{
+		.sub-title{
+			border-color: $color_luceo_orange !important;
+		}
+		.one-solution{
+			width: 48%;
+			float: right;
+		}
+	}
+}

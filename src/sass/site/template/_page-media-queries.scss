@@ -6,6 +6,10 @@
 ## Fund
 --------------------------------------------------------------*/
 @import "fund";
+/*-------------------------------------------------------------
+## About
+--------------------------------------------------------------*/
+@import "about";
 /*------------------------------------------------------------*/
 
 @media (max-width: 1210px){
@@ -25,29 +29,29 @@
 
 
 @media (max-width: 991px){
-	.page-fund .sections {
+	.hard-coded .sections {
 	    margin-top: 40px;
 	}
 
 }
 
 @media (max-width: 970px){
-	.page-fund .heading h1 {
+	.hard-coded .heading h1 {
 	    font-size: 55px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 970px){
-	.page-fund .fund-range .ranges .ranges-item h1 {
+	.hard-coded .fund-range .ranges .ranges-item h1 {
 	    font-size: 50px;
 	}
-	.page-fund .fund-range .ranges .ranges-item h3 {
+	.hard-coded .fund-range .ranges .ranges-item h3 {
 	    font-size: 14px;
 	}
-	.page-fund .fund-range .ranges .ranges-item h3 {
+	.hard-coded .fund-range .ranges .ranges-item h3 {
 	    font-size: 14px;
 	}
-	.page-fund .fund-range .ranges .ranges-item .buttons a{
+	.hard-coded .fund-range .ranges .ranges-item .buttons a{
 		font-size: 14px;
 
 	}
@@ -75,14 +79,16 @@
 	    font-size: 11px!important;;
 		}
 	}
-	.page-fund .invest-info .info-chart, .page-fund .invest-info .invest-solution {
+	.hard-coded .invest-info .info-chart, 
+	.hard-coded .invest-info .invest-solution,
+	.page-about .invest-info .one-solution {
 	    width: inherit;
 	    margin-right: inherit;
 	}
-	.page-fund .invest-info {
+	.hard-coded .invest-info {
 	    margin: inherit;
 	}
-	.page-fund .features .feature-area {
+	.hard-coded .features .feature-area {
 	    padding: 35px 0;
 	}
 	.feature-area > div {
@@ -91,16 +97,16 @@
 	.ranges > div {
 	    margin-bottom: 30px;
 	}
-	.page-fund .inquiry h2 {
+	.hard-coded .inquiry h2 {
 	    font-size: 28px;
 	}
-	.page-fund .inquiry a {
+	.hard-coded .inquiry a {
 	    font-size: 24px;
 	}
-	.page-fund .inquiry {
+	.hard-coded .inquiry {
 	    padding: 50px 0;
 	}
-	.page-fund .inquiry {
+	.hard-coded .inquiry {
 	    background-position: inherit;
 	}
 }
@@ -116,7 +122,7 @@
 		    line-height: 1.3em!important;
 		}
 	}
-	.page-fund .features {
+	.hard-coded .features {
 	    margin-bottom: 20px;
 	}
 }
@@ -133,24 +139,27 @@
 		    line-height: 1.3em!important;
 		}
 	}
-	.page-fund .inquiry h2 {
+	.hard-coded .inquiry h2 {
 	    font-size: 24px;
 	}
-	.page-fund .inquiry a {
+	.hard-coded .inquiry a {
 	    font-size: 18px;
 	}
 }
 @media (max-width: 630px){
-	.page-fund .heading h1 {
+	.hard-coded .heading h1 {
 	    font-size: 45px;
 	    line-height: 35px;
 	}
-    .page-fund .features .feature-area {
+    .hard-coded .features .feature-area {
 	    padding: 20px 0;
 	}
-	.page-fund .fund-range .heading-inner h1 {
+	.hard-coded .fund-range .heading-inner h1 {
 	    font-size: 45px;
 	    line-height: 40px;
+	}
+	.page-about .img-intro h4 {
+	    font-size: 12px;
 	}
 }
 
@@ -161,20 +170,20 @@
 		    max-width: 60%!important;
 		}
 	}
-	.page-fund .fund-range .ranges .ranges-item h1 {
+	.hard-coded .fund-range .ranges .ranges-item h1 {
 	    font-size: 50px;
 	}
-	.page-fund .fund-range .ranges .ranges-item h3 {
+	.hard-coded .fund-range .ranges .ranges-item h3 {
 	    font-size: 14px;
 	}
-	.page-fund .fund-range .ranges .ranges-item h3 {
+	.hard-coded .fund-range .ranges .ranges-item h3 {
 	    font-size: 14px;
 	}
-	.page-fund .fund-range .ranges .ranges-item .buttons a{
+	.hard-coded .fund-range .ranges .ranges-item .buttons a{
 		font-size: 14px;
 
 	}
-	.page-fund .heading h1 {
+	.hard-coded .heading h1 {
 	    font-size: 36px;
 	    line-height: 53px;
 	    margin-top: 0;
@@ -182,27 +191,30 @@
 	}
 }
 @media (max-width: 430px){
-	.page-fund .heading h1 {
+	.hard-coded .heading h1 {
 	    font-size: 25px;
 	    line-height: 38px;
 	} 
 	.feature-area h3 {
 	    font-size: 14px;
 	}
-	.page-fund .invest-info .sub-title {
+	.hard-coded .invest-info .sub-title {
 	    font-size: 14px;
 	    margin-bottom: 40px;
+	    line-height: 22px;
 	}
-	.page-fund .invest-info .solution {
+	.hard-coded .invest-info .solution {
 	    font-size: 16px;
 	}
-	.invest-solution > div.row > div.col-xs-6 {
+	.invest-solution > div.row > div.col-xs-6, 
+	.one-solution > div.row > div.col-xs-6,
+	.img-intro-inner > div.col-xs-6{
 	    width: 100%;
 	}
-	.page-fund .invest-info .info-chart h3 {
+	.hard-coded .invest-info .info-chart h3 {
 	    font-size: 16px;
 	}
-	.page-fund .fund-range .heading-inner h1 {
+	.hard-coded .fund-range .heading-inner h1 {
 	    font-size: 40px;
 	    line-height: 40px;
 	}

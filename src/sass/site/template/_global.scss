@@ -16,7 +16,9 @@ body{
 		    padding-bottom: 35px;
 		}
 	}
-	&.page-template-page-vc, &.page-template-page-fund{
+	&.page-template-page-vc, 
+	&.page-template-page-fund, 
+	&.page-template-page-about{
 		header#masthead {
 		    margin-bottom: 5px;
 		}
@@ -277,7 +279,7 @@ iframe{
 		    margin: 0!important;
 		}
 	}
-	body.page-template-page-fund {
+	body.page-template-page-fund, body.page-template-page-about {
 		.site-content {
 		    margin: 0 -40px !important;
 		}

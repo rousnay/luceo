@@ -6,7 +6,7 @@
  */
 get_header(); ?>
 
-<div class="container full-width page-fund">
+<div class="container full-width page-fund hard-coded">
 	<main id="main" class="site-main" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="sections">
@@ -124,7 +124,7 @@ get_header(); ?>
 					<div class="row inquiry">
 						<div class="col-xs-12">
 							<div class="invest-inquiry">
-								<h2>For general enquires call: <span class="questrial">0333 000 0330</span></h2>
+								<h2>For general enquires call: 0333 000 0330</h2>
 								<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 							</div>
 						</div>
