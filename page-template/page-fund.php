@@ -120,7 +120,7 @@ get_header(); ?>
 					<div class="row inquiry">
 						<div class="col-xs-12">
 							<div class="invest-inquiry">
-								<h2>For general enquires call: <span class="questrial">020 7065 5640</span></h2>
+								<h2>For general enquires call: <span class="questrial">0333 000 0330</span></h2>
 								<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 							</div>
 						</div>
