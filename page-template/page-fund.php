@@ -20,17 +20,19 @@ get_header(); ?>
 				</div><!-- .row -->
 
 				<div class="row features">
-					<div class="col-sm-4">
-						<h3 class="yellow">A STRAIGHTFORWARD SOLUTION</h3>
-						<p>For most individual investors looking to ‘do it themselves’, assembling a well-diversi ed investment portfolio can be time consuming and expensive. But at Luceo Asset Management, by starting with the advice process and matching your recommendation with the best investment manager, we make the process straightforward.</p>
-					</div>
-					<div class="col-sm-4">
-						<h3 class="orange">DIVERSIFIED INVESTMENTS</h3>
-						<p>Your investment managers will build and oversee a diverse range of investment types, pooling them all within a single portfolio. This give you instant access to a wide range of high quality funds managed by the most capable fund managers. But you don’t pay management fees for several funds. Instead, you just pay for one.</p>
-					</div>
-					<div class="col-sm-4">
-						<h3 class="yellow">ONGOING MANAGEMENT</h3>
-						<p>Your investment managers don’t just build portfolios; they never stop working hard to make sure they keep performing. This means constantly monitoring investment markets, as well as extensively researching a vast number of different funds. You’ll be given regular updates on the performance of your portfolio so you can keep track of its progress.</p>
+					<div class="feature-area">
+						<div class="col-sm-4">
+							<h3 class="yellow">A STRAIGHTFORWARD SOLUTION</h3>
+							<p>For most individual investors looking to ‘do it themselves’, assembling a well-diversi ed investment portfolio can be time consuming and expensive. But at Luceo Asset Management, by starting with the advice process and matching your recommendation with the best investment manager, we make the process straightforward.</p>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="orange">DIVERSIFIED INVESTMENTS</h3>
+							<p>Your investment managers will build and oversee a diverse range of investment types, pooling them all within a single portfolio. This give you instant access to a wide range of high quality funds managed by the most capable fund managers. But you don’t pay management fees for several funds. Instead, you just pay for one.</p>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="yellow">ONGOING MANAGEMENT</h3>
+							<p>Your investment managers don’t just build portfolios; they never stop working hard to make sure they keep performing. This means constantly monitoring investment markets, as well as extensively researching a vast number of different funds. You’ll be given regular updates on the performance of your portfolio so you can keep track of its progress.</p>
+						</div>
 					</div>
 				</div><!-- .row -->
 
@@ -38,7 +40,7 @@ get_header(); ?>
 					<div class="col-xs-12">
 						<h3 class="sub-title">GOOD INVESTMENT INSIGHT AND FUND KNOWLEDGE CAN REALLY ADD VALUE, AND HELP BOOST THE PERFORMANCE OF YOUR PORTFOLIO. OUR INVESTMENT APPROACH IS KNOWN AS ‘ACTIVE MANAGEMENT’ AND IT CAN ADD SIGNIFICANTLY TO OVERALL RETURNS.</h3>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-6 invest-solution">
 						<h3 class="solution">THE ‘ALL IN ONE’ SOLUTION</h3>
 						<p>Your investment will be what’s known as a ‘multi manager’ portfolio, also known as a ‘fund of funds’. This just means that your investment manager will assemble a portfolio of the best funds to investment in, based on your investment objectives and the goals you discussed with your nancial adviser.</p>
 						<div class="row">
@@ -70,7 +72,7 @@ get_header(); ?>
 						</div>
 						<h3 class="invest-risk">PORTFOLIO INVESTMENT RISK & RETURN</h3>
 						<p>Each Luceo Fund is formed from different combinations of funds which, when put together, are designed to create the right blend to suit your needs and appropriate level of risk.
-
+							<br/>
 							Depending on the level of risk and return you require, your Luceo Investment Fund could feature the following assets shown above. It is important to remember that the investment funds in this brochure are designed to achieve their returns over a period of at least five years.</p>
 
 						</div>
@@ -78,44 +80,46 @@ get_header(); ?>
 					</div><!-- .row -->
 
 					<div class="row fund-range">
-						<div class="col-xs-12 heading">
-							<h1><span class="orange">FUND </span><span class="yellow">RANGE</span></h1>
+						<div class="heading">
+							<div class="col-xs-12 heading-inner">
+								<h1><span class="orange">FUND </span><span class="yellow">RANGE</span></h1>
+							</div>
 						</div>
 
-						<div class="ranges">
-							<div class="col-sm-4">
-							<div class="ranges-item">
-							<h1><span class="yellow">LUCEO</span><span class="orange questrial">4</span></h1>
-								<h3>RISK 4 - FUND OBJECTIVES:</h3>
-								<p>Predominantly investing in passive and active collective investment schemes (OEICs, unit trusts and exchange traded funds) and closed ended investment companies.</p>
-								<h3 class="yellow">Equity Exposure < 55%.</h3>
-								<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
-								
+							<div class="ranges">
+								<div class="col-sm-4">
+								<div class="ranges-item">
+								<h1><span class="yellow">LUCEO</span><span class="orange questrial">4</span></h1>
+									<h3>RISK 4 - FUND OBJECTIVES:</h3>
+									<p>Predominantly investing in passive and active collective investment schemes (OEICs, unit trusts and exchange traded funds) and closed ended investment companies.</p>
+									<h3 class="yellow">Equity Exposure < 55%.</h3>
+									<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
+									
+								</div>
+								</div>
+								<div class="col-sm-4">
+								<div class="ranges-item">
+								<h1><span class="yellow">LUCEO</span><span class="orange questrial">5</span></h1>
+									<h3>RISK 5 - FUND OBJECTIVES:</h3>
+									<p>Suitable for individual investors seeking a well-diversified, professionally managed investment, but with global equity market exposure limited to no more than 70% of the total portfolio.</p>
+									<h3 class="yellow">Equity Exposure < 70%.</h3>
+									<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
+									
+								</div>
+									
+								</div>
+								<div class="col-sm-4">
+								<div class="ranges-item">
+								<h1><span class="yellow">LUCEO</span><span class="orange questrial">6</span></h1>
+									<h3>RISK 6 - FUND OBJECTIVES:</h3>
+									<p>Investing in passive and active collective investment schemes & closed ended investment companies. Suitable for investors seeking a well-diversified, managed investment.</p>
+									<h3 class="yellow">Equity Exposure < 85%.</h3>
+									<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
+									
+								</div>
+									
+								</div>
 							</div>
-							</div>
-							<div class="col-sm-4">
-							<div class="ranges-item">
-							<h1><span class="yellow">LUCEO</span><span class="orange questrial">5</span></h1>
-								<h3>RISK 5 - FUND OBJECTIVES:</h3>
-								<p>Suitable for individual investors seeking a well-diversified, professionally managed investment, but with global equity market exposure limited to no more than 70% of the total portfolio.</p>
-								<h3 class="yellow">Equity Exposure < 70%.</h3>
-								<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
-								
-							</div>
-								
-							</div>
-							<div class="col-sm-4">
-							<div class="ranges-item">
-							<h1><span class="yellow">LUCEO</span><span class="orange questrial">6</span></h1>
-								<h3>RISK 6 - FUND OBJECTIVES:</h3>
-								<p>Investing in passive and active collective investment schemes & closed ended investment companies. Suitable for investors seeking a well-diversified, managed investment.</p>
-								<h3 class="yellow">Equity Exposure < 85%.</h3>
-								<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
-								
-							</div>
-								
-							</div>
-						</div>
 					</div>
 					<div class="row inquiry">
 						<div class="col-xs-12">
