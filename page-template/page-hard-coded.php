@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Fund
+ * Template Name: Hard Coded
  *
  * @package Luceo
  */

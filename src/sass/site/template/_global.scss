@@ -16,15 +16,39 @@ body{
 		    padding-bottom: 35px;
 		}
 	}
-	&.page-template-page-vc, 
-	&.page-template-page-fund, 
-	&.page-template-page-about{
+	&.page-template-page-vc, &.page-template-page-hard-coded{
 		header#masthead {
 		    margin-bottom: 5px;
 		}
 		.site-content {
 		    margin: 0 -35px!important;
 		}
+	}
+}
+
+//Ninja Form
+body.page-template-page-vc {
+    [class*='ninja-col-'] {
+	    //padding: 0!important;
+	}
+
+	input.ninja-forms-field{
+	    background: rgba(255,255,255,0.2)!important;
+	    &:hover, &:focus, &:active{
+	    	border-color: $color_luceo_yellow!important;
+	    }
+		
+	}
+
+	.ninja-forms-form-wrap form input[type=submit]{
+		background: $color_luceo_yellow !important;
+		&:hover, &:focus, &:active{
+			background: $color_luceo_orange !important;
+			color: #ffffff!important;
+		}
+	}
+	.ninja-forms-field-error {
+	    color: #FFDE16!important;
 	}
 }
 
@@ -91,6 +115,10 @@ body{
   transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
   	&.is-visible {
 	  transform: translateX(0);
+	}
+	.buttons.gray a:hover {
+	    background:$color_luceo_yellow !important;
+	    color: #fff;
 	}
 }
 

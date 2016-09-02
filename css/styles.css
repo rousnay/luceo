@@ -11970,10 +11970,8 @@ Ninja Forms
 }
 
 .ninja-forms-form-wrap form input[type=submit] {
-  color: #575756 !important;
   background: #FFCD1D !important;
   float: left;
-  border: none !important;
   letter-spacing: 1px;
   width: auto;
   padding: 13px 27px !important;
@@ -11981,11 +11979,14 @@ Ninja Forms
      -moz-transition: all 0.3s ease-out;
        -o-transition: all 0.3s ease-out;
           transition: all 0.3s ease-out;
+  border: none;
+}
+.ninja-forms-form-wrap form input[type=submit]:hover, .ninja-forms-form-wrap form input[type=submit]:focus, .ninja-forms-form-wrap form input[type=submit]:active {
+  background: #F59E26 !important;
+  color: #ffffff !important;
 }
 .ninja-forms-form-wrap form input:hover, .ninja-forms-form-wrap form textarea:hover, .ninja-forms-form-wrap form input:focus, .ninja-forms-form-wrap form textarea:focus {
-  background: #F59E26 !important;
-  border-color: #5d5d5d !important;
-  color: #ffffff !important;
+  border-color: #FFCD1D !important;
 }
 
 [class*='ninja-col-'] {
@@ -12566,7 +12567,10 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   font-family: "Questrial",Arial,Helvetica,sans-serif;
 }
 .buttons.raleway {
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+.buttons.montserrat {
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
 }
 
 .contents {
@@ -12606,7 +12610,10 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   font-family: "Questrial",Arial,Helvetica,sans-serif;
 }
 .contents.raleway {
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+.contents.montserrat {
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -12638,11 +12645,28 @@ body:not(.page-template-page-home) section header, body:not(.page-template-page-
 body.page-template-page-philosophy header#masthead, body.page-template-default header#masthead {
   padding-bottom: 35px;
 }
-body.page-template-page-vc header#masthead, body.page-template-page-fund header#masthead, body.page-template-page-about header#masthead {
+body.page-template-page-vc header#masthead, body.page-template-page-hard-coded header#masthead {
   margin-bottom: 5px;
 }
-body.page-template-page-vc .site-content, body.page-template-page-fund .site-content, body.page-template-page-about .site-content {
+body.page-template-page-vc .site-content, body.page-template-page-hard-coded .site-content {
   margin: 0 -35px !important;
+}
+
+body.page-template-page-vc input.ninja-forms-field {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+body.page-template-page-vc input.ninja-forms-field:hover, body.page-template-page-vc input.ninja-forms-field:focus, body.page-template-page-vc input.ninja-forms-field:active {
+  border-color: #FFCD1D !important;
+}
+body.page-template-page-vc .ninja-forms-form-wrap form input[type=submit] {
+  background: #FFCD1D !important;
+}
+body.page-template-page-vc .ninja-forms-form-wrap form input[type=submit]:hover, body.page-template-page-vc .ninja-forms-form-wrap form input[type=submit]:focus, body.page-template-page-vc .ninja-forms-form-wrap form input[type=submit]:active {
+  background: #F59E26 !important;
+  color: #ffffff !important;
+}
+body.page-template-page-vc .ninja-forms-field-error {
+  color: #FFDE16 !important;
 }
 
 #page {
@@ -12725,6 +12749,10 @@ body.page-template-page-vc .site-content, body.page-template-page-fund .site-con
       -ms-transform: translateX(0);
        -o-transform: translateX(0);
           transform: translateX(0);
+}
+#sideheader .buttons.gray a:hover {
+  background: #FFCD1D !important;
+  color: #fff;
 }
 
 .push_sidebar {
@@ -12993,7 +13021,7 @@ body.page-template-page-home footer {
   float: right;
 }
 .home-page-content .main-text {
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   color: #FFCD1D;
   float: right;
   font-size: 4.2em;
@@ -13015,7 +13043,7 @@ body.page-template-page-home footer {
   margin-top: 20px;
 }
 .home-page-content .home-btn a {
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   padding: 10px 15px;
   font-size: 14px;
   background: #575756;
@@ -13078,7 +13106,7 @@ body.page-template-page-home footer {
 }
 .hard-coded .heading h1 {
   font-size: 60px;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 300;
   line-height: 52px;
 }
@@ -13107,7 +13135,7 @@ body.page-template-page-home footer {
 .hard-coded .invest-info .sub-title {
   color: #FFCD1D;
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 20px;
   padding-top: 20px;
@@ -13120,7 +13148,7 @@ body.page-template-page-home footer {
 .hard-coded .invest-info .solution {
   color: #F59E26;
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 20px;
   padding-top: 20px;
@@ -13149,7 +13177,7 @@ body.page-template-page-home footer {
 }
 .hard-coded .invest-info .info-chart h3 {
   font-size: 20px;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
   margin-top: 30px;
 }
@@ -13171,7 +13199,7 @@ body.page-template-page-home footer {
 }
 .hard-coded .fund-range .heading-inner h1 {
   font-size: 55px;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 300;
   line-height: 52px;
   margin-top: 0;
@@ -13189,7 +13217,7 @@ body.page-template-page-home footer {
 }
 .hard-coded .fund-range .ranges .ranges-item h1 {
   font-size: 60px;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 300;
   line-height: 52px;
   margin-top: 10px;
@@ -13200,7 +13228,7 @@ body.page-template-page-home footer {
 .hard-coded .fund-range .ranges .ranges-item h3 {
   font-size: 18px;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
   font-weight: 400;
   margin-top: 30px;
 }
@@ -13223,7 +13251,7 @@ body.page-template-page-home footer {
 .hard-coded .inquiry h2 {
   font-size: 33px;
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
   font-weight: 400;
 }
 .hard-coded .inquiry h2 .questrial {
@@ -13233,7 +13261,7 @@ body.page-template-page-home footer {
   font-size: 30px;
   color: #ffffff;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
 }
 
@@ -13250,7 +13278,7 @@ body.page-template-page-home footer {
 .page-about .img-intro h4 {
   font-size: 14px;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
   line-height: inherit;
 }
@@ -13318,7 +13346,7 @@ body.page-template-page-home footer {
     max-width: 55% !important;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .home-page-content {
     margin-top: 20px !important;
   }
@@ -13326,15 +13354,17 @@ body.page-template-page-home footer {
     font-size: 11px !important;
   }
 
-  .hard-coded .invest-info .info-chart,
-  .hard-coded .invest-info .invest-solution,
-  .page-about .invest-info .one-solution {
+  .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {
     width: inherit;
     margin-right: inherit;
   }
 
-  .hard-coded .invest-info {
-    margin: inherit;
+  .hard-coded {
+    margin-top: 35px;
+  }
+  .hard-coded .invest-info, .hard-coded .features, .hard-coded .heading, .hard-coded .fund-range {
+    margin-right: inherit;
+    margin-left: inherit;
   }
 
   .hard-coded .features .feature-area {

@@ -72,21 +72,25 @@
 		}
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.home-page-content {
 		margin-top: 20px!important;
 		.home-btn a {
 	    font-size: 11px!important;;
 		}
 	}
-	.hard-coded .invest-info .info-chart, 
-	.hard-coded .invest-info .invest-solution,
-	.page-about .invest-info .one-solution {
-	    width: inherit;
-	    margin-right: inherit;
-	}
 	.hard-coded .invest-info {
-	    margin: inherit;
+		.info-chart, .invest-solution, .one-solution {
+		    width: inherit;
+		    margin-right: inherit;
+		}
+	}
+	.hard-coded {
+		margin-top: 35px;
+		.invest-info, .features, .heading, .fund-range{
+			margin-right: inherit;
+			margin-left: inherit;
+		} 
 	}
 	.hard-coded .features .feature-area {
 	    padding: 35px 0;
