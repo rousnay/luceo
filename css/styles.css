@@ -12983,19 +12983,23 @@ body.page-template-page-home header#masthead {
 body.page-template-page-home .site-content {
   background-color: transparent !important;
 }
-body.page-template-page-home .site-content .home-page-content {
+body.page-template-page-home footer {
+  display: none !important;
+}
+
+.home-page-content {
   text-transform: uppercase;
   text-align: right;
   float: right;
 }
-body.page-template-page-home .site-content .home-page-content .main-text {
+.home-page-content .main-text {
   font-family: Raleway;
   color: #FFCD1D;
   float: right;
   font-size: 4.2em;
   line-height: 1.2em;
 }
-body.page-template-page-home .site-content .home-page-content .sub-text {
+.home-page-content .sub-text {
   font-family: Raleway;
   color: #575756;
   float: right;
@@ -13005,24 +13009,21 @@ body.page-template-page-home .site-content .home-page-content .sub-text {
   font-size: 1.6em;
   line-height: 1.2em;
 }
-body.page-template-page-home .site-content .home-page-content .home-btn {
+.home-page-content .home-btn {
   float: right;
   clear: both;
   margin-top: 20px;
 }
-body.page-template-page-home .site-content .home-page-content .home-btn a {
+.home-page-content .home-btn a {
   font-family: Raleway;
   padding: 10px 15px;
   font-size: 14px;
   background: #575756;
   color: #FFFFFF;
 }
-body.page-template-page-home .site-content .home-page-content .home-btn a:hover {
+.home-page-content .home-btn a:hover {
   background: #F59E26;
   color: #FFFFFF;
-}
-body.page-template-page-home footer {
-  display: none !important;
 }
 
 /***********
@@ -13207,7 +13208,7 @@ body.page-template-page-home footer {
   margin-top: 30px;
 }
 .hard-coded .inquiry {
-  background-image: url("../images/LUCEO-bg.jpg");
+  background-image: url("http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/LUCEO-background-landscape.jpg");
   background-position: 50% -140px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -14357,13 +14358,6 @@ img {
 Visual Composer
 ***************/
 /***************
-Content Timeline
-***************/
-.timeline .item .post_date {
-  font-size: 16px !important;
-}
-
-/***************
 Notification Bar
 ***************/
 body.has-mtsnb {
@@ -14397,53 +14391,3 @@ ivan-carousel (owl)
 /***************
 Update to new VC
 ***************/
-.vc_custom_1463042317321 h2, .vc_custom_1463042343950 h2 {
-  font-weight: 200 !important;
-  font-size: 45px !important;
-  color: #ffffff !important;
-}
-.vc_custom_1463042317321 h1, .vc_custom_1463042343950 h1 {
-  font-weight: 400 !important;
-  font-size: 55px !important;
-  color: #ffffff !important;
-}
-.vc_custom_1463042317321 p, .vc_custom_1463042343950 p {
-  font-weight: 300 !important;
-  font-size: 19px !important;
-  line-height: 15px !important;
-  color: #ffffff !important;
-}
-
-.vc_custom_1451408556437 h4, .vc_custom_1454419265859 h4, .vc_custom_1454866549555 h4, .vc_custom_1454867098116 h4, .vc_custom_1454493807916 h4, .vc_custom_1455107602246 h4 {
-  letter-spacing: 1px;
-  font-weight: 600 !important;
-  color: #ffffff !important;
-  text-transform: uppercase !important;
-}
-.vc_custom_1451408556437 p, .vc_custom_1454419265859 p, .vc_custom_1454866549555 p, .vc_custom_1454867098116 p, .vc_custom_1454493807916 p, .vc_custom_1455107602246 p {
-  color: #c8e1f0 !important;
-}
-
-.vc_custom_1449683896173 a, .vc_custom_1451408285148 a {
-  color: #c8e1f0 !important;
-}
-.vc_custom_1449683896173 p, .vc_custom_1451408285148 p {
-  color: #c8e1f0 !important;
-}
-
-.wpb_column > .wpb_wrapper > *:last-child {
-  margin-bottom: 0;
-}
-
-.vc_column_container {
-  padding-left: 15px !important;
-  padding-right: 15px !important;
-}
-
-.vc_custom_1448317594608 .vc_column_container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.vc_custom_1448317594608 .wpb_column > .wpb_wrapper > *:last-child {
-  margin-bottom: -25px;
-}

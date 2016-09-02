@@ -11,20 +11,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class="sections">
-					<?php //the_content(); ?>
-
-					<div class="home-page-content">
-						<div class="main-text">
-						LUCEO <strong>Removes<br>
-						the stress</strong> from<br>
-						investing<br>
-						</div>
-						<br>
-						<div class="sub-text">Everyone deserves INVESTMENTS THAT HELP ACHIEVE THE LIFESTYLE THEY WANT.</div>
-						<div class="home-btn buttons"><a href="http://genuineimitation.co.uk/luceo/funds/">View our Funds</a></div>
-					</did>
-
-				</div>
+					<?php the_content(); ?>
+					
+				</div><!-- .sections -->
 			<?php endwhile; // end of the loop. ?>
 		</main><!-- #main -->
 	</div><!-- .row -->

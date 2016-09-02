@@ -21,48 +21,48 @@ body.page-template-page-home{
 	}
 	.site-content{
 		background-color:transparent !important;
-		.home-page-content {
-		    text-transform: uppercase;
-		    text-align: right;
-		    float: right;
-		    .main-text{
-		    	font-family: Raleway;
-			    color: $color_luceo_yellow;
-			    float: right;
-			    font-size: 4.2em;
-			    line-height: 1.2em;
-		    }
-		    .sub-text{
-	    	    font-family: Raleway;
-		    	color: $color_luceo_grey;
-		    	float: right;
-		    	clear: both;
-		    	margin-top: 10px;
-		    	max-width:50%;
-		    	font-size: 1.6em;
-			    line-height: 1.2em;
-		    }
-			.home-btn{
-				// width: 170px;
-			    float: right;
-			    clear: both;
-			    margin-top: 20px;
-			    a{
-					font-family: Raleway;
-					padding: 10px 15px;
-					font-size: 14px;
-					background: $color_luceo_grey;
-					color: #FFFFFF;
-					&:hover{
-						background: $color_luceo_orange;
-						color: #FFFFFF;
-					}
-			    }
-			}
-		}
 	}
 	footer{
 		display: none!important;
+	}
+}
+.home-page-content {
+    text-transform: uppercase;
+    text-align: right;
+    float: right;
+    .main-text{
+    	font-family: Raleway;
+	    color: $color_luceo_yellow;
+	    float: right;
+	    font-size: 4.2em;
+	    line-height: 1.2em;
+    }
+    .sub-text{
+	    font-family: Raleway;
+    	color: $color_luceo_grey;
+    	float: right;
+    	clear: both;
+    	margin-top: 10px;
+    	max-width:50%;
+    	font-size: 1.6em;
+	    line-height: 1.2em;
+    }
+	.home-btn{
+		// width: 170px;
+	    float: right;
+	    clear: both;
+	    margin-top: 20px;
+	    a{
+			font-family: Raleway;
+			padding: 10px 15px;
+			font-size: 14px;
+			background: $color_luceo_grey;
+			color: #FFFFFF;
+			&:hover{
+				background: $color_luceo_orange;
+				color: #FFFFFF;
+			}
+	    }
 	}
 }
 
