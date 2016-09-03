@@ -254,9 +254,7 @@
 	/******************************
 	 Library: jquery.matchHeight.js
 	 ******************************/
-	 $('#recent-posts .entry').matchHeight();
-
-	 $('.about-link .about-block').matchHeight();
+	 $('.page-committee .ranges .ranges-item').matchHeight();
 
     /******************************
 	 Other settings

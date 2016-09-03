@@ -13290,6 +13290,20 @@ body.page-template-page-home footer {
   float: right;
 }
 
+.page-committee .ranges-item {
+  padding: 15px !important;
+  border: 1px solid #FFCD1D !important;
+}
+
+.page-committee .fund-range {
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.page-committee .ranges .ranges-item h3 {
+  font-family: "Raleway",Helvetica,Arial,sans-serif !important;
+}
+
 /*------------------------------------------------------------*/
 @media (max-width: 1210px) {
   .home-page-content .sub-text {
@@ -13477,6 +13491,12 @@ body.page-template-page-home footer {
     line-height: 53px;
     margin-top: 0;
     margin-bottom: 0;
+  }
+}
+@media (max-width: 450px) {
+  .page-committee .ranges > div {
+    clear: both;
+    width: 100%;
   }
 }
 @media (max-width: 430px) {

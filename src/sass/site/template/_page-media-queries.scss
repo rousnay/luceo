@@ -194,6 +194,14 @@
 	    margin-bottom: 0;
 	}
 }
+
+
+@media (max-width: 450px){
+	.page-committee .ranges>div {
+	    clear: both;
+	    width: 100%;
+	}
+}
 @media (max-width: 430px){
 	.hard-coded .heading h1 {
 	    font-size: 25px;
