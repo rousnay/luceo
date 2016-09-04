@@ -255,6 +255,10 @@
 	 Library: jquery.matchHeight.js
 	 ******************************/
 	 $('.page-committee .ranges .ranges-item').matchHeight();
+	 $('.page-board .ranges .ranges-item').matchHeight();
+
+
+
 
     /******************************
 	 Other settings

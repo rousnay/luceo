@@ -197,7 +197,8 @@
 
 
 @media (max-width: 450px){
-	.page-committee .ranges>div {
+	.page-committee .ranges>div,
+	.page-board .ranges>div {
 	    clear: both;
 	    width: 100%;
 	}

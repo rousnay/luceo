@@ -25,18 +25,43 @@
 	}
 }
 
+
 //Comitte Page
 
-.page-committee .ranges-item {
-    padding: 15px!important;
-    border: 1px solid #FFCD1D!important;
+.page-committee {
+	.ranges-item {
+	    padding: 15px!important;
+	    border: 1px solid #FFCD1D!important;
+	}
+	.fund-range {
+	    margin-top: 0;
+	    padding-top: 50px;
+	}
+	.ranges .ranges-item h3 {
+	    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+	}
+	.feature-area .col-xs-6 {
+	    padding-bottom: 40px;
+	}
 }
 
-.page-committee .fund-range {
-    margin-top: 0;
-    padding-top: 50px;
-}
 
-.page-committee  .ranges .ranges-item h3 {
-    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+//Board Page
+
+.page-board{
+	.ranges{
+		margin-top: 15px!important;
+	}
+	.ranges-item {
+		margin-top: 40px;
+	    padding: 30px!important;
+	    border: none!important;
+	    h3 {
+		    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+		}
+	    p{
+	    	text-align:justify;
+	    }
+	}
+
 }

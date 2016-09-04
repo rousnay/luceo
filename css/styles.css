@@ -13294,14 +13294,30 @@ body.page-template-page-home footer {
   padding: 15px !important;
   border: 1px solid #FFCD1D !important;
 }
-
 .page-committee .fund-range {
   margin-top: 0;
   padding-top: 50px;
 }
-
 .page-committee .ranges .ranges-item h3 {
   font-family: "Raleway",Helvetica,Arial,sans-serif !important;
+}
+.page-committee .feature-area .col-xs-6 {
+  padding-bottom: 40px;
+}
+
+.page-board .ranges {
+  margin-top: 15px !important;
+}
+.page-board .ranges-item {
+  margin-top: 40px;
+  padding: 30px !important;
+  border: none !important;
+}
+.page-board .ranges-item h3 {
+  font-family: "Raleway",Helvetica,Arial,sans-serif !important;
+}
+.page-board .ranges-item p {
+  text-align: justify;
 }
 
 /*------------------------------------------------------------*/
@@ -13494,7 +13510,8 @@ body.page-template-page-home footer {
   }
 }
 @media (max-width: 450px) {
-  .page-committee .ranges > div {
+  .page-committee .ranges > div,
+  .page-board .ranges > div {
     clear: both;
     width: 100%;
   }
