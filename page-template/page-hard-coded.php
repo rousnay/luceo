@@ -117,17 +117,6 @@ get_header(); ?>
 							</div>
 						</div><!-- .row -->
 
-
-
-
-
-
-
-
-
-
-
-
 						<div class="row inquiry">
 							<div class="col-xs-12">
 								<div class="invest-inquiry">
