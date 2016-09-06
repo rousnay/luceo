@@ -168,6 +168,28 @@ function luceo_scripts() {
 add_action( 'wp_enqueue_scripts', 'luceo_scripts' );
 
 
+
+
+
+/**
+ * Add Script to the admin
+ */
+
+// function add_admin_scripts( $hook ) {
+
+//     global $post;
+
+//     if ( $hook == 'post-new.php' || $hook == 'post.php' ) {  
+
+// 		wp_enqueue_script( 'luceo-settings-js', get_template_directory_uri() . '/js/luceo-settings.js', array('jquery'), '20160220', true );
+//     }
+// }
+// add_action( 'admin_enqueue_scripts', 'add_admin_scripts', 10, 1 );
+
+
+
+
+
 /**
  * Implement the Custom Header feature.
  */

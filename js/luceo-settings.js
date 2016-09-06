@@ -162,39 +162,32 @@
 	/******************************
 	 Font Adjustment
 	 ******************************/
-	 var a=$("body");
-	 $("#textplus").click(function(){
-	 	var c=a.css("fontSize");
-	 	var b=parseInt(c.replace("px",""))+1;$(a).css("fontSize",b+"px")
-	 });
-	 $("#textminus").click(function(){
-	 	var c=a.css("fontSize");
-	 	var b=parseInt(c.replace("px",""))-1;$(a).css("fontSize",b+"px")
-	 })
+	 // var a=$("body");
+	 // $("#textplus").click(function(){
+	 // 	var c=a.css("fontSize");
+	 // 	var b=parseInt(c.replace("px",""))+1;$(a).css("fontSize",b+"px")
+	 // });
+	 // $("#textminus").click(function(){
+	 // 	var c=a.css("fontSize");
+	 // 	var b=parseInt(c.replace("px",""))-1;$(a).css("fontSize",b+"px")
+	 // })
 
 
 	/******************************
 	 Library: owl.carousel
 	 ******************************/
-	 $("#related-posts").owlCarousel({
-	 	items : 4
-	 });
-
-	 $("#recent-posts").owlCarousel({
-	 	items : 3
-	 });
-
-	 $("#logo-slider").owlCarousel({
-	 	items : 15,
-	 	navigation : true,
-	 	itemsDesktop : [1199,12],
-	 	itemsDesktopSmall : [980,10],
-	 	itemsTablet: [768,8],
-	 	itemsTabletSmall: [600,6],
-	 	itemsMobile : [400,4],
+	 $("#advice-steps").owlCarousel({
+	 	items : 2,
+	 	itemsDesktop : [1199,2],
+	 	itemsDesktopSmall : [980,2],
+	 	itemsTablet: [768,2],
+	 	itemsTabletSmall: [600,2],
+	 	itemsMobile : [400,1],
 	 	singleItem : false,
 	 	itemsScaleUp : false,
-	 	navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	 	//navigation : true,
+	 	pagination:	true,
+	 	//navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 	 });
 
 	//

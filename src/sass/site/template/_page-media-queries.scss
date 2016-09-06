@@ -71,6 +71,21 @@
 		    max-width: 55%!important;
 		}
 	}
+
+	.page-advice {
+		.fund-range {
+			.the-risk{
+				.col-xs-6{
+				    width: 50%!important;
+				    img{
+				    	width: 100%;
+			    	    margin-bottom: 35px;
+				    }
+				}
+			}
+
+		}
+	}
 }
 @media (max-width: 767px){
 	.home-page-content {
@@ -93,8 +108,30 @@
 		} 
 	}
 	.hard-coded .features .feature-area {
-	    padding: 35px 0;
+	    //padding: 35px 0;
 	}
+
+	.page-advice {
+		.invest-info{
+			.invest-solution {
+			    margin-left: inherit;
+			    padding: 15px;
+			}
+			.info-chart {
+			    padding: 15px;
+			    
+			}
+		}
+		.fund-range {
+			.the-risk{
+				.col-xs-6{
+				    width: 100%!important;
+				}
+			}
+
+		}
+	}
+
 	.feature-area > div {
 	    margin-bottom: 35px;
 	}
@@ -156,7 +193,7 @@
 	    line-height: 35px;
 	}
     .hard-coded .features .feature-area {
-	    padding: 20px 0;
+	    //padding: 20px 0;
 	}
 	.hard-coded .fund-range .heading-inner h1 {
 	    font-size: 45px;
@@ -202,7 +239,17 @@
 	    clear: both;
 	    width: 100%;
 	}
+	.page-advice .invest-info .invest-solution h3,
+	.page-advice .fund-range .the-risk h3 {
+	    text-align: left;
+	    font-size: 16px;
+	}
+
+	.page-advice .fund-range .the-risk h3:last-child{
+		text-align: center;
+	}
 }
+
 @media (max-width: 430px){
 	.hard-coded .heading h1 {
 	    font-size: 25px;

@@ -304,6 +304,7 @@
 
 
 	<!-- Board -->
+
 	<div id="editor-wrapper" class="hard-coded page-board">
 		<div class="row heading">
 			<div class="col-xs-12">
@@ -353,6 +354,95 @@
 
 
 
+		<div class="row inquiry">
+			<div class="col-xs-12">
+				<div class="invest-inquiry">
+					<h2>For general enquires call: 0333 000 0330</h2>
+					<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- Library -->
+
+	<div id="editor-wrapper" class="hard-coded page-library">
+		<div class="row heading">
+			<div class="col-xs-12">
+				<h1 class="orange">DOCUMENT</h1>
+				<h1 class="yellow">ARCHIVE LIBRARY</h1>
+				<p>Each fund has assigned factsheets. Below you can download the most recent versions along with access to achieved documents and prospectuses.</p>
+			</div>
+		</div><!-- .row -->
+
+
+		<div class="row fund-range">
+			<div class="ranges">
+				<div class="col-sm-4">
+					<div class="ranges-item">
+						<h1><span class="yellow">LUCEO</span><span class="orange questrial">4</span></h1>
+						<h3>RECENT DOCUMENTATION</h3>
+
+						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
+
+						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Key Investor Info</a></div>
+
+						<h3>ARCHIVED DOCUMENTS</h3>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">Luceo 4 Prospectus</a></div>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">June 2015 Factsheet</a></div>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">June 2015 Factsheet</a></div>
+
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="ranges-item">
+						<h1><span class="yellow">LUCEO</span><span class="orange questrial">5</span></h1>
+						<h3>RECENT DOCUMENTATION</h3>
+
+						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
+
+						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Key Investor Info</a></div>
+
+						<h3>ARCHIVED DOCUMENTS</h3>
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">Luceo 5 Prospectus</a></div>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">June 2015 Factsheet</a></div>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">June 2015 Factsheet</a></div>
+
+					</div>
+
+				</div>
+				<div class="col-sm-4">
+					<div class="ranges-item">
+						<h1><span class="yellow">LUCEO</span><span class="orange questrial">6</span></h1>
+						<h3>RECENT DOCUMENTATION</h3>
+
+						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
+
+						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Key Investor Info</a></div>
+
+						<h3>ARCHIVED DOCUMENTS</h3>
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">Luceo 6 Prospectus</a></div>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">June 2015 Factsheet</a></div>
+
+						<div style="width: 100% " class="buttons medium gray capitalize"><a href="http://www.google.com">June 2015 Factsheet</a></div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
 		<div class="row inquiry">
 			<div class="col-xs-12">
 				<div class="invest-inquiry">

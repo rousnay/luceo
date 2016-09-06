@@ -65,3 +65,114 @@
 	}
 
 }
+
+//library Page
+
+.page-library{
+	.ranges{
+		margin-top: 50px!important;
+	}
+	.ranges-item {
+	    h3 {
+		    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+	        margin-bottom: 20px;
+		}
+	    .buttons {
+		    margin-top: 3px!important;
+		}
+	}
+}
+
+
+/********
+  Advice
+*********/
+.page-advice{
+
+	.feature-area {
+	    max-width: 1140px;
+	    #advice-steps{
+	    	text-align: center;
+	    	img{
+	    		width: 105px;
+	    	}
+	    	h3{
+	    		font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+	    		font-size: 20px;
+	    		font-weight: 400;
+	    		margin: 15px 0;
+	    	}
+	    	p{
+	    		text-align: center!important;
+	    	}
+
+		}
+
+	}
+
+
+
+		.invest-info{
+		.sub-title{
+			border-color: $color_luceo_orange !important;
+		}
+		.invest-solution{
+			background-color: #fafafa;
+			width: 48%;
+		    margin-left: 15px;
+		    padding: 15px;
+		    padding: 20px;
+		    padding-top: 0;
+	        text-align: justify;
+		    h3 {
+			    padding-top: 15px;
+			}
+		}
+		.info-chart{
+			background-color: transparent!important;
+			padding-right: 0;
+		    padding-top: 0;
+		    h6{
+				border-top: 1px solid #bfbfbf;
+		    	font-size: 14px;
+		    	margin: 0;
+			    padding-top: 30px;
+			    padding-bottom: 30px;
+		    	text-transform: inherit;
+		    }
+		}
+	}
+
+	.fund-range{
+		.the-risk {
+		    max-width: 1170px;
+		    margin: 0 auto;
+		    text-align: justify;
+		    padding-top: 10px;
+		    .col-xs-6 {
+		    	&:first-child{
+		    		width: 46%;
+		    	}
+		    	&:last-child{
+		    		width: 48%;
+		    		float: right;
+		    		h3{
+		    			font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+		    			margin-top: 35px;
+		    			font-weight: 600;
+	    			    margin-bottom: 15px;
+		    			&:first-child{
+		    				margin-top: 0;
+		    			}
+		    			&.black{
+			    			font-weight: 400;
+			    		}
+		    		}
+		    	}
+		    }
+
+		}
+	}
+
+}
+

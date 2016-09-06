@@ -34,10 +34,12 @@
 		background-color: #fafafa;
         margin-top: 50px;
         margin-bottom: 50px;
+        padding-top: 40px;
+	    padding-bottom: 40px;
 		.feature-area{
 			max-width: 1170px;
 		    margin: 0 auto;
-		    padding:50px 0;
+		    //padding:50px 0;
 		}
 	    p {
 		    text-align: justify;
@@ -90,6 +92,7 @@
 			width: 48%;
 		    float: right;
 		    margin-right: 15px;
+		    padding: 15px 25px;
 		    h3{
 		    	font-size: 20px;
 			    font-family: "Raleway",Helvetica,Arial,sans-serif;
