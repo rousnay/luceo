@@ -231,11 +231,11 @@
 
 		<div class="row features">
 			<div class="feature-area">
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6">
 					<h3 class="yellow">THE COMMITTEE OBJECTIVES</h3>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6">
 					<h3 class="orange">TERMS OF REFERENCE</h3>
 					<p>PLEASE CONFIM ( AROUND 6 LINES OF TEXT) Possibly what the terms of reference are (a brief summary and detail available by a click if it is agreed that should happen). Reporting lines i.e. direct to Luceo Asset Management Limited and to the plc executive and board. How frequently it meets and who the regular attendees will be e.g. committee members, investment advisers, ACD, auditors and legal advisers</p>
 				</div>

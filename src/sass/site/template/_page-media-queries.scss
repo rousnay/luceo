@@ -42,18 +42,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 970px){
-	.hard-coded .fund-range .ranges .ranges-item h1 {
-	    font-size: 50px;
-	}
-	.hard-coded .fund-range .ranges .ranges-item h3 {
-	    font-size: 14px;
-	}
-	.hard-coded .fund-range .ranges .ranges-item h3 {
-	    font-size: 14px;
-	}
-	.hard-coded .fund-range .ranges .ranges-item .buttons a{
-		font-size: 14px;
-
+	.hard-coded .fund-range .ranges .ranges-item {
+	    padding: 35px 30px;
+	    h1 {
+		    font-size: 35px;
+		}
+		h3, .buttons a {
+		    font-size: 14px;
+		}
 	}
 }
 
@@ -277,6 +273,9 @@
 	.hard-coded .fund-range .heading-inner h1 {
 	    font-size: 40px;
 	    line-height: 40px;
+	}
+	.hard-coded .fund-range .ranges .ranges-item {
+	    padding: 35px 30px;
 	}
 }
 @media (max-width: 350px){
