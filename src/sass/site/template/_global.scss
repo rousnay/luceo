@@ -301,11 +301,8 @@ iframe{
 	#page {
 	    padding: 0 20px!important;
 	}
-
-	body.page-template-page-vc{
-		.site-content {
-		    margin: 0!important;
-		}
+	section.vc-content {
+	    padding: 0 35px;
 	}
 	body.page-template-page-fund, body.page-template-page-about {
 		.site-content {

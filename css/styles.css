@@ -11297,8 +11297,8 @@ iframe {
     padding: 0 20px !important;
   }
 
-  body.page-template-page-vc .site-content {
-    margin: 0 !important;
+  section.vc-content {
+    padding: 0 35px;
   }
 
   body.page-template-page-fund .site-content, body.page-template-page-about .site-content {
@@ -11675,22 +11675,26 @@ body.page-template-page-home footer {
 /********
   Advice
 *********/
-.page-advice .feature-area {
+.page-advice .features {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+.page-advice .features .feature-area {
   max-width: 1140px;
 }
-.page-advice .feature-area #advice-steps {
+.page-advice .features .feature-area #advice-steps {
   text-align: center;
 }
-.page-advice .feature-area #advice-steps img {
+.page-advice .features .feature-area #advice-steps img {
   width: 105px;
 }
-.page-advice .feature-area #advice-steps h3 {
+.page-advice .features .feature-area #advice-steps h3 {
   font-family: "Raleway",Helvetica,Arial,sans-serif !important;
   font-size: 20px;
   font-weight: 400;
   margin: 15px 0;
 }
-.page-advice .feature-area #advice-steps p {
+.page-advice .features .feature-area #advice-steps p {
   text-align: center !important;
 }
 .page-advice .invest-info .sub-title {
@@ -11698,12 +11702,13 @@ body.page-template-page-home footer {
 }
 .page-advice .invest-info .invest-solution {
   background-color: #fafafa;
-  width: 48%;
+  width: 47%;
   margin-left: 15px;
   padding: 15px;
   padding: 20px;
   padding-top: 0;
   text-align: justify;
+  clear: both;
 }
 .page-advice .invest-info .invest-solution h3 {
   padding-top: 15px;
@@ -11720,6 +11725,9 @@ body.page-template-page-home footer {
   padding-top: 30px;
   padding-bottom: 30px;
   text-transform: inherit;
+}
+.page-advice .fund-range .heading-inner h1 {
+  border: none !important;
 }
 .page-advice .fund-range .the-risk {
   max-width: 1170px;
@@ -12898,6 +12906,15 @@ Visual Composer
     font-size: 40px !important;
   }
 }
+@media (max-width: 767px) {
+  .vc_row.wpb_row.vc_row-fluid.vc_custom_1470840905747.vc_row-has-fill {
+    margin: 5px !important;
+  }
+
+  .vc_row.vc_column-gap-15 > .vc_column_container {
+    padding: 5px !important;
+  }
+}
 @media (max-width: 550px) {
   h1.vc_custom_heading.vc_custom_1472036895133 {
     font-size: 25px !important;
@@ -12951,14 +12968,10 @@ body.has-mtsnb {
 /***************
 ivan-carousel (owl)
 ***************/
-.ivan-carousel.vc_1453810117981 {
-  overflow: visible !important;
-}
-.ivan-carousel.vc_1453810117981 .owl-controls .owl-buttons .owl-prev {
-  left: -25px !important;
-}
-.ivan-carousel.vc_1453810117981 .owl-controls .owl-buttons .owl-next {
-  right: -25px !important;
+.owl-theme .owl-controls .owl-buttons div {
+  color: #F59E26 !important;
+  font-size: 40px !important;
+  background-color: transparent !important;
 }
 
 /***************

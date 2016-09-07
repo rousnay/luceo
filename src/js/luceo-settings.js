@@ -177,6 +177,7 @@
 	 Library: owl.carousel
 	 ******************************/
 	 $("#advice-steps").owlCarousel({
+	 	// Most important owl features
 	 	items : 2,
 	 	itemsDesktop : [1199,2],
 	 	itemsDesktopSmall : [980,2],
@@ -185,10 +186,70 @@
 	 	itemsMobile : [400,1],
 	 	singleItem : false,
 	 	itemsScaleUp : false,
-	 	//navigation : true,
-	 	pagination:	true,
-	 	//navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-	 });
+
+	 	//Basic Speeds
+	    slideSpeed : 200,
+	    paginationSpeed : 800,
+	    rewindSpeed : 1000,
+	 
+	    //Autoplay
+	    autoPlay : true,
+	    stopOnHover : false,
+	 
+	    // Navigation
+	    navigation : true,
+	    navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	    //rewindNav : true,
+	    //scrollPerPage : false,
+	 
+	    //Pagination
+	    pagination : false,
+	    // paginationNumbers: false,
+	 
+	    // Responsive 
+	    // responsive: true,
+	    // responsiveRefreshRate : 200,
+	    // responsiveBaseWidth: window,
+	 
+	    // CSS Styles
+	    // baseClass : "owl-carousel",
+	    // theme : "owl-theme",
+	 
+	    //Lazy load
+	    // lazyLoad : false,
+	    // lazyFollow : true,
+	    // lazyEffect : "fade",
+	 
+	    //Auto height
+	    // autoHeight : false,
+	 
+	    //JSON 
+	    // jsonPath : false, 
+	    // jsonSuccess : false,
+	 
+	    //Mouse Events
+	    // dragBeforeAnimFinish : true,
+	    // mouseDrag : true,
+	    // touchDrag : true,
+	 
+	    //Transitions
+	    //transitionStyle : false,
+	 
+	    // Other
+	    //addClassActive : false,
+	 
+	    //Callbacks
+	    // beforeUpdate : false,
+	    // afterUpdate : false,
+	    // beforeInit: false, 
+	    // afterInit: false, 
+	    // beforeMove: false, 
+	    // afterMove: false,
+	    // afterAction: false,
+	    // startDragging : false
+	    // afterLazyLoad : false
+
+		 });
 
 	//
 	document.addEventListener("touchstart", function(){}, true);
@@ -247,9 +308,7 @@
 	/******************************
 	 Library: jquery.matchHeight.js
 	 ******************************/
-	 $('.page-committee .ranges .ranges-item').matchHeight();
-	 $('.page-board .ranges .ranges-item').matchHeight();
-
+	 $('.hard-coded .ranges .ranges-item').matchHeight();
 
 
 

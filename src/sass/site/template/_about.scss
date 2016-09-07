@@ -88,23 +88,26 @@
   Advice
 *********/
 .page-advice{
-
-	.feature-area {
-	    max-width: 1140px;
-	    #advice-steps{
-	    	text-align: center;
-	    	img{
-	    		width: 105px;
-	    	}
-	    	h3{
-	    		font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
-	    		font-size: 20px;
-	    		font-weight: 400;
-	    		margin: 15px 0;
-	    	}
-	    	p{
-	    		text-align: center!important;
-	    	}
+	.features {
+	    padding-top: 45px;
+	    padding-bottom: 25px;
+	    .feature-area {
+		    max-width: 1140px;
+		    #advice-steps{
+		    	text-align: center;
+		    	img{
+		    		width: 105px;
+		    	}
+		    	h3{
+		    		font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+		    		font-size: 20px;
+		    		font-weight: 400;
+		    		margin: 15px 0;
+		    	}
+		    	p{
+		    		text-align: center!important;
+		    	}
+			}
 		}
 	}
 
@@ -114,12 +117,13 @@
 		}
 		.invest-solution{
 			background-color: #fafafa;
-			width: 48%;
+			width: 47%;
 		    margin-left: 15px;
 		    padding: 15px;
 		    padding: 20px;
 		    padding-top: 0;
 	        text-align: justify;
+	        clear: both;
 		    h3 {
 			    padding-top: 15px;
 			}
@@ -140,6 +144,9 @@
 	}
 
 	.fund-range{
+		.heading-inner h1{
+			border:none!important;
+		}
 		.the-risk {
 		    max-width: 1170px;
 		    margin: 0 auto;
