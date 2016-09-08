@@ -25,19 +25,19 @@
 	<div class="row img-intro">
 		<div class="img-intro-inner">
 			<div class="col-xs-6 col-sm-3">
-				<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-1.png" alt="">
+				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-1.png" alt="">
 				<h4>PEOPLE FROM ALL WALKS OF LIFE: YOUNG OR OLD, IN WORK OR RETIRED</h4>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-2.png" alt="">
+				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-2.png" alt="">
 				<h4>PEOPLE WHO REQUIRE EXPERT HELP TO REACH THEIR LIFESTYLE GOALS</h4>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-3.png" alt="">
+				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-3.png" alt="">
 				<h4>PEOPLE WHO WANT TO TARGET A CONSISTENT LEVEL OF RETURN</h4>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-4.png" alt="">
+				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-4.png" alt="">
 				<h4>PEOPLE LOOKING FOR A WELL DIVERSIFIED PORTFOLIO</h4>
 			</div>
 		</div>
@@ -151,7 +151,7 @@
 		</div>
 		<div class="col-sm-6 info-chart">
 			<div class="chart">
-				<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Chart-risk.png" alt="">
+				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Chart-risk.png" alt="">
 			</div>
 			<h3 class="invest-risk">PORTFOLIO INVESTMENT RISK & RETURN</h3>
 			<p>Each Luceo Fund is formed from different combinations of funds which, when put together, are designed to create the right blend to suit your needs and appropriate level of risk.
@@ -252,7 +252,7 @@
 			<div class="ranges">
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
 						<h3>MARK LYNAM</h3>
 						<p>BIO HERE PLEASE Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 					</div>
@@ -260,7 +260,7 @@
 
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_AlexScottBarrett.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_AlexScottBarrett.jpg" alt="">
 						<h3>ALEX SCOTT-BARRETT</h3>
 						<p>Alex Scott-Barrett is a chartered accountant. From 1988 to 2003 he held various offices in the corporate finance and asset management divisions of Cazenove. He is the former chairman of Suffolk Life plc. He chairs Lighthouse Group’s Audit and Remuneration Committees.</p>
 					</div>
@@ -268,7 +268,7 @@
 
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
 						<h3>KEN PATERSON</h3>
 						<p>Ken was appointed to the Board as Group Compliance and Risk Director on 12 February 2014. He has more than 20 years’ experience in senior compliance, risk and regulatory roles within the UK financials services sector, encompassing regulatory bodies, life companies and advisory businesses. Ken joined Lighthouse in August 2012 as Group Compliance Director for the Group’s regulated businesses and has contributed fully as part of the management team since that date.</p>
 					</div>
@@ -276,7 +276,7 @@
 
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
 						<h3>ANDY GADD</h3>
 						<p>BIO HERE PLEASE Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 					</div>
@@ -320,7 +320,7 @@
 			<div class="ranges">
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_MalcolmStreatfield.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_MalcolmStreatfield.jpg" alt="">
 						<h3>MALCOLM STREATFIELD</h3>
 						<p>Malcolm Streatfield was appointed Chief Executive of Lighthouse Group plc in January 2003. He has been involved in financial services since 1976 and was elected to the council of APFA (Association of Professional Financial Advisers) in June 2002. In June 2008, Malcolm was appointed to the Customer Impact Panel of the ABI (Association of British Insurers) and from February 2009 to February 2015 was a member of the Financial Services Practitioner Panel. He joined Lighthouse in April 2002, following the acquisition of BWA Group where he was Chief Executive.</p>
 					</div>
@@ -328,7 +328,7 @@
 
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_PeterSmith.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_PeterSmith.jpg" alt="">
 						<h3>PETER SMITH</h3>
 						<p>Peter is a fellow of the Institute of Chartered Accountants in England and Wales and was a corporate finance and assurance partner with KPMG. He has considerable experience of the UK financial services sector, both from an assurance and corporate advisory capacity and more latterly as an executive director. Peter’s responsibilities include Finance, Treasury, Legal and Company Secretarial matters, as well as strategic initiatives.</p>
 					</div>
@@ -336,7 +336,7 @@
 
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
 						<h3>MIKE ACHILLES</h3>
 						<p>BIO HERE PLEASE Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 					</div>
@@ -344,7 +344,7 @@
 
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
+						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
 						<h3>KEN PATERSON</h3>
 						<p>Ken was appointed to the Board as Group Compliance and Risk Director on 12 February 2014. He has more than 20 years’ experience in senior compliance, risk and regulatory roles within the UK financials services sector, encompassing regulatory bodies, life companies and advisory businesses. Ken joined Lighthouse in August 2012 as Group Compliance Director for the Group’s regulated businesses and has contributed fully as part of the management team since that date.</p>
 					</div>
@@ -529,7 +529,7 @@
 			<div class="col-sm-6 info-chart">
 				<h6>Depending on the level of risk and return you require, your Luceo Investment Fund could feature the following assets.</h6>
 				<div class="chart">
-					<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/manage_risk_chart.png" alt="">
+					<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/manage_risk_chart.png" alt="">
 				</div>
 			</div>
 
@@ -546,7 +546,7 @@
 
 			<div class="the-risk">
 				<div class="col-xs-6">
-					<img class="responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-5.jpg" alt="">
+					<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-5.jpg" alt="">
 				</div>
 				<div class="col-xs-6">
 					<h3 class="orange">WE CAN ASSIST WITH MANAGING YOUR RISK</h3>
