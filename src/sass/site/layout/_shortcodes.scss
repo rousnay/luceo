@@ -115,3 +115,36 @@
         font-family: "Montserrat",Helvetica,Arial,sans-serif;
     }
 }
+
+//SVG Buttons
+.svg-button{
+  position:relative;
+  text-align: center;
+  width: 220px;
+  height: 220px;
+}
+.svg-inner{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  line-height: 220px;
+}
+.svg-inner a{
+  position: absolute;
+  height:100%;
+  width:100%;
+  top: 0;
+  left: 0;
+}
+
+.svg-text{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 5px;
+}
+#svg-crl path{
+    fill:#d3d3d3;
+}
+.svg-button:hover #svg-crl path {
+    fill:#FFCC32;
+  }

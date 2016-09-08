@@ -311,6 +311,18 @@
 	 $('.hard-coded .ranges .ranges-item').matchHeight();
 
 
+	/******************************
+	 Library: GSAP
+	 ******************************/
+
+	$( ".svg-button" ).hover(
+	  function() {
+	      TweenMax.to("#svg-crl", 0.5, {scale:1, rotation:90, transformOrigin:"50% 50%"});
+	  }, function() {
+	      TweenMax.to("#svg-crl", 0.5, {scale:1, rotation:0, transformOrigin:"50% 50%"});
+	  }
+	);
+
 
     /******************************
 	 Other settings
