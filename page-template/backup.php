@@ -172,7 +172,7 @@
 			<div class="ranges">
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<h1><span class="yellow">LUCEO</span><span class="orange questrial">4</span></h1>
+						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo4.png" alt="LUCEO 4">
 						<h3>RISK 4 - FUND OBJECTIVES:</h3>
 						<p>Predominantly investing in passive and active collective investment schemes (OEICs, unit trusts and exchange traded funds) and closed ended investment companies.</p>
 						<h3 class="yellow">Equity Exposure < 55%.</h3>
@@ -182,7 +182,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<h1><span class="yellow">LUCEO</span><span class="orange questrial">5</span></h1>
+						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo5.png" alt="LUCEO 5">
 						<h3>RISK 5 - FUND OBJECTIVES:</h3>
 						<p>Suitable for individual investors seeking a well-diversified, professionally managed investment, but with global equity market exposure limited to no more than 70% of the total portfolio.</p>
 						<h3 class="yellow">Equity Exposure < 70%.</h3>
@@ -193,7 +193,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<h1><span class="yellow">LUCEO</span><span class="orange questrial">6</span></h1>
+						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo6.png" alt="LUCEO 6">
 						<h3>RISK 6 - FUND OBJECTIVES:</h3>
 						<p>Investing in passive and active collective investment schemes & closed ended investment companies. Suitable for investors seeking a well-diversified, managed investment.</p>
 						<h3 class="yellow">Equity Exposure < 85%.</h3>
@@ -386,7 +386,7 @@
 			<div class="ranges">
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<h1><span class="yellow">LUCEO</span><span class="orange questrial">4</span></h1>
+						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo4.png" alt="LUCEO 4">
 						<h3>RECENT DOCUMENTATION</h3>
 
 						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
@@ -405,7 +405,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<h1><span class="yellow">LUCEO</span><span class="orange questrial">5</span></h1>
+						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo5.png" alt="LUCEO 5">
 						<h3>RECENT DOCUMENTATION</h3>
 
 						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
@@ -424,7 +424,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<h1><span class="yellow">LUCEO</span><span class="orange questrial">6</span></h1>
+						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo6.png" alt="LUCEO 6">
 						<h3>RECENT DOCUMENTATION</h3>
 
 						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>

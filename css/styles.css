@@ -11326,103 +11326,7 @@ iframe {
 ## page-media-queries
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-## pages
---------------------------------------------------------------*/
-/********
-  Home
-*********/
-.home-page-bg {
-  background: url("../../../uploads/2016/07/luceo_bg.jpg") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 100vh;
-  overflow: hidden !important;
-}
-
-body.page-template-page-home {
-  overflow: hidden !important;
-  background: transparent !important;
-}
-body.page-template-page-home header#masthead {
-  background: transparent !important;
-}
-body.page-template-page-home .site-content {
-  background-color: transparent !important;
-}
-body.page-template-page-home footer {
-  display: none !important;
-}
-
-.home-page-content {
-  text-transform: uppercase;
-  text-align: right;
-  float: right;
-}
-.home-page-content .main-text {
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  color: #FFCD1D;
-  float: right;
-  font-size: 4.2em;
-  line-height: 1.2em;
-}
-.home-page-content .sub-text {
-  font-family: Raleway;
-  color: #575756;
-  float: right;
-  clear: both;
-  margin-top: 10px;
-  max-width: 50%;
-  font-size: 1.6em;
-  line-height: 1.2em;
-}
-.home-page-content .home-btn {
-  float: right;
-  clear: both;
-  margin-top: 20px;
-}
-.home-page-content .home-btn a {
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  padding: 10px 15px;
-  font-size: 14px;
-  background: #575756;
-  color: #FFFFFF;
-}
-.home-page-content .home-btn a:hover {
-  background: #F59E26;
-  color: #FFFFFF;
-}
-
-/***********
-  Philosophy
-************/
-.child-page-menu li {
-  margin-bottom: 2px;
-}
-.child-page-menu li a {
-  font-size: 12px;
-  -webkit-transition: all 200ms ease-out;
-     -moz-transition: all 200ms ease-out;
-       -o-transition: all 200ms ease-out;
-          transition: all 200ms ease-out;
-  display: block;
-  background: #eee;
-  color: #999;
-  font-family: "Montserrat",Helvetica,Arial,sans-serif;
-  border-radius: 0;
-  padding: 12px 15px;
-}
-.child-page-menu li a:hover {
-  background-color: #FFCD1D;
-  color: #FFFFFF;
-}
-.child-page-menu li.current_page_item a {
-  background-color: #FFCD1D;
-  color: #FFFFFF;
-}
-
-/*--------------------------------------------------------------
-## Fund
+## Hard-coded
 --------------------------------------------------------------*/
 /********
   Hard Coded Pages (Fund)
@@ -11556,15 +11460,13 @@ body.page-template-page-home footer {
   padding: 45px 40px;
   border: 3px solid #FFCD1D;
 }
-.hard-coded .fund-range .ranges .ranges-item h1 {
-  font-size: 60px;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  line-height: 52px;
-  margin-top: 10px;
-}
-.hard-coded .fund-range .ranges .ranges-item h1 .questrial {
-  font-family: "Questrial",Arial,Helvetica,sans-serif;
+.hard-coded .fund-range .ranges .ranges-item img {
+  max-width: 245px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  outline: none;
 }
 .hard-coded .fund-range .ranges .ranges-item h3 {
   font-size: 18px;
@@ -11583,7 +11485,7 @@ body.page-template-page-home footer {
   -webkit-background-size: cover;
           background-size: cover;
   text-align: center;
-  padding: 70px 0;
+  padding: 70px 15px;
 }
 .hard-coded .inquiry .invest-inquiry {
   max-width: 1050px;
@@ -11606,9 +11508,102 @@ body.page-template-page-home footer {
   font-weight: 400;
 }
 
-/*-------------------------------------------------------------
-## About
+/*--------------------------------------------------------------
+## pages
 --------------------------------------------------------------*/
+/********
+  Home
+*********/
+.home-page-bg {
+  background: url("../../../uploads/2016/07/luceo_bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  overflow: hidden !important;
+}
+
+body.page-template-page-home {
+  overflow: hidden !important;
+  background: transparent !important;
+}
+body.page-template-page-home header#masthead {
+  background: transparent !important;
+}
+body.page-template-page-home .site-content {
+  background-color: transparent !important;
+}
+body.page-template-page-home footer {
+  display: none !important;
+}
+
+.home-page-content {
+  text-transform: uppercase;
+  text-align: right;
+  float: right;
+}
+.home-page-content .main-text {
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+  color: #FFCD1D;
+  float: right;
+  font-size: 4.2em;
+  line-height: 1.2em;
+}
+.home-page-content .sub-text {
+  font-family: Raleway;
+  color: #575756;
+  float: right;
+  clear: both;
+  margin-top: 10px;
+  max-width: 50%;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+.home-page-content .home-btn {
+  float: right;
+  clear: both;
+  margin-top: 20px;
+}
+.home-page-content .home-btn a {
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #575756;
+  color: #FFFFFF;
+}
+.home-page-content .home-btn a:hover {
+  background: #F59E26;
+  color: #FFFFFF;
+}
+
+/***********
+  Philosophy
+************/
+.child-page-menu li {
+  margin-bottom: 2px;
+}
+.child-page-menu li a {
+  font-size: 12px;
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
+  display: block;
+  background: #eee;
+  color: #999;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  border-radius: 0;
+  padding: 12px 15px;
+}
+.child-page-menu li a:hover {
+  background-color: #FFCD1D;
+  color: #FFFFFF;
+}
+.child-page-menu li.current_page_item a {
+  background-color: #FFCD1D;
+  color: #FFFFFF;
+}
+
 /********
   About
 *********/
@@ -11631,6 +11626,9 @@ body.page-template-page-home footer {
   float: right;
 }
 
+/*************
+  Comitte Page
+*************/
 .page-committee .ranges-item {
   padding: 15px !important;
   border: 1px solid #FFCD1D !important;
@@ -11646,6 +11644,9 @@ body.page-template-page-home footer {
   padding-bottom: 40px;
 }
 
+/*************
+  Board Page
+*************/
 .page-board .ranges {
   margin-top: 15px !important;
 }
@@ -11661,6 +11662,9 @@ body.page-template-page-home footer {
   text-align: justify;
 }
 
+/*************
+  library Page
+*************/
 .page-library .ranges {
   margin-top: 50px !important;
 }
@@ -11781,9 +11785,6 @@ body.page-template-page-home footer {
   .hard-coded .fund-range .ranges .ranges-item {
     padding: 35px 30px;
   }
-  .hard-coded .fund-range .ranges .ranges-item h1 {
-    font-size: 35px;
-  }
   .hard-coded .fund-range .ranges .ranges-item h3, .hard-coded .fund-range .ranges .ranges-item .buttons a {
     font-size: 14px;
   }
@@ -11831,6 +11832,9 @@ body.page-template-page-home footer {
     margin-left: inherit;
   }
 
+  .page-advice .feature-area > div {
+    margin-bottom: 0 !important;
+  }
   .page-advice .invest-info .invest-solution {
     margin-left: inherit;
     padding: 15px;
@@ -11850,20 +11854,15 @@ body.page-template-page-home footer {
     margin-bottom: 30px;
   }
 
-  .hard-coded .inquiry h2 {
-    font-size: 28px;
+  .hard-coded .inquiry {
+    padding: 50px 15px;
+    background-position: inherit;
   }
-
   .hard-coded .inquiry a {
     font-size: 24px;
   }
-
-  .hard-coded .inquiry {
-    padding: 50px 0;
-  }
-
-  .hard-coded .inquiry {
-    background-position: inherit;
+  .hard-coded .inquiry h2 {
+    font-size: 28px;
   }
 }
 @media (max-width: 700px) {
@@ -11921,10 +11920,6 @@ body.page-template-page-home footer {
   .home-page-content .sub-text {
     font-size: 0.9em !important;
     max-width: 60% !important;
-  }
-
-  .hard-coded .fund-range .ranges .ranges-item h1 {
-    font-size: 50px;
   }
 
   .hard-coded .fund-range .ranges .ranges-item h3 {
@@ -11999,7 +11994,7 @@ body.page-template-page-home footer {
   }
 
   .hard-coded .fund-range .ranges .ranges-item {
-    padding: 35px 30px;
+    padding: 35px 20px;
   }
 }
 @media (max-width: 350px) {

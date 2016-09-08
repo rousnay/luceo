@@ -130,22 +130,29 @@
 	    	max-width: 1170px;
 		    margin: 0 auto;
 		    div[class^="col"] { 
-		    	//background-color:#FFFFFF
-
+		    	//background-color:#FFFFFF;
 		    }
 		    .ranges-item {
 			    background-color: #fff;
 			    padding: 45px 40px;
 			    border: 3px solid $color_luceo_yellow;
-			    h1{
-				    font-size: 60px;
-				    font-family: "Raleway",Helvetica,Arial,sans-serif;
-				    font-weight: 300;
-				    line-height: 52px;
-			        margin-top: 10px;
-				    .questrial{
-				    	font-family: "Questrial",Arial,Helvetica,sans-serif;
-				    }
+			    // h1{
+				   //  font-size: 60px;
+				   //  font-family: "Raleway",Helvetica,Arial,sans-serif;
+				   //  font-weight: 300;
+				   //  line-height: 52px;
+			    //     margin-top: 10px;
+				   //  .questrial{
+				   //  	font-family: "Questrial",Arial,Helvetica,sans-serif;
+				   //  }
+			    // }
+			    img{
+			    	max-width: 245px;
+				    width: 100%;
+				    display: block;
+				    padding: 0;
+				    margin: 0 auto;
+				    outline: none;
 			    }
 			    h3{
 			    	font-size: 18px;
@@ -167,7 +174,7 @@
 		background-repeat:no-repeat;
 		background-size: cover;
 		text-align: center;
-	    padding: 70px 0;
+	    padding: 70px 15px;
 	    .invest-inquiry {
 		    max-width: 1050px;
 		    margin: 0 auto;
