@@ -1,3 +1,5 @@
+//Global
+
 
 // Buttons
 
@@ -118,33 +120,64 @@
 
 //SVG Buttons
 .svg-button{
-  position:relative;
-  text-align: center;
-  width: 220px;
-  height: 220px;
-}
-.svg-inner{
-  position: absolute;
-  width: 220px;
-  height: 220px;
-  line-height: 220px;
-}
-.svg-inner a{
-  position: absolute;
-  height:100%;
-  width:100%;
-  top: 0;
-  left: 0;
-}
+    position:relative;
+    text-align: center;
+    width: 220px;
+    height: 220px;
 
-.svg-text{
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 5px;
+    .svg-inner{
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        line-height: 220px;
+        a{
+            position: absolute;
+            height:100%;
+            width:100%;
+            top: 0;
+            left: 0;
+        }
+        .svg-text{
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 5px;
+            max-width: 150px;
+            p{
+                word-wrap: break-word;
+                line-height: initial;
+                margin: 0;
+                margin-bottom: 3px;
+                color: $color_luceo_grey;
+                transition: all 200ms ease-out;
+                &:first-child {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-family: "Raleway",Helvetica,Arial,sans-serif;
+                    font-weight: 400;
+                }
+                &:last-child{
+                    font-size: 23px;
+                    text-transform: uppercase;
+                    font-family: "Raleway",Helvetica,Arial,sans-serif;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .svg-crl {
+        path{
+            fill:#d3d3d3;
+            transition: all 200ms ease-out;
+        }
+    }
+    &:hover{
+        .svg-text p{
+            color: $color_luceo_yellow;
+        }
+        .svg-crl {
+            path{
+                fill:#ffcd1d;
+            }
+        }
+    }
 }
-#svg-crl path{
-    fill:#d3d3d3;
-}
-.svg-button:hover #svg-crl path {
-    fill:#FFCC32;
-  }

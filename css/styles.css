@@ -10961,34 +10961,60 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   width: 220px;
   height: 220px;
 }
-
-.svg-inner {
+.svg-button .svg-inner {
   position: absolute;
   width: 220px;
   height: 220px;
   line-height: 220px;
 }
-
-.svg-inner a {
+.svg-button .svg-inner a {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
 }
-
-.svg-text {
+.svg-button .svg-inner .svg-text {
   display: inline-block;
   vertical-align: middle;
   line-height: 5px;
+  max-width: 150px;
 }
-
-#svg-crl path {
+.svg-button .svg-inner .svg-text p {
+  word-wrap: break-word;
+  line-height: initial;
+  margin: 0;
+  margin-bottom: 3px;
+  color: #575756;
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
+}
+.svg-button .svg-inner .svg-text p:first-child {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+.svg-button .svg-inner .svg-text p:last-child {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+.svg-button .svg-crl path {
   fill: #d3d3d3;
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
 }
-
-.svg-button:hover #svg-crl path {
-  fill: #FFCC32;
+.svg-button:hover .svg-text p {
+  color: #FFCD1D;
+}
+.svg-button:hover .svg-crl path {
+  fill: #ffcd1d;
 }
 
 /*--------------------------------------------------------------

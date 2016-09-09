@@ -314,14 +314,20 @@
 	/******************************
 	 Library: GSAP
 	 ******************************/
+	$(".svg-button").each(function() {
 
-	$( ".svg-button" ).hover(
-	  function() {
-	      TweenMax.to("#svg-crl", 0.5, {scale:1, rotation:90, transformOrigin:"50% 50%"});
-	  }, function() {
-	      TweenMax.to("#svg-crl", 0.5, {scale:1, rotation:0, transformOrigin:"50% 50%"});
-	  }
-	);
+		var clp = jQuery(this).find('.svg-crl');
+
+	    $(this).hover(
+		  function() {
+		      TweenMax.to(clp, 0.5, {scale:1, rotation:90, transformOrigin:"50% 50%"});
+		  }, function() {
+		      TweenMax.to(clp, 0.5, {scale:1, rotation:0, transformOrigin:"50% 50%"});
+		  }
+		);
+	});
+
+
 
 
     /******************************

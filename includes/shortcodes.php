@@ -252,7 +252,7 @@ function wittyplex_adding_custom_svg_button($atts, $content = null) {
 	</div>
 
 	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220 220" xml:space="preserve">
-		<g id="svg-crl">
+		<g class="svg-crl">
 			<path d="M191.149,84.762c2.522,7.978,3.895,16.462,3.921,25.26c0.137,46.757-37.794,84.909-84.551,85.045
 			c-46.757,0.137-84.909-37.792-85.045-84.55C25.36,72.148,50.89,39.592,85.889,29.064l-1.4-4.752
 			c-37.057,11.134-64.09,45.598-63.972,86.22c0.145,49.49,40.524,89.634,90.014,89.49s89.636-40.524,89.491-90.014
