@@ -204,20 +204,26 @@ body.page-template-page-blog{
 
 @media (max-width: 991px){
 		.sidebar {
-	    margin: 25px 15px;
-	    padding: 15px;
-	    background-color: #fff;
-	}
+		    margin: 0;
+		    padding-right: 0!important;
+		    background-color: #fff;
+		    .buttons {
+			    width: 350px!important;
+			}
+		}
+		.post-item {
+		    padding-left: 0;
+		}
 }
 
 @media (max-width: 767px){
 	 .title-wrapper {
-    padding: 10px 0 5px!important;
-}
+	    padding: 10px 0 5px!important;
+	}
 	.entry-title {
-    font-size: 1.428em;
+    	font-size: 1.428em;
         line-height: 40px;
-}
+	}
 	.entry-inner {
 	    padding: 15px;
 	    .entry-content {
@@ -257,4 +263,10 @@ body.page-template-page-blog{
 
 	}
 }
+}
+
+@media (max-width: 500px){
+.sidebar .buttons {
+			    width: 100%!important;
+			}
 }

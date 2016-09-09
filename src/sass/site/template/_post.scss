@@ -1,5 +1,6 @@
 .content-single {
     margin-top: 25px;
+    padding-right: 0;
 }
 
 header.entry-header h1{
@@ -216,4 +217,9 @@ body.single-post{
 //Read More
 .morecontent span {
 	display: none;
+}
+@media (max-width: 991px){
+	.content-single {
+	    padding: 0;
+	}
 }

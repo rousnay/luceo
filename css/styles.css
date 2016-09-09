@@ -10960,6 +10960,7 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   text-align: center;
   width: 220px;
   height: 220px;
+  margin: 0 auto;
 }
 .svg-button .svg-inner {
   position: absolute;
@@ -10982,26 +10983,17 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 }
 .svg-button .svg-inner .svg-text p {
   word-wrap: break-word;
+  text-transform: uppercase;
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+  font-weight: 400;
   line-height: initial;
+  color: #575756;
   margin: 0;
   margin-bottom: 3px;
-  color: #575756;
   -webkit-transition: all 200ms ease-out;
      -moz-transition: all 200ms ease-out;
        -o-transition: all 200ms ease-out;
           transition: all 200ms ease-out;
-}
-.svg-button .svg-inner .svg-text p:first-child {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-}
-.svg-button .svg-inner .svg-text p:last-child {
-  font-size: 23px;
-  text-transform: uppercase;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 400;
 }
 .svg-button .svg-crl path {
   fill: #d3d3d3;
@@ -12257,9 +12249,16 @@ body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-cont
 
 @media (max-width: 991px) {
   .sidebar {
-    margin: 25px 15px;
-    padding: 15px;
+    margin: 0;
+    padding-right: 0 !important;
     background-color: #fff;
+  }
+  .sidebar .buttons {
+    width: 350px !important;
+  }
+
+  .post-item {
+    padding-left: 0;
   }
 }
 @media (max-width: 767px) {
@@ -12305,11 +12304,17 @@ body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-cont
     font-size: 0.875em !important;
   }
 }
+@media (max-width: 500px) {
+  .sidebar .buttons {
+    width: 100% !important;
+  }
+}
 /*--------------------------------------------------------------
 ## Post
 --------------------------------------------------------------*/
 .content-single {
   margin-top: 25px;
+  padding-right: 0;
 }
 
 header.entry-header h1 {
@@ -12528,6 +12533,11 @@ body.single-post footer#colophon {
   display: none;
 }
 
+@media (max-width: 991px) {
+  .content-single {
+    padding: 0;
+  }
+}
 /*--------------------------------------------------------------
 ## Search Results
 --------------------------------------------------------------*/

@@ -124,7 +124,7 @@
     text-align: center;
     width: 220px;
     height: 220px;
-
+    margin: 0 auto;
     .svg-inner{
         position: absolute;
         width: 220px;
@@ -144,23 +144,14 @@
             max-width: 150px;
             p{
                 word-wrap: break-word;
+                text-transform: uppercase;
+                font-family: "Raleway",Helvetica,Arial,sans-serif;
+                font-weight: 400;
                 line-height: initial;
+                color: $color_luceo_grey;
                 margin: 0;
                 margin-bottom: 3px;
-                color: $color_luceo_grey;
                 transition: all 200ms ease-out;
-                &:first-child {
-                    font-size: 14px;
-                    text-transform: uppercase;
-                    font-family: "Raleway",Helvetica,Arial,sans-serif;
-                    font-weight: 400;
-                }
-                &:last-child{
-                    font-size: 23px;
-                    text-transform: uppercase;
-                    font-family: "Raleway",Helvetica,Arial,sans-serif;
-                    font-weight: 400;
-                }
             }
         }
     }
