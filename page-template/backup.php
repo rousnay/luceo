@@ -7,7 +7,7 @@
 	</div>
 	<br>
 	<div class="sub-text">Everyone deserves INVESTMENTS THAT HELP ACHIEVE THE LIFESTYLE THEY WANT.</div>
-	<div class="home-btn buttons"><a href="http://genuineimitation.co.uk/luceo/funds/">View our Funds</a></div>
+	<div class="home-btn buttons"><a href="http://luceo-wp.azurewebsites.net/funds/">View our Funds</a></div>
 </did>
 
 
@@ -25,19 +25,19 @@
 	<div class="row img-intro">
 		<div class="img-intro-inner">
 			<div class="col-xs-6 col-sm-3">
-				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-1.png" alt="">
+				<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Photo-1.png" alt="">
 				<h4>PEOPLE FROM ALL WALKS OF LIFE: YOUNG OR OLD, IN WORK OR RETIRED</h4>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-2.png" alt="">
+				<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Photo-2.png" alt="">
 				<h4>PEOPLE WHO REQUIRE EXPERT HELP TO REACH THEIR LIFESTYLE GOALS</h4>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-3.png" alt="">
+				<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Photo-3.png" alt="">
 				<h4>PEOPLE WHO WANT TO TARGET A CONSISTENT LEVEL OF RETURN</h4>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-4.png" alt="">
+				<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Photo-4.png" alt="">
 				<h4>PEOPLE LOOKING FOR A WELL DIVERSIFIED PORTFOLIO</h4>
 			</div>
 		</div>
@@ -81,7 +81,7 @@
 		<div class="col-xs-12">
 			<div class="invest-inquiry">
 				<h2>For general enquires call: 0333 000 0330</h2>
-				<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+				<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 			</div>
 		</div>
 	</div>
@@ -151,7 +151,7 @@
 		</div>
 		<div class="col-sm-6 info-chart">
 			<div class="chart">
-				<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Chart-risk.png" alt="">
+				<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Chart-risk.png" alt="">
 			</div>
 			<h3 class="invest-risk">PORTFOLIO INVESTMENT RISK & RETURN</h3>
 			<p>Each Luceo Fund is formed from different combinations of funds which, when put together, are designed to create the right blend to suit your needs and appropriate level of risk.
@@ -172,7 +172,7 @@
 			<div class="ranges">
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo4.png" alt="LUCEO 4">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/logo_luceo4.png" alt="LUCEO 4">
 						<h3>RISK 4 - FUND OBJECTIVES:</h3>
 						<p>Predominantly investing in passive and active collective investment schemes (OEICs, unit trusts and exchange traded funds) and closed ended investment companies.</p>
 						<h3 class="yellow">Equity Exposure < 55%.</h3>
@@ -182,7 +182,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo5.png" alt="LUCEO 5">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/logo_luceo5.png" alt="LUCEO 5">
 						<h3>RISK 5 - FUND OBJECTIVES:</h3>
 						<p>Suitable for individual investors seeking a well-diversified, professionally managed investment, but with global equity market exposure limited to no more than 70% of the total portfolio.</p>
 						<h3 class="yellow">Equity Exposure < 70%.</h3>
@@ -193,7 +193,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo6.png" alt="LUCEO 6">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/logo_luceo6.png" alt="LUCEO 6">
 						<h3>RISK 6 - FUND OBJECTIVES:</h3>
 						<p>Investing in passive and active collective investment schemes & closed ended investment companies. Suitable for investors seeking a well-diversified, managed investment.</p>
 						<h3 class="yellow">Equity Exposure < 85%.</h3>
@@ -208,7 +208,7 @@
 			<div class="col-xs-12">
 				<div class="invest-inquiry">
 					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 				</div>
 			</div>
 		</div>
@@ -252,7 +252,7 @@
 			<div class="ranges">
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
 						<h3>MARK LYNAM</h3>
 						<p>BIO HERE PLEASE Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 					</div>
@@ -260,7 +260,7 @@
 
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_AlexScottBarrett.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_AlexScottBarrett.jpg" alt="">
 						<h3>ALEX SCOTT-BARRETT</h3>
 						<p>Alex Scott-Barrett is a chartered accountant. From 1988 to 2003 he held various offices in the corporate finance and asset management divisions of Cazenove. He is the former chairman of Suffolk Life plc. He chairs Lighthouse Group’s Audit and Remuneration Committees.</p>
 					</div>
@@ -268,7 +268,7 @@
 
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
 						<h3>KEN PATERSON</h3>
 						<p>Ken was appointed to the Board as Group Compliance and Risk Director on 12 February 2014. He has more than 20 years’ experience in senior compliance, risk and regulatory roles within the UK financials services sector, encompassing regulatory bodies, life companies and advisory businesses. Ken joined Lighthouse in August 2012 as Group Compliance Director for the Group’s regulated businesses and has contributed fully as part of the management team since that date.</p>
 					</div>
@@ -276,7 +276,7 @@
 
 				<div class="col-xs-6 col-sm-3">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
 						<h3>ANDY GADD</h3>
 						<p>BIO HERE PLEASE Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 					</div>
@@ -290,7 +290,7 @@
 			<div class="col-xs-12">
 				<div class="invest-inquiry">
 					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 				</div>
 			</div>
 		</div>
@@ -320,7 +320,7 @@
 			<div class="ranges">
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_MalcolmStreatfield.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_MalcolmStreatfield.jpg" alt="">
 						<h3>MALCOLM STREATFIELD</h3>
 						<p>Malcolm Streatfield was appointed Chief Executive of Lighthouse Group plc in January 2003. He has been involved in financial services since 1976 and was elected to the council of APFA (Association of Professional Financial Advisers) in June 2002. In June 2008, Malcolm was appointed to the Customer Impact Panel of the ABI (Association of British Insurers) and from February 2009 to February 2015 was a member of the Financial Services Practitioner Panel. He joined Lighthouse in April 2002, following the acquisition of BWA Group where he was Chief Executive.</p>
 					</div>
@@ -328,7 +328,7 @@
 
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_PeterSmith.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_PeterSmith.jpg" alt="">
 						<h3>PETER SMITH</h3>
 						<p>Peter is a fellow of the Institute of Chartered Accountants in England and Wales and was a corporate finance and assurance partner with KPMG. He has considerable experience of the UK financial services sector, both from an assurance and corporate advisory capacity and more latterly as an executive director. Peter’s responsibilities include Finance, Treasury, Legal and Company Secretarial matters, as well as strategic initiatives.</p>
 					</div>
@@ -336,7 +336,7 @@
 
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_FayGoddard.jpg" alt="">
 						<h3>MIKE ACHILLES</h3>
 						<p>BIO HERE PLEASE Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 					</div>
@@ -344,7 +344,7 @@
 
 				<div class="col-xs-6">
 					<div class="ranges-item">
-						<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
+						<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Lighthouse_KenPaterson.jpg" alt="">
 						<h3>KEN PATERSON</h3>
 						<p>Ken was appointed to the Board as Group Compliance and Risk Director on 12 February 2014. He has more than 20 years’ experience in senior compliance, risk and regulatory roles within the UK financials services sector, encompassing regulatory bodies, life companies and advisory businesses. Ken joined Lighthouse in August 2012 as Group Compliance Director for the Group’s regulated businesses and has contributed fully as part of the management team since that date.</p>
 					</div>
@@ -358,7 +358,7 @@
 			<div class="col-xs-12">
 				<div class="invest-inquiry">
 					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 				</div>
 			</div>
 		</div>
@@ -386,7 +386,7 @@
 			<div class="ranges">
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo4.png" alt="LUCEO 4">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/logo_luceo4.png" alt="LUCEO 4">
 						<h3>RECENT DOCUMENTATION</h3>
 
 						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
@@ -405,7 +405,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo5.png" alt="LUCEO 5">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/logo_luceo5.png" alt="LUCEO 5">
 						<h3>RECENT DOCUMENTATION</h3>
 
 						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
@@ -424,7 +424,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="ranges-item">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/logo_luceo6.png" alt="LUCEO 6">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/logo_luceo6.png" alt="LUCEO 6">
 						<h3>RECENT DOCUMENTATION</h3>
 
 						<div style="width: 100% " class="buttons medium orange capitalize"><a href="http://www.google.com">Download Factsheet</a></div>
@@ -447,7 +447,7 @@
 			<div class="col-xs-12">
 				<div class="invest-inquiry">
 					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 				</div>
 			</div>
 		</div>
@@ -472,38 +472,38 @@
 			<div class="feature-area">
 				<div id="advice-steps" class="owl-carousel">
 					<div class="col-xs-12">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/adivce_button_1.png">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/adivce_button_1.png">
 
 						<h3>STEP ONE</h3>
 						<p>You‘ve talked to your adviser about your investment goals.</p>
 					</div>
 					<div class="col-xs-12">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/adivce_button_2.png">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/adivce_button_2.png">
 
 						<h3>STEP TWO</h3>
 						<p>Your adviser makes an assessment of your attitude towards risk.</p>
 					</div>
 					<div class="col-xs-12">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/adivce_button_3.png">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/adivce_button_3.png">
 
 						<h3>STEP THREE</h3>
 						<p>You are matched with THE LUCEO INVESTMENT FUND that suits you.</p>
 					</div>
 					<div class="col-xs-12">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/adivce_button_4.png">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/adivce_button_4.png">
 
 						<h3>STEP FOUR</h3>
 						<p>Your portfolio will be made up of lots of different funds.</p>
 					</div>
 					<div class="col-xs-12">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/adivce_button_5.png">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/adivce_button_5.png">
 
 
 						<h3>STEP FIVE</h3>
 						<p>It will be managed to give every chance of delivering the returns you expect.</p>
 					</div>
 					<div class="col-xs-12">
-						<img src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/adivce_button_6.png">
+						<img src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/adivce_button_6.png">
 
 						<h3>STEP SIX</h3>
 						<p>Your portfolio will be monitored by expert fund managers.</p>
@@ -529,7 +529,7 @@
 			<div class="col-sm-6 info-chart">
 				<h6>Depending on the level of risk and return you require, your Luceo Investment Fund could feature the following assets.</h6>
 				<div class="chart">
-					<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/manage_risk_chart.png" alt="">
+					<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/manage_risk_chart.png" alt="">
 				</div>
 			</div>
 
@@ -546,7 +546,7 @@
 
 			<div class="the-risk">
 				<div class="col-xs-6">
-					<img class="img-responsive" src="http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/08/Photo-5.jpg" alt="">
+					<img class="img-responsive" src="http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/08/Photo-5.jpg" alt="">
 				</div>
 				<div class="col-xs-6">
 					<h3 class="orange">WE CAN ASSIST WITH MANAGING YOUR RISK</h3>
@@ -567,7 +567,7 @@
 				<div class="col-xs-12">
 					<div class="invest-inquiry">
 						<h2>For general enquires call: 0333 000 0330</h2>
-						<a href="http://genuineimitation.co.uk/luceo/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
+						<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 					</div>
 				</div>
 			</div><!-- .row -->
