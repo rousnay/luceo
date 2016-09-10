@@ -157,7 +157,7 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'luceo-gsap-tweenmax-js', get_template_directory_uri() . '/js/TweenMax.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'luceo-nobounce-js', get_template_directory_uri() . '/js/noBounce.min.js', array('jquery'), '', true );
+	//wp_enqueue_script( 'luceo-nobounce-js', get_template_directory_uri() . '/js/noBounce.min.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 

@@ -28,6 +28,11 @@
 	.hard-coded .sections {
 	    margin-top: 40px;
 	}
+	.home-page-content {
+		p.risk-info {
+			bottom: 7%;
+		}
+	}
 
 }
 
@@ -59,6 +64,9 @@
 			font-size: 1.2em!important;
 		    max-width: 55%!important;
 		}
+		p.risk-info {
+			bottom: 10%;
+		}
 	}
 
 	.page-advice {
@@ -86,6 +94,7 @@
 		    right: 20px;
 		    font-size: 13px;
 		    padding-left:20px;
+		    bottom:12%;
 		}
 	}
 

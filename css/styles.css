@@ -11623,7 +11623,6 @@ body.page-template-page-home header#masthead {
 }
 body.page-template-page-home .site-content {
   background-color: transparent !important;
-  position: static;
 }
 body.page-template-page-home footer {
   display: none !important;
@@ -11670,7 +11669,7 @@ body.page-template-page-home footer {
   clear: both;
   position: absolute;
   text-align: right;
-  bottom: 35px;
+  bottom: 5%;
   right: 35px;
   margin: 0;
   max-width: 686px;
@@ -11876,6 +11875,10 @@ body.page-template-page-home footer {
   .hard-coded .sections {
     margin-top: 40px;
   }
+
+  .home-page-content p.risk-info {
+    bottom: 7%;
+  }
 }
 @media (max-width: 970px) {
   .hard-coded .heading h1 {
@@ -11903,6 +11906,9 @@ body.page-template-page-home footer {
     font-size: 1.2em !important;
     max-width: 55% !important;
   }
+  .home-page-content p.risk-info {
+    bottom: 10%;
+  }
 
   .page-advice .fund-range .the-risk .col-xs-6 {
     width: 50% !important;
@@ -11923,6 +11929,7 @@ body.page-template-page-home footer {
     right: 20px;
     font-size: 13px;
     padding-left: 20px;
+    bottom: 12%;
   }
 
   .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {

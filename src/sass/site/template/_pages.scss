@@ -21,7 +21,7 @@ body.page-template-page-home{
 	}
 	.site-content{
 		background-color:transparent !important;
-		position: static;
+		//position: static;
 	}
 	footer{
 		display: none!important;
@@ -69,7 +69,7 @@ body.page-template-page-home{
 		clear: both;
 	    position: absolute;
 	    text-align: right;
-	    bottom: 35px;
+	    bottom: 5%;
 	    right: 35px;
         margin: 0;
 	    max-width: 686px;

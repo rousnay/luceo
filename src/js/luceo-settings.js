@@ -328,7 +328,7 @@
 	/******************************
 	 Library: perfect-scrollbar
 	 ******************************/
-	$('#mm-menu').perfectScrollbar();
+	//$('#mm-menu').perfectScrollbar();
 
 
 	/******************************
@@ -386,7 +386,7 @@
 	 Other settings
 	 ******************************/
 
-	$('#mm-menu').perfectScrollbar();
+	//$('#mm-menu').perfectScrollbar();
 
 	 $(".remove-link a").removeAttr("href");
 
