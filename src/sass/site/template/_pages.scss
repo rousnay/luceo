@@ -21,6 +21,7 @@ body.page-template-page-home{
 	}
 	.site-content{
 		background-color:transparent !important;
+		position: static;
 	}
 	footer{
 		display: none!important;
@@ -62,6 +63,16 @@ body.page-template-page-home{
 				color: #FFFFFF;
 			}
 	    }
+	}
+
+	p.risk-info {
+		clear: both;
+	    position: absolute;
+	    text-align: right;
+	    bottom: 35px;
+	    right: 35px;
+	    max-width: 686px;
+        text-transform: none;
 	}
 }
 

@@ -10870,6 +10870,7 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   padding-left: 0;
 }
 .buttons i {
+  margin-right: 2px;
   -webkit-transition: all 200ms ease-out;
      -moz-transition: all 200ms ease-out;
        -o-transition: all 200ms ease-out;
@@ -11625,6 +11626,7 @@ body.page-template-page-home header#masthead {
 }
 body.page-template-page-home .site-content {
   background-color: transparent !important;
+  position: static;
 }
 body.page-template-page-home footer {
   display: none !important;
@@ -11666,6 +11668,15 @@ body.page-template-page-home footer {
 .home-page-content .home-btn a:hover {
   background: #F59E26;
   color: #FFFFFF;
+}
+.home-page-content p.risk-info {
+  clear: both;
+  position: absolute;
+  text-align: right;
+  bottom: 35px;
+  right: 35px;
+  max-width: 686px;
+  text-transform: none;
 }
 
 /***********
@@ -11910,6 +11921,10 @@ body.page-template-page-home footer {
   .home-page-content .home-btn a {
     font-size: 11px !important;
   }
+  .home-page-content p.risk-info {
+    right: 20px;
+    font-size: 13px;
+  }
 
   .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {
     width: inherit;
@@ -11983,6 +11998,9 @@ body.page-template-page-home footer {
   .home-page-content .sub-text {
     font-size: 1.1em !important;
     line-height: 1.3em !important;
+  }
+  .home-page-content p.risk-info {
+    font-size: 12px;
   }
 
   .hard-coded .inquiry h2 {
@@ -13077,5 +13095,11 @@ ivan-carousel (owl)
 }
 
 /***************
-Update to new VC
+Editor style
 ***************/
+body#tinymce .home-page-content p.risk-info {
+  position: static;
+  float: right;
+  margin-top: 20px;
+  max-width: 686px;
+}

@@ -82,7 +82,12 @@
 		.home-btn a {
 	    font-size: 11px!important;;
 		}
+		p.risk-info {
+		    right: 20px;
+		    font-size: 13px;
+		}
 	}
+
 	.hard-coded .invest-info {
 		.info-chart, .invest-solution, .one-solution {
 		    width: inherit;
@@ -170,6 +175,9 @@
 		.sub-text {
 		    font-size: 1.1em!important;
 		    line-height: 1.3em!important;
+		}
+		 p.risk-info {
+		    font-size: 12px;
 		}
 	}
 	.hard-coded .inquiry h2 {
