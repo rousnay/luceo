@@ -5,13 +5,19 @@
 
 .buttons{
     margin-top: 3px;
+    padding-left: 15px;
+    transition: all 200ms ease-out;
 
     a{
         transition: all 200ms ease-out;
-        display: block;
+        display: inline-block;
         font-family: "Montserrat",Helvetica,Arial,sans-serif;
         border-radius: 0;
         padding: 12px 15px;
+        padding-left: 0;
+    }
+    i{
+        transition: all 200ms ease-out;
     }
     &.small a{
         font-size: 12px;
@@ -22,30 +28,44 @@
     &.large a{
         font-size: 20px;
     }
-    &.yellow a{
+    &.yellow {
         background: $color_luceo_yellow;
-        color: #fff;
-        &:hover{
-            background: $color_luceo_orange;
+        a,i{
             color: #fff;
         }
+        &:hover{
+            background: $color_luceo_orange;
+            a,i{
+                color: #fff;
+            }
+        }
     }
-    &.orange a{
+
+    &.orange {
         background: $color_luceo_orange;
-        color: #fff;
+        a,i{
+            color: #fff;
+        }
         &:hover{
             background: $color_luceo_yellow;
-            color: #fff;
+            a,i{
+                color: #fff;
+            }
         }
     }
-    &.gray a{
+    &.gray {
         background: #eee;
-        color: #999;
+        a,i{
+            color: #999;
+        }
         &:hover{
             background: $color_luceo_orange;
-            color: #fff;
+            a,i{
+                color: #fff;
+            }
         }
     }
+
     &.uppercase a{
         text-transform: uppercase;
     }

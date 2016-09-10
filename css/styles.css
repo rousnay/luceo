@@ -10852,16 +10852,28 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 --------------------------------------------------------------*/
 .buttons {
   margin-top: 3px;
+  padding-left: 15px;
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
 }
 .buttons a {
   -webkit-transition: all 200ms ease-out;
      -moz-transition: all 200ms ease-out;
        -o-transition: all 200ms ease-out;
           transition: all 200ms ease-out;
-  display: block;
+  display: inline-block;
   font-family: "Montserrat",Helvetica,Arial,sans-serif;
   border-radius: 0;
   padding: 12px 15px;
+  padding-left: 0;
+}
+.buttons i {
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
 }
 .buttons.small a {
   font-size: 12px;
@@ -10872,28 +10884,40 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
 .buttons.large a {
   font-size: 20px;
 }
-.buttons.yellow a {
+.buttons.yellow {
   background: #FFCD1D;
+}
+.buttons.yellow a, .buttons.yellow i {
   color: #fff;
 }
-.buttons.yellow a:hover {
+.buttons.yellow:hover {
   background: #F59E26;
+}
+.buttons.yellow:hover a, .buttons.yellow:hover i {
   color: #fff;
 }
-.buttons.orange a {
+.buttons.orange {
   background: #F59E26;
+}
+.buttons.orange a, .buttons.orange i {
   color: #fff;
 }
-.buttons.orange a:hover {
+.buttons.orange:hover {
   background: #FFCD1D;
+}
+.buttons.orange:hover a, .buttons.orange:hover i {
   color: #fff;
 }
-.buttons.gray a {
+.buttons.gray {
   background: #eee;
+}
+.buttons.gray a, .buttons.gray i {
   color: #999;
 }
-.buttons.gray a:hover {
+.buttons.gray:hover {
   background: #F59E26;
+}
+.buttons.gray:hover a, .buttons.gray:hover i {
   color: #fff;
 }
 .buttons.uppercase a {
@@ -11152,8 +11176,10 @@ body.page-template-page-vc .ninja-forms-field-error {
        -o-transform: translateX(0);
           transform: translateX(0);
 }
-#sideheader .buttons.gray a:hover {
+#sideheader .buttons.gray:hover {
   background: #FFCD1D !important;
+}
+#sideheader .buttons.gray:hover a, #sideheader .buttons.gray:hover i {
   color: #fff;
 }
 

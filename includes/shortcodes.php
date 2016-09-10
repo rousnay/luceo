@@ -45,7 +45,8 @@ function wittyplex_adding_custom_button($atts, $content = null) {
 		'icon' => ' ',
 		), $atts));
 
-	return '<div style="width: '.$width.' " class="buttons '.$style.'"> <i class="fa '.$icon.'"></i> <a href="'.$link.'">'.$title.'</a></div>';
+	return '<div style="width: '.$width.' " class="buttons '.$style.'"> 
+	<i class="'.$icon.'"></i> <a href="'.$link.'">'.$title.'</a></div>';
 }
 add_shortcode('button', 'wittyplex_adding_custom_button');
 

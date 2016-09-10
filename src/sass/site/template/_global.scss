@@ -116,9 +116,11 @@ body.page-template-page-vc {
   	&.is-visible {
 	  transform: translateX(0);
 	}
-	.buttons.gray a:hover {
-	    background:$color_luceo_yellow !important;
-	    color: #fff;
+	.buttons.gray:hover {
+		background:$color_luceo_yellow !important;
+	    a,i{
+	    	color: #fff;
+	    }
 	}
 }
 
