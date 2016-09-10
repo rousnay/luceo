@@ -226,7 +226,7 @@ add_shortcode('content', 'wittyplex_adding_custom_text_style');
 /**
  * Shortcode: Display SVG Buttons
  *
- * Code: [svg_button text1="Click to" text2="Contact Us" text1_size="14px" text2_size="23px" text1_style="gray" text2_style="yellow" link="http://www.google.com"]
+ * Code: [svg_button text1="Click to" text2="Contact Us" text1_size="14px" text2_size="23px" text1_style="gray" text2_style="yellow" link="http://www.google.com" target="_blank"]
  *
  * or <?php wittyplex_adding_custom_svg_button(); ?>
  *
@@ -240,12 +240,12 @@ function wittyplex_adding_custom_svg_button($atts, $content = null) {
 		'text1_style' => 'gray',
 		'text2_style' => 'yellow',
 		'link' => '#',
+		'target' => '_self',
 		), $atts));
-
 	return '<div class="svg-button">
 
 	<div class="svg-inner">
-		<a href="'.$link.'">
+		<a href="'.$link.'" target="'.$target.'">
 			<div class="svg-text">
 				<p style="font-size:'.$text1_size.'" class="'.$text1_style.'">'.$text1.'</h6>
 				<p style="font-size:'.$text2_size.'" class="'.$text2_style.'">'.$text2.'</h2>
