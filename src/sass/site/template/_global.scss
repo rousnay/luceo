@@ -84,6 +84,7 @@ body.page-template-page-vc {
 
 .content-wrapper {
  	position: relative;
+ 	transform: translateX(0);
 	transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
 }
 
@@ -110,11 +111,11 @@ body.page-template-page-vc {
   background: $color_luceo_orange;
   color: white;
   overflow: auto;
-  backface-visibility: hidden;
-  transform: translateX(0);
+  //backface-visibility: hidden;
   transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
   	&.is-visible {
 	  transform: translateX(0);
+	  //display: block;
 	}
 	.buttons.gray:hover {
 		background:$color_luceo_yellow !important;

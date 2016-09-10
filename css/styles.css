@@ -11126,6 +11126,11 @@ body.page-template-page-vc .ninja-forms-field-error {
 
 .content-wrapper {
   position: relative;
+  -webkit-transform: translateX(0);
+     -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+       -o-transform: translateX(0);
+          transform: translateX(0);
   -webkit-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
      -moz-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
        -o-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
@@ -11157,14 +11162,6 @@ body.page-template-page-vc .ninja-forms-field-error {
   background: #F59E26;
   color: white;
   overflow: auto;
-  -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transform: translateX(0);
-     -moz-transform: translateX(0);
-      -ms-transform: translateX(0);
-       -o-transform: translateX(0);
-          transform: translateX(0);
   -webkit-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
      -moz-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
        -o-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
@@ -11675,6 +11672,7 @@ body.page-template-page-home footer {
   text-align: right;
   bottom: 35px;
   right: 35px;
+  margin: 0;
   max-width: 686px;
   text-transform: none;
 }
@@ -11924,6 +11922,7 @@ body.page-template-page-home footer {
   .home-page-content p.risk-info {
     right: 20px;
     font-size: 13px;
+    padding-left: 20px;
   }
 
   .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {

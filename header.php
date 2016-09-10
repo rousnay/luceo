@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body id="luceo-wp" <?php body_class(); ?>>
 	<div id="sideheader">
 			<div class="sidebar-inner">
 				<div class="push_sidebar">

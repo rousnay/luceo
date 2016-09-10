@@ -18,25 +18,44 @@
 	 var menu = new Menu;
 
 
+
+
+
+
+
 	/******************************
 	 Sidebar Push Slide
 	 ******************************/
 	 function sideHeaderInit() {
 	 	var sideheader = jQuery('#sideheader');
-	 	sideheader.show();
-
 	 	if (sideheader.length) {
 	 		sideheader.perfectScrollbar();
+	 		//sideheader.hide();
 	 		jQuery('.sideheader-trigger a').on('click', function(event) {
 	 			event.preventDefault();
 	 			event.stopPropagation();
-	 			sideheader.toggleClass('is-visible');
-	 			jQuery('body').toggleClass('sideheader-visible')
+
+
+				if ($(sideheader).is('.is-visible')) {
+				    $(sideheader).removeClass('is-visible');
+				    sideheader.hide(900);
+				}
+				else{
+				    $(sideheader).addClass('is-visible');
+				    sideheader.show();
+				}
+
+
+	 			jQuery('body').toggleClass('sideheader-visible');
+
+
 	 			jQuery('.c-hamburger').toggleClass('is-active');
 	 			if (jQuery('.header').hasClass('stuck')) {
 	 				jQuery('.header').addClass('fadeOutUp');
 	 			};
+
 	 		});
+
 	 		jQuery(document).on('click', function(e) {
 
 	 			var _element = sideheader;
@@ -45,13 +64,17 @@
 					&& _element.has(e.target).length === 0 ) // ... nor a descendant of the container
 				{
 					sideheader.removeClass('is-visible');
+					sideheader.hide(900);
 					jQuery('body').removeClass('sideheader-visible');
+
 					jQuery('.c-hamburger').removeClass('is-active');
 				}
 			});
+
 	 		jQuery(window).on('scroll', function(e) {
 
 	 			sideheader.removeClass('is-visible');
+	 			sideheader.hide(900);
 	 			jQuery('body').removeClass('sideheader-visible');
 	 			jQuery('.c-hamburger').removeClass('is-active');
 	 		});
@@ -59,7 +82,6 @@
 	 }
 	 /* Calls Sideheader Init script  */
 	 sideHeaderInit();
-
 
 
 	/******************************
@@ -336,12 +358,29 @@
 	 Library: noBounce (Disable bounce effect on Apple)
 	 ******************************/
 
-		noBounce.init({
-	      animate: true, //default setting
-		  element: document
-	      //element: document.getElementById("scrollable") // default is document
-	    });
+		// noBounce.init({
+	 //      animate: true, //default setting
+  // 		  element: document // default setting
+	 //      //element: document.getElementById("page") 
+	      
+	 //    });
 
+// 	 if ($('.page-template-page-home').length > 0) {
+// 	 // 	document.ontouchmove = function(event){
+// 		// 	event.preventDefault();
+// 		// }
+
+// // 			$(document).bind(
+// //    'touchmove',
+// //    function(e) {
+// //      e.preventDefault();
+// //      //console.log("yes");
+// //    }
+// // );
+// 			   console.log("yes");
+// 	}
+
+	
 
     /******************************
 	 Other settings
