@@ -10986,7 +10986,7 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   text-transform: uppercase;
   font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
-  line-height: initial;
+  line-height: 1;
   color: #575756;
   margin: 0;
   margin-bottom: 3px;
