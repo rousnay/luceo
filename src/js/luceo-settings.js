@@ -328,15 +328,20 @@
 	});
 
 
+	/******************************
+	 Library: noBounce (Disable bounce effect on Apple)
+	 ******************************/
+
+	noBounce.init({
+      animate: true, //default setting
+	  element: document
+      //element: document.getElementById("scrollable") // default is document
+    });
+
 
     /******************************
 	 Other settings
 	 ******************************/
-	 // Disable bounce effect on Apple
-	//  document.ontouchmove = function(event){
-	//     event.preventDefault();
-	// }
-
 
 	 $(".remove-link a").removeAttr("href");
 
