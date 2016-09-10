@@ -31,7 +31,7 @@
 	<div id="page" class="site content-wrapper">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
-			<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
+			
 			<div class="container">
 				<div class="row top-bar">
 					<div class="col-md-6 top-text-line hidden-xs hidden-sm">

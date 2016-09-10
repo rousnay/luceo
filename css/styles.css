@@ -10869,7 +10869,7 @@ footer#colophon .footer-bottom .site-info .social-items .link-youtube:hover .fa 
   padding: 12px 15px;
   padding-left: 0;
 }
-.buttons i {
+.buttons i.fa {
   margin-right: 2px;
   -webkit-transition: all 200ms ease-out;
      -moz-transition: all 200ms ease-out;
@@ -11137,6 +11137,18 @@ body.page-template-page-vc .ninja-forms-field-error {
           transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
 }
 
+#mm-menu-toggle {
+  -webkit-transform: translateX(0);
+     -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+       -o-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
+     -moz-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
+       -o-transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
+          transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
+}
+
 .sideheader-visible .content-wrapper {
   -webkit-transform: translateX(-300px);
      -moz-transform: translateX(-300px);
@@ -11147,6 +11159,13 @@ body.page-template-page-vc .ninja-forms-field-error {
 .sideheader-visible .content-wrapper:after {
   opacity: 1;
   visibility: visible;
+}
+.sideheader-visible #mm-menu-toggle {
+  -webkit-transform: translateX(-300px);
+     -moz-transform: translateX(-300px);
+      -ms-transform: translateX(-300px);
+       -o-transform: translateX(-300px);
+          transform: translateX(-300px);
 }
 
 #sideheader {
@@ -11930,7 +11949,7 @@ body.page-template-page-home footer {
     right: 20px;
     font-size: 13px;
     padding-left: 20px;
-    bottom: 12%;
+    bottom: 11%;
   }
 
   .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {
@@ -12037,6 +12056,9 @@ body.page-template-page-home footer {
   .home-page-content .sub-text {
     font-size: 0.9em !important;
     max-width: 60% !important;
+  }
+  .home-page-content p.risk-info {
+    font-size: 11px;
   }
 
   .hard-coded .fund-range .ranges .ranges-item h3 {

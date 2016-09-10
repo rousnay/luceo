@@ -94,7 +94,7 @@
 		    right: 20px;
 		    font-size: 13px;
 		    padding-left:20px;
-		    bottom:12%;
+		    bottom:11%;
 		}
 	}
 
@@ -220,7 +220,13 @@
 		    font-size: 0.9em!important;
 		    max-width: 60%!important;
 		}
+		 p.risk-info {
+		    font-size: 11px;
+		}
 	}
+
+
+
 	.hard-coded .fund-range .ranges .ranges-item h3 {
 	    font-size: 14px;
 	}
@@ -290,7 +296,9 @@
 	}
 }
 @media (max-width: 350px){
-	.home-page-content .main-text {
-	    font-size: 1.7em !important;
+	.home-page-content {
+		.main-text {
+		    font-size: 1.7em !important;
+		}
 	}
 }

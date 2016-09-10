@@ -27,7 +27,7 @@
 
 </footer><!-- footer -->
 </div><!-- #page -->
-
+<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
 <!-- MENU FOR SMALL SCREEN -->
 <nav id="mm-menu" class="mm-menu">
 	<div class="mm-menu__header">
@@ -37,6 +37,18 @@
 </nav><!-- nav -->
 
 <?php wp_footer(); ?>
-
+<script type="text/javascript">
+	function fixed_header_with_adminBar() {
+		var adminBarHeight	= jQuery('#wpadminbar').height();
+		var menuToggleTop 	= 22;
+		var topTotal 		= adminBarHeight + menuToggleTop;
+		//jQuery('#masthead').css('top',adminBarHeight);
+		jQuery('#mm-menu-toggle').css('top',topTotal)
+	}
+	fixed_header_with_adminBar();
+	jQuery( window ).resize(function() {
+		fixed_header_with_adminBar();
+	});
+</script>
 </body>
 </html>

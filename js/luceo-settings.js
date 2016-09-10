@@ -15,7 +15,6 @@
 	/******************************
 	 Header and Menu
 	 ******************************/
-
 	 jQuery('#mm-menu li').addClass("mm-menu__item");
 	 jQuery('#mm-menu a').addClass("mm-menu__link");
 	 jQuery('#mm-menu a span').addClass("mm-menu__link-text");
@@ -33,7 +32,6 @@
 	 		jQuery('.sideheader-trigger a').on('click', function(event) {
 	 			event.preventDefault();
 	 			event.stopPropagation();
-
 
 				if ($(sideheader).is('.is-visible')) {
 				    $(sideheader).removeClass('is-visible');
@@ -62,7 +60,6 @@
 			});
 
 	 		jQuery(window).on('scroll', function(e) {
-
 	 			sideheader.removeClass('is-visible');
 	 			sideheader.hide(900);
 	 			jQuery('body').removeClass('sideheader-visible');
@@ -317,7 +314,7 @@
 	/******************************
 	 Library: perfect-scrollbar
 	 ******************************/
-	//$('#mm-menu').perfectScrollbar();
+	$('#mm-menu').perfectScrollbar();
 
 
 

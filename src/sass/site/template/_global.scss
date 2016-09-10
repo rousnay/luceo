@@ -87,7 +87,10 @@ body.page-template-page-vc {
  	transform: translateX(0);
 	transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
 }
-
+#mm-menu-toggle{
+	transform: translateX(0);
+	transition: all 0.8s cubic-bezier(0.68, 0, 0.29, 1);
+}
 .sideheader-visible {
  	.content-wrapper {
 	  transform: translateX(-300px);
@@ -95,6 +98,10 @@ body.page-template-page-vc {
 		  opacity: 1;
 		  visibility: visible;
 		}
+	}
+	#mm-menu-toggle{
+		transform: translateX(-300px);
+	
 	}
 }
 
