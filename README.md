@@ -1,7 +1,7 @@
 [![GitHub version](https://badge.fury.io/gh/rousnay%2Fluceo.svg)](https://badge.fury.io/gh/rousnay%2Fluceo)
 [![Build Status](https://scrutinizer-ci.com/g/rousnay/lighthouse/badges/build.png?b=master)](https://scrutinizer-ci.com/g/rousnay/luceo/build-status/master)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-<img align="right" src="http://genuineimitation.co.uk/luceo/wp-content/themes/luceo/images/luceo-logo-github.jpg">
+<img align="right" src="http://genuineimitation.co.uk/luceo/wp-content/themes/luceo/images/github-luceo-logo.jpg">
 
 
 Luceo
