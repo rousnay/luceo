@@ -333,9 +333,9 @@
 	 Other settings
 	 ******************************/
 	 // Disable bounce effect on Apple
-	 document.ontouchmove = function(event){
-	    event.preventDefault();
-	}
+	//  document.ontouchmove = function(event){
+	//     event.preventDefault();
+	// }
 
 
 	 $(".remove-link a").removeAttr("href");
