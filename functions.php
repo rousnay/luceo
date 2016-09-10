@@ -139,6 +139,8 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'luceo-classList-js', 'https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js', array('jquery'), '');
 
+	wp_enqueue_script( 'luceo-gmap-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCVVA5i2pCzfrPFsKiXx3snQXewDzFKTZE', array(), '');
+
 	wp_enqueue_script( 'luceo-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-material-menu-js', get_template_directory_uri() . '/js/materialMenu.min.js', array('jquery'), '', true );
