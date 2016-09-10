@@ -303,6 +303,10 @@
 
 };
 
+	/******************************
+	 Library: perfect-scrollbar
+	 ******************************/
+	$('#mm-menu').perfectScrollbar();
 
 
 	/******************************
@@ -332,16 +336,18 @@
 	 Library: noBounce (Disable bounce effect on Apple)
 	 ******************************/
 
-	noBounce.init({
-      animate: true, //default setting
-	  element: document
-      //element: document.getElementById("scrollable") // default is document
-    });
+		noBounce.init({
+	      animate: true, //default setting
+		  element: document
+	      //element: document.getElementById("scrollable") // default is document
+	    });
 
 
     /******************************
 	 Other settings
 	 ******************************/
+
+	$('#mm-menu').perfectScrollbar();
 
 	 $(".remove-link a").removeAttr("href");
 

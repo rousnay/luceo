@@ -107,3 +107,9 @@ header{
         padding-bottom: 5px;
     }
 }
+
+@media (max-width: 667px){
+    .mm-menu__header {
+        height: 140px!important;
+    }
+}
