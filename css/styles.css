@@ -11532,6 +11532,10 @@ iframe {
 .hard-coded .fund-range .ranges .ranges-item .buttons {
   margin-top: 30px;
 }
+.hard-coded .fund-range .ranges .ranges-item p {
+  font-size: 13px !important;
+  text-align: justify !important;
+}
 .hard-coded .inquiry {
   background-image: url("http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/LUCEO-background-landscape.jpg");
   background-position: 50% -140px;
