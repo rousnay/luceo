@@ -11623,6 +11623,7 @@ body.page-template-page-home header#masthead {
 }
 body.page-template-page-home .site-content {
   background-color: transparent !important;
+  position: static;
 }
 body.page-template-page-home footer {
   display: none !important;

@@ -6,6 +6,10 @@
 	 ******************************/
 	 if ($('.page-template-page-home').length > 0) {
 	 	$('#page').addClass('home-page-bg');
+	 	$('html, body').css({
+		    'overflow': 'hidden',
+		    'height': '100%'
+		});
 	 }
 
 	/******************************
@@ -16,11 +20,6 @@
 	 jQuery('#mm-menu a').addClass("mm-menu__link");
 	 jQuery('#mm-menu a span').addClass("mm-menu__link-text");
 	 var menu = new Menu;
-
-
-
-
-
 
 
 	/******************************
@@ -47,13 +46,6 @@
 
 
 	 			jQuery('body').toggleClass('sideheader-visible');
-
-
-	 			jQuery('.c-hamburger').toggleClass('is-active');
-	 			if (jQuery('.header').hasClass('stuck')) {
-	 				jQuery('.header').addClass('fadeOutUp');
-	 			};
-
 	 		});
 
 	 		jQuery(document).on('click', function(e) {
@@ -66,8 +58,6 @@
 					sideheader.removeClass('is-visible');
 					sideheader.hide(900);
 					jQuery('body').removeClass('sideheader-visible');
-
-					jQuery('.c-hamburger').removeClass('is-active');
 				}
 			});
 
@@ -76,7 +66,6 @@
 	 			sideheader.removeClass('is-visible');
 	 			sideheader.hide(900);
 	 			jQuery('body').removeClass('sideheader-visible');
-	 			jQuery('.c-hamburger').removeClass('is-active');
 	 		});
 	 	};
 	 }
@@ -331,6 +320,7 @@
 	//$('#mm-menu').perfectScrollbar();
 
 
+
 	/******************************
 	 Library: jquery.matchHeight.js
 	 ******************************/
@@ -385,8 +375,6 @@
     /******************************
 	 Other settings
 	 ******************************/
-
-	//$('#mm-menu').perfectScrollbar();
 
 	 $(".remove-link a").removeAttr("href");
 
