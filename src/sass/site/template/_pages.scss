@@ -53,11 +53,10 @@ body.page-template-page-home{
 	    clear: both;
 	    margin-top: 20px;
 	    a{
-			font-family: "Raleway",Helvetica,Arial,sans-serif;
 			padding: 10px 15px;
-			font-size: 14px;
 			background: $color_luceo_grey;
 			color: #FFFFFF;
+		    text-transform: capitalize;
 			&:hover{
 				background: $color_luceo_orange;
 				color: #FFFFFF;

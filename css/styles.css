@@ -11623,11 +11623,10 @@ body.page-template-page-home footer {
   margin-top: 20px;
 }
 .home-page-content .home-btn a {
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
   padding: 10px 15px;
-  font-size: 14px;
   background: #575756;
   color: #FFFFFF;
+  text-transform: capitalize;
 }
 .home-page-content .home-btn a:hover {
   background: #F59E26;
