@@ -10185,6 +10185,15 @@ span.form-close-btn.bold {
     display: none !important;
   }
 }
+@media (max-width: 667px) {
+  .mm-menu__header {
+    height: 140px !important;
+  }
+
+  .mm-menu__link {
+    padding: 6px;
+  }
+}
 @media (max-width: 650px) {
   .main-navigation .site-logo {
     margin-top: 10px !important;
@@ -10492,11 +10501,6 @@ header .top-search form button i.fa.fa-search {
   header .top-bar {
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-}
-@media (max-width: 667px) {
-  .mm-menu__header {
-    height: 140px !important;
   }
 }
 /*--------------------------------------------------------------
