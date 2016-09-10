@@ -329,10 +329,15 @@
 
 
 
-
     /******************************
 	 Other settings
 	 ******************************/
+	 // Disable bounce effect on Apple
+	 document.ontouchmove = function(event){
+	    event.preventDefault();
+	}
+
+
 	 $(".remove-link a").removeAttr("href");
 
 	 $("#ninja_forms_form_1_cont input[type='submit']").attr("onclick", "ga('send', 'event', 'Form Submission', 'Contact Request - Woodingdean', 'Services Pages')");
@@ -340,6 +345,7 @@
 	 $("#ninja_forms_form_91_cont input[type='submit']").attr("onclick", "ga('send', 'event', 'Form Submission', 'Contact Request - Stockport', 'Services Pages')");
 
 	})(jQuery);
+
 
 
 

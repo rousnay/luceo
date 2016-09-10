@@ -139,8 +139,6 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'luceo-classList-js', 'https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js', array('jquery'), '');
 
-	wp_enqueue_script( 'luceo-gmap-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCVVA5i2pCzfrPFsKiXx3snQXewDzFKTZE', array(), '');
-
 	wp_enqueue_script( 'luceo-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-material-menu-js', get_template_directory_uri() . '/js/materialMenu.min.js', array('jquery'), '', true );
@@ -161,7 +159,7 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'luceo-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'luceo-settings-js', get_template_directory_uri() . '/js/luceo-settings.js', array('jquery'), '20160220', true );
+	wp_enqueue_script( 'luceo-settings-js', get_template_directory_uri() . '/js/luceo-settings.min.js', array('jquery'), '20160220', true );
 
 	wp_enqueue_script( 'luceo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
