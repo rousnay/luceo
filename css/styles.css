@@ -11531,6 +11531,16 @@ iframe {
   font-weight: 400;
   margin-top: 30px;
 }
+.hard-coded .invest-info .info-chart a {
+  color: #F59E26;
+  -webkit-transition: all 200ms ease-out;
+     -moz-transition: all 200ms ease-out;
+       -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
+}
+.hard-coded .invest-info .info-chart a:hover {
+  color: #FFCD1D;
+}
 .hard-coded .fund-range {
   text-align: center;
   background-color: #fafafa;
