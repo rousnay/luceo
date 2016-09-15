@@ -11484,7 +11484,6 @@ iframe {
 }
 .hard-coded .invest-info .sub-title {
   color: #FFCD1D;
-  text-transform: uppercase;
   font-family: "Raleway",Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -11589,7 +11588,7 @@ iframe {
   text-align: justify !important;
 }
 .hard-coded .inquiry {
-  background-image: url("http://genuineimitation.co.uk/luceo/wp-content/uploads/2016/07/LUCEO-background-landscape.jpg");
+  background-image: url("http://luceo-wp.azurewebsites.net/wp-content/uploads/2016/07/LUCEO-background-landscape.jpg");
   background-position: 50% -140px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
