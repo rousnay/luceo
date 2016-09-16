@@ -33,7 +33,7 @@
 			<div class="container">
 				<div class="row top-bar">
 					<div class="col-md-6 top-text-line hidden-xs hidden-sm">
-						<h4>0333 000 0330 | enquiries@luceoassetmanagement.co.uk/</h4>
+						<h4>0333 000 0330 | enquiries@luceoassetmanagement.co.uk</h4>
 					</div>
 					<div class="col-sm-12 col-xs-12 col-md-6 tool-bar sideheader-trigger">
 						<div class="link">
