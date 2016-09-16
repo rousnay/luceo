@@ -12380,6 +12380,7 @@ span.edit-link a {
   float: left;
   clear: both;
   margin-top: 20px;
+  padding-left: 0;
 }
 .back-btn a {
   font-family: Raleway;
