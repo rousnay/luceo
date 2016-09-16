@@ -11929,7 +11929,6 @@ body.page-template-page-home footer {
   }
 
   .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {
-    width: inherit;
     width: auto;
     width: initial;
     margin-right: inherit;
