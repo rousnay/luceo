@@ -19,7 +19,7 @@
 		<div class="col-xs-12">
 			<div class="invest-inquiry">
 				<h2>For general enquires call: 0333 000 0330</h2>
-				<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. To talk to a Lighthouse financial adviser, click here.</a>
+				<a href="<?php echo site_url(); ?>/advice">Luceo Funds are only available via a financial adviser. To talk to a Lighthouse financial adviser, click here.</a>
 			</div>
 		</div>
 	</div>
