@@ -101,6 +101,8 @@
 	.hard-coded .invest-info {
 		.info-chart, .invest-solution, .one-solution {
 		    width: inherit;
+		    width: auto;
+		    width: initial;
 		    margin-right: inherit;
 		}
 	}
