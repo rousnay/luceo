@@ -11,9 +11,19 @@
 
 ?>
 
-	</div><!-- #content -->
+</div><!-- #content -->
 
 <footer id="colophon" class="site-footer" role="contentinfo">
+
+	<div class="inquiry">
+		<div class="col-xs-12">
+			<div class="invest-inquiry">
+				<h2>For general enquires call: 0333 000 0330</h2>
+				<p><a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a></p>
+			</div>
+		</div>
+	</div>
+	
 	<div class="footer-normal">
 		<div class="container">
 			<div class="row widget">

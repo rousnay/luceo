@@ -39,7 +39,7 @@ get_header(); ?>
 
 				</main><!-- #main -->
 
-				<div class="back-btn buttons"><a href="<?php echo site_url(); ?>/communications/"> &#8592; Back to Resources</a></div>
+				<div class="back-btn buttons"><a href="<?php echo site_url(); ?>/communications/"> &#8592; Back to Articles</a></div>
 					
 			</div><!-- .blog-listing -->
 		</div><!-- .row -->

@@ -145,18 +145,6 @@
 	.ranges > div {
 	    margin-bottom: 30px;
 	}
-
-	.hard-coded .inquiry {
-	    padding: 50px 15px;
-	    background-position: inherit;
-	    a {
-		    font-size: 24px;
-		}
-		h2 {
-		    font-size: 28px;
-		}
-	}
-
 }
 @media (max-width: 700px){
 	.home-page-content {
@@ -189,12 +177,6 @@
 		 p.risk-info {
 		    font-size: 12px;
 		}
-	}
-	.hard-coded .inquiry h2 {
-	    font-size: 24px;
-	}
-	.hard-coded .inquiry a {
-	    font-size: 18px;
 	}
 }
 @media (max-width: 630px){

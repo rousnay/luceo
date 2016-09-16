@@ -4,6 +4,38 @@ footer#colophon {
     .container {
         width: 100%!important;
     }
+    .inquiry{
+        background-image: url("http://luceo-wp.azurewebsites.net/wp-content/themes/luceo/images/LUCEO-bg.jpg");
+        background-position:50% -140px;
+        background-repeat:no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 70px 15px;
+        margin: 0 -35px;
+        .col-xs-12{
+            float: none;
+        }
+        .invest-inquiry {
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 33px;
+            color: #ffffff;
+            font-family: "Montserrat",Helvetica,Arial,sans-serif;
+            font-weight: 400;
+            .questrial{
+                font-family: "Questrial",Arial,Helvetica,sans-serif;
+            }
+        }
+        a{
+            font-size: 30px;
+            color: #ffffff;
+            text-align: center;
+            font-family: "Raleway",Helvetica,Arial,sans-serif;
+            font-weight: 400;
+        }
+    }
     .footer-normal{
     	margin: 0 -35px;
         padding: 80px 0 10px;
@@ -133,6 +165,28 @@ footer#colophon {
         clear: both;
         margin-top: 25px;
     }
+    }
+}
+@media (max-width: 767px){
+    footer#colophon .inquiry {
+        padding: 50px 15px;
+        background-position: inherit;
+        a {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+    }
+}
+@media (max-width: 650px){
+    footer#colophon .inquiry {
+        a {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 24px;
+        }
     }
 }
 @media (max-width: 450px){
