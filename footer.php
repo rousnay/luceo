@@ -14,7 +14,6 @@
 </div><!-- #content -->
 
 <footer id="colophon" class="site-footer" role="contentinfo">
-
 	<div class="inquiry">
 		<div class="col-xs-12">
 			<div class="invest-inquiry">
@@ -23,7 +22,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="footer-normal">
 		<div class="container">
 			<div class="row widget">
@@ -34,7 +32,6 @@
 			</div>
 		</div>
 	</div>
-
 </footer><!-- footer -->
 </div><!-- #page -->
 <button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
@@ -45,9 +42,10 @@
 	</div>
 	<?php luceo_header_menu(); ?>
 </nav><!-- nav -->
-
 <?php wp_footer(); ?>
+
 <script type="text/javascript">
+	//Fix the position of toggle menu icon
 	function fixed_header_with_adminBar() {
 		var adminBarHeight	= jQuery('#wpadminbar').height();
 		var menuToggleTop 	= 22;
@@ -59,6 +57,16 @@
 	jQuery( window ).resize(function() {
 		fixed_header_with_adminBar();
 	});
+
+	//Google Analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-84299132-1', 'auto');
+	ga('send', 'pageview');
 </script>
+
 </body>
 </html>

@@ -16,22 +16,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 	<?php wp_head(); ?>
 </head>
 
 <body id="luceo-wp" <?php body_class(); ?>>
 	<div id="sideheader">
-			<div class="sidebar-inner">
-				<div class="push_sidebar">
-					<?php dynamic_sidebar( 'push_sidebar_widgets' ); ?>
-				</div>
+		<div class="sidebar-inner">
+			<div class="push_sidebar">
+				<?php dynamic_sidebar( 'push_sidebar_widgets' ); ?>
 			</div>
+		</div>
 	</div>
 	<div id="page" class="site content-wrapper">
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
-			
 			<div class="container">
 				<div class="row top-bar">
 					<div class="col-md-6 top-text-line hidden-xs hidden-sm">

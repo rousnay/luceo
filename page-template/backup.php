@@ -76,15 +76,6 @@
 			<h3 class="sub-title orange">WE BELIEVE HIGH QUALITY INVESTMENT PORTFOLIOS SHOULD BE AVAILABLE TO EVERYONE, NOT JUST THE VERY WEALTHY, OR THOSE WITH FINANCIAL KANOWLEDGE AND PAST INVESTMENT EXPERIENCE. WE’RE GIVING PEOPLE FROM ALL WALKS OF LIFE ACCESS TO INVESTMENTS MADE TO SUIT THEIR NEEDS.</h3>
 		</div>
 	</div><!-- .row -->
-
-	<div class="row inquiry">
-		<div class="col-xs-12">
-			<div class="invest-inquiry">
-				<h2>For general enquires call: 0333 000 0330</h2>
-				<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
-			</div>
-		</div>
-	</div>
 </div>
 
 
@@ -204,14 +195,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="row inquiry">
-			<div class="col-xs-12">
-				<div class="invest-inquiry">
-					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
-				</div>
-			</div>
-		</div>
 	</div>
 
 
@@ -283,17 +266,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
-		<div class="row inquiry">
-			<div class="col-xs-12">
-				<div class="invest-inquiry">
-					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
-				</div>
-			</div>
-		</div>
 	</div>
 
 
@@ -348,17 +320,6 @@
 						<h3>KEN PATERSON</h3>
 						<p>Ken was appointed to the Board as Group Compliance and Risk Director on 12 February 2014. He has more than 20 years’ experience in senior compliance, risk and regulatory roles within the UK financials services sector, encompassing regulatory bodies, life companies and advisory businesses. Ken joined Lighthouse in August 2012 as Group Compliance Director for the Group’s regulated businesses and has contributed fully as part of the management team since that date.</p>
 					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-		<div class="row inquiry">
-			<div class="col-xs-12">
-				<div class="invest-inquiry">
-					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 				</div>
 			</div>
 		</div>
@@ -440,14 +401,6 @@
 
 					</div>
 
-				</div>
-			</div>
-		</div>
-		<div class="row inquiry">
-			<div class="col-xs-12">
-				<div class="invest-inquiry">
-					<h2>For general enquires call: 0333 000 0330</h2>
-					<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
 				</div>
 			</div>
 		</div>
@@ -562,15 +515,4 @@
 				</div>
 			</div>
 		</div><!-- .row -->
-
-			<div class="row inquiry">
-				<div class="col-xs-12">
-					<div class="invest-inquiry">
-						<h2>For general enquires call: 0333 000 0330</h2>
-						<a href="http://luceo-wp.azurewebsites.net/advice">Luceo Funds are only available via a financial adviser. Talk to your existing adviser, or to seek advice, click here.</a>
-					</div>
-				</div>
-			</div><!-- .row -->
-
-
 	</div> <!-- #editor-wrapper -->
