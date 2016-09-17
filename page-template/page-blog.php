@@ -12,8 +12,8 @@ get_header(); ?>
 		</div>
 		<div class="col-md-9 blog-content">
 			<div id="post-listing-isotope" class="row">
-				<?php 
-							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+			<?php 
+			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 			$args = array(
 				'post_type' => 'post',
 				'posts_per_page' => 4,
