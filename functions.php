@@ -151,9 +151,9 @@ function luceo_scripts() {
 
 	wp_enqueue_script( 'luceo-match-height-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'luceo-imagesloaded-js', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array('jquery'), '', true );
+	//wp_enqueue_script( 'luceo-imagesloaded-js', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'luceo-isotope-js', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '', true );
+	//wp_enqueue_script( 'luceo-isotope-js', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'luceo-gsap-tweenmax-js', get_template_directory_uri() . '/js/TweenMax.min.js', array('jquery'), '', true );
 

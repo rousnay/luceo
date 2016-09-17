@@ -168,20 +168,6 @@
 
 
 	/******************************
-	 Font Adjustment
-	 ******************************/
-	 // var a=$("body");
-	 // $("#textplus").click(function(){
-	 // 	var c=a.css("fontSize");
-	 // 	var b=parseInt(c.replace("px",""))+1;$(a).css("fontSize",b+"px")
-	 // });
-	 // $("#textminus").click(function(){
-	 // 	var c=a.css("fontSize");
-	 // 	var b=parseInt(c.replace("px",""))-1;$(a).css("fontSize",b+"px")
-	 // })
-
-
-	/******************************
 	 Library: owl.carousel
 	 ******************************/
 	 $("#advice-steps").owlCarousel({
@@ -268,48 +254,45 @@
 	 Library: Isotope
 	 ******************************/
 
-	 if ($.isFunction($.fn.imagesLoaded) ) {
+// 	 if ($.isFunction($.fn.imagesLoaded) ) {
 
+// 	 	var container	= '#post-listing-isotope';
+// 	 	var selector	= '.post-item';
 
-	 	var container	= '#post-listing-isotope';
-	 	var selector	= '.post-item';
+// 		$(container).imagesLoaded( function() {
+// 		 	$(container).isotope({
+// 			  // options...
+// 			  itemSelector: selector,
+// 			  masonry: {
+// 			  	columnWidth: selector
+// 			  }
+// 			});
+// 		});
 
-		$(container).imagesLoaded( function() {
-		 	$(container).isotope({
-			  // options...
-			  itemSelector: selector,
-			  masonry: {
-			  	columnWidth: selector
-			  }
-			});
-		});
+// 		// filter items when filter link is clicked
+// 		$('#filters li').click(function(){
+// 			$('#filters li.active').removeClass('active');
+// 			var selector = $(this).attr('data-filter');
+// 			$(container).isotope({ filter: selector, animationEngine : "css" });
+// 			$(this).addClass('active');
+// 			return false;
 
-		// filter items when filter link is clicked
-		$('#filters li').click(function(){
-			$('#filters li.active').removeClass('active');
-			var selector = $(this).attr('data-filter');
-			$(container).isotope({ filter: selector, animationEngine : "css" });
-			$(this).addClass('active');
-			return false;
+// 		});
 
-		});
+// 		// filter items when filter link is selected from dropdown
+// 		$select = $('#filters select');
+// 		$(container).isotope({
+// 			itemSelector: selector
+// 		});
 
-
-		// filter items when filter link is selected from dropdown
-		$select = $('#filters select');
-		$(container).isotope({
-			itemSelector: selector
-		});
-
-		$select.change(function() {
-			var filters = $(this).val();
-			;
-			$(container).isotope({
-				filter: filters
-			});
-		});
-
-};
+// 		$select.change(function() {
+// 			var filters = $(this).val();
+// 			;
+// 			$(container).isotope({
+// 				filter: filters
+// 			});
+// 		});
+// };
 
 	/******************************
 	 Library: perfect-scrollbar
@@ -321,7 +304,8 @@
 	/******************************
 	 Library: jquery.matchHeight.js
 	 ******************************/
-	 $('.hard-coded .ranges .ranges-item').matchHeight();
+		$('.hard-coded .ranges .ranges-item').matchHeight();
+		$('#post-listing-isotope .post-item').matchHeight();
 
 
 	/******************************
@@ -373,11 +357,11 @@
 	 Other settings
 	 ******************************/
 
-	 $(".remove-link a").removeAttr("href");
+	 //$(".remove-link a").removeAttr("href");
 
-	 $("#ninja_forms_form_1_cont input[type='submit']").attr("onclick", "ga('send', 'event', 'Form Submission', 'Contact Request - Woodingdean', 'Services Pages')");
+	 //$("#ninja_forms_form_1_cont input[type='submit']").attr("onclick", "ga('send', 'event', 'Form Submission', 'Contact Request - Woodingdean', 'Services Pages')");
 
-	 $("#ninja_forms_form_91_cont input[type='submit']").attr("onclick", "ga('send', 'event', 'Form Submission', 'Contact Request - Stockport', 'Services Pages')");
+	 //$("#ninja_forms_form_91_cont input[type='submit']").attr("onclick", "ga('send', 'event', 'Form Submission', 'Contact Request - Stockport', 'Services Pages')");
 
 	})(jQuery);
 
