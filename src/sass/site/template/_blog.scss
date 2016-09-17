@@ -24,23 +24,25 @@ body.page-template-page-blog{
 	}
 	#post-listing-isotope{
 		clear: both;
-		.post-item {
-			.thumbnail{
-				margin-top: 30px!important;
-				background-color:#fafafa!important;
-			}
-			.entry{
+		.post-item{
+			margin-top: 30px!important;
+			.post-item-inside {
 				background-color:#fafafa;
-				padding: 20px;
-				h3{
-					margin: 0;
+				.thumbnail{
+					background-color:#fafafa!important;
 				}
-				.entry-content {
-				    margin: 15px 0 20px 0;
+				.entry{
+					background-color:#fafafa;
+					padding: 20px;
+					h3{
+						margin: 0;
+					}
+					.entry-content {
+					    margin: 15px 0 20px 0;
+					}
 				}
 			}
 		}
-
 	}
 }
 #filters {

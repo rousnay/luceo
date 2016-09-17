@@ -37,6 +37,7 @@ get_header(); ?>
 					$tax = '';          
 				endif; ?>
 				<div class="all post-item col-xs-12 col-sm-6 <?php echo $tax; ?>">
+					<div class="post-item-inside">
 						<?php
 							$post_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_blog_listing');
 							$thumb_url	= $post_thumb[0];
@@ -56,7 +57,9 @@ get_header(); ?>
 						<span class="date"> <i class="fa fa-clock-o"></i> <?php the_time(get_option('date_format')) ?></span>
 						</div>
 						</div>
+					</div>
 				</div>
+
 			<?php endwhile; ?>
 		</div>
 		<div class="row">

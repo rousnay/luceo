@@ -305,7 +305,7 @@
 	 Library: jquery.matchHeight.js
 	 ******************************/
 		$('.hard-coded .ranges .ranges-item').matchHeight();
-		$('#post-listing-isotope .post-item').matchHeight();
+		$('#post-listing-isotope .post-item-inside').matchHeight();
 
 
 	/******************************

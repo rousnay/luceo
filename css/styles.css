@@ -12129,18 +12129,23 @@ body.page-template-page-blog .left-sidebar {
 body.page-template-page-blog #post-listing-isotope {
   clear: both;
 }
-body.page-template-page-blog #post-listing-isotope .post-item .thumbnail {
+body.page-template-page-blog #post-listing-isotope .post-item {
   margin-top: 30px !important;
+}
+body.page-template-page-blog #post-listing-isotope .post-item .post-item-inside {
+  background-color: #fafafa;
+}
+body.page-template-page-blog #post-listing-isotope .post-item .post-item-inside .thumbnail {
   background-color: #fafafa !important;
 }
-body.page-template-page-blog #post-listing-isotope .post-item .entry {
+body.page-template-page-blog #post-listing-isotope .post-item .post-item-inside .entry {
   background-color: #fafafa;
   padding: 20px;
 }
-body.page-template-page-blog #post-listing-isotope .post-item .entry h3 {
+body.page-template-page-blog #post-listing-isotope .post-item .post-item-inside .entry h3 {
   margin: 0;
 }
-body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-content {
+body.page-template-page-blog #post-listing-isotope .post-item .post-item-inside .entry .entry-content {
   margin: 15px 0 20px 0;
 }
 
