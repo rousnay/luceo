@@ -11566,6 +11566,9 @@ iframe {
   max-width: 1170px;
   margin: 0 auto;
 }
+.hard-coded .fund-range .ranges .col-sm-4 {
+  margin: 15px 0;
+}
 .hard-coded .fund-range .ranges .ranges-item {
   background-color: #fff;
   padding: 45px 40px;
