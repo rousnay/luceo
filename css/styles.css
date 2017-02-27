@@ -11433,6 +11433,14 @@ iframe {
 /********
   Hard Coded Pages (Fund)
 *********/
+.hard-coded .bottom-base {
+  position: absolute;
+  bottom: 45px;
+  left: 40px;
+  width: -webkit-calc( 100% - 80px );
+  width: -moz-calc( 100% - 80px );
+  width: calc( 100% - 80px );
+}
 .hard-coded .yellow {
   color: #FFCD1D !important;
 }
@@ -11570,8 +11578,10 @@ iframe {
   margin: 15px 0;
 }
 .hard-coded .fund-range .ranges .ranges-item {
+  position: relative;
   background-color: #fff;
   padding: 45px 40px;
+  padding-bottom: 110px;
   border: 3px solid #FFCD1D;
 }
 .hard-coded .fund-range .ranges .ranges-item img {
@@ -11887,9 +11897,18 @@ body.page-template-page-home footer {
 @media (min-width: 768px) and (max-width: 970px) {
   .hard-coded .fund-range .ranges .ranges-item {
     padding: 35px 30px;
+    padding-bottom: 110px;
   }
   .hard-coded .fund-range .ranges .ranges-item h3, .hard-coded .fund-range .ranges .ranges-item .buttons a {
     font-size: 14px;
+  }
+
+  .hard-coded .bottom-base {
+    bottom: 35px;
+    left: 30px;
+    width: -webkit-calc( 100% - 60px );
+    width: -moz-calc( 100% - 60px );
+    width: calc( 100% - 60px );
   }
 }
 @media (max-width: 850px) {
@@ -12094,6 +12113,15 @@ body.page-template-page-home footer {
 
   .hard-coded .fund-range .ranges .ranges-item {
     padding: 35px 20px;
+    padding-bottom: 110px;
+  }
+
+  .hard-coded .bottom-base {
+    bottom: 35px;
+    left: 20px;
+    width: -webkit-calc( 100% - 40px );
+    width: -moz-calc( 100% - 40px );
+    width: calc( 100% - 40px );
   }
 }
 @media (max-width: 350px) {

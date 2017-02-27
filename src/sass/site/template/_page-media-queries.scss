@@ -45,9 +45,15 @@
 @media (min-width: 768px) and (max-width: 970px){
 	.hard-coded .fund-range .ranges .ranges-item {
 	    padding: 35px 30px;
+        padding-bottom: 110px;
 		h3, .buttons a {
 		    font-size: 14px;
 		}
+	}
+	.hard-coded .bottom-base{
+	    bottom: 35px;
+	    left: 30px;
+	    width: calc( 100% - 60px );
 	}
 }
 
@@ -275,6 +281,12 @@
 	}
 	.hard-coded .fund-range .ranges .ranges-item {
 	    padding: 35px 20px;
+	    padding-bottom: 110px;
+	}
+	.hard-coded .bottom-base{
+	    bottom: 35px;
+	    left: 20px;
+	    width: calc( 100% - 40px );
 	}
 }
 @media (max-width: 350px){

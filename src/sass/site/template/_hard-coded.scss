@@ -3,6 +3,12 @@
 *********/
 
 .hard-coded{
+	.bottom-base{
+		position: absolute;
+	    bottom: 45px;
+	    left: 40px;
+	    width: calc( 100% - 80px );
+	}
 	.yellow{
         color: $color_luceo_yellow !important;
     }
@@ -144,8 +150,10 @@
 
 		    }
 		    .ranges-item {
+	    	    position: relative;
 			    background-color: #fff;
 			    padding: 45px 40px;
+			    padding-bottom: 110px;
 			    border: 3px solid $color_luceo_yellow;
 			    // h1{
 				   //  font-size: 60px;
